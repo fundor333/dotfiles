@@ -1,0 +1,8 @@
+[user]
+	name = Fundor333
+	email = fundor333@gmail.com
+[core]
+	editor = emacs
+	autocrlf = input
+[push]
+	default = simple
