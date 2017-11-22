@@ -36,6 +36,9 @@ indent_style = tab
 indent_style = space
 indent_size = 2
 
+[{*.md,*.json}]
+max_line_length = null
+
 # Matches the exact files either package.json or .travis.yml
 [{package.json,.travis.yml}]
 indent_style = space
