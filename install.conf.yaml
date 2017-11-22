@@ -9,19 +9,18 @@
     ~/.shell:
       path: shell
       create: true
-    ~/.shell_env: config/shell_env
-- link:
-    # Terminal:
-    ~/.shell:
-      path: shell
-      create: true
     ~/.bash_profile: config/bash_profile
     ~/.bashrc: config/bashrc
     ~/.zshrc: config/zshrc
+    ~/.editorconfig: config/editorconfig
+
 
     # Git:
     ~/.gitconfig: config/gitconfig
     ~/.gitignore_global: config/gitignore
+
+    # emacs:
+    ~/.emacs.d: emacs.d
 
 - pip:
     file: python/requirements.txt
