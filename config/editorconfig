@@ -10,36 +10,30 @@ tab_width   = 8
 indent_size = 2
 indent_style = tab
 insert_final_newline = true
+charset = utf-8
 
 [ChangeLog]
 indent_size = 8
 
-[*.[ch]]
-indent_size = 4
-
-# Matches multiple files with brace expansion notation
-# Set default charset
-[*.{js,py}]
-charset = utf-8
-
-# 4 space indentation
 [*.py]
 indent_style = space
 indent_size = 4
 
-# Tab indentation (no size specified)
-[Makefile]
+[*.go]
 indent_style = tab
-
-# Indentation override for all JS under lib directory
-[lib/**.js]
-indent_style = space
-indent_size = 2
+indent_size = 4
 
 [{*.md,*.json}]
 max_line_length = null
 
-# Matches the exact files either package.json or .travis.yml
+[Makefile]
+indent_style = tab
+
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# Matches theexact files either package.json or .travis.yml
 [{package.json,.travis.yml}]
 indent_style = space
 indent_size = 2
