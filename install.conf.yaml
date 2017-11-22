@@ -1,0 +1,34 @@
+- clean: ['~']
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodule]
+
+
+- link:
+    # Terminal:
+    ~/.shell:
+      path: shell
+      create: true
+    ~/.shell_env: config/shell_env
+- link:
+    # Terminal:
+    ~/.shell:
+      path: shell
+      create: true
+    ~/.bash_profile: config/bash_profile
+    ~/.bashrc: config/bashrc
+    ~/.zshrc: config/zshrc
+
+    # Git:
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore_global: config/gitignore
+
+- pip:
+    file: python/requirements.txt
+    binary: /usr/local/bin/pip
+
+- pipsi:
+    file: python/requirements-pipsi.txt
+
+- link:
+    ~/.oh-my-zsh/custom/themes/sobole.zsh-theme: sobole-zsh-theme/sobole.zsh-theme

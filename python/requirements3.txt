@@ -1,0 +1,4 @@
+pipenv
+jupyter
+pelican
+requests
