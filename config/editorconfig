@@ -19,6 +19,26 @@ indent_size = 8
 indent_style = space
 indent_size = 4
 
+[*.html]
+indent_style = tab
+indent_size = 4
+
+[*.css]
+indent_style = tab
+indent_size = 4
+
+[*.js]
+indent_style = tab
+indent_size = 2
+
+[*.php]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
 [*.go]
 indent_style = tab
 indent_size = 4
@@ -32,10 +52,6 @@ indent_size = 2
 
 [Makefile]
 indent_style = tab
-
-[lib/**.js]
-indent_style = space
-indent_size = 2
 
 # Matches theexact files either package.json or .travis.yml
 [{package.json,.travis.yml}]
