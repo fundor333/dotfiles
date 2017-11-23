@@ -2,6 +2,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodule]
+  - [mkdir Coding]
 
 
 - link:
