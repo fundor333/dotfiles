@@ -25,10 +25,11 @@
 
 - pip:
     file: python/requirements.txt
-    binary: /usr/local/bin/pip
+    binary: /usr/local/bin/pip2
 
-- pipsi:
-    file: python/requirements-pipsi.txt
+- pip3:
+    file: python/requirements3.txt
+    binary: /usr/local/bin/pip3
 
 - link:
     ~/.oh-my-zsh/custom/themes/sobole.zsh-theme: sobole-zsh-theme/sobole.zsh-theme

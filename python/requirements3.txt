@@ -2,3 +2,4 @@ pipenv
 jupyter
 pelican
 requests
+markdown
