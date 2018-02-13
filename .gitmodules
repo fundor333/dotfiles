@@ -6,4 +6,7 @@
 	url = https://github.com/sobolevn/dotbot-pip.git
 [submodule "emacs.d"]
 	path = emacs.d
-	url = git@github.com:fundor333/emacs.d.git
+	url = https://github.com/fundor333/emacs.d.git
+[submodule "sobole-zsh-theme"]
+	path = sobole-zsh-theme
+	url = https://github.com/sobolevn/sobole-zsh-theme.git

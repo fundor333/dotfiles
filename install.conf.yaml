@@ -2,7 +2,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodule]
-  - [mkdir Coding]
+  - [mkdir ~/Coding]
 
 
 - link:
@@ -10,11 +10,21 @@
     ~/.shell:
       path: shell
       create: true
-    ~/.bash_profile: config/bash_profile
-    ~/.bashrc: config/bashrc
-    ~/.zshrc: config/zshrc
-    ~/.editorconfig: config/editorconfig
-
+    ~/.bash_profile: 
+    force: true
+    path: config/bash_profile
+    ~/.bashrc: 
+    force: true
+    path: config/bashrc
+    ~/.zshrc: 
+    force: true
+    path: config/zshrc
+    ~/.editorconfig: 
+    force: true
+    path: config/editorconfig
+    ~/.oh-my-zsh/custom/themes/sobole.zsh-theme: 
+    force: true
+    path: sobole-zsh-theme/sobole.zsh-theme
 
     # Git:
     ~/.gitconfig: config/gitconfig
@@ -30,6 +40,3 @@
 - pip3:
     file: python/requirements3.txt
     binary: /usr/local/bin/pip3
-
-- link:
-    ~/.oh-my-zsh/custom/themes/sobole.zsh-theme: sobole-zsh-theme/sobole.zsh-theme
