@@ -1,5 +1,7 @@
 #!/bin/sh
 
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+
 # Link files from dotfiles
 ln -s ~/.dotfiles/bashrc ~/.bashrc
 ln -s ~/.dotfiles/inputrc ~/.inputrc
