@@ -22,9 +22,6 @@
     ~/.editorconfig: 
     force: true
     path: config/editorconfig
-    ~/.oh-my-zsh/custom/themes/sobole.zsh-theme: 
-    force: true
-    path: sobole-zsh-theme/sobole.zsh-theme
 
     # Git:
     ~/.gitconfig: config/gitconfig
