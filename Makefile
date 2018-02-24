@@ -42,6 +42,7 @@ config:
 	@cp ${HOME}/.gitconfig ${CONFIG_DIR}/gitconfig
 	@cp ${HOME}/.irbrc ${CONFIG_DIR}/irbrc
 	@cp ${HOME}/.zshrc ${CONFIG_DIR}/zshrc
+	@cp ${HOME}/.config/neofetch ${CONFIG_DIR}/neofetch
 	@cp ${HOME}/.config/darktable ${CONFIG_DIR}/darktable
 	@git clone https://github.com/fundor333/emacs.d.git "${HOME}/.emacs"
 
