@@ -1,2 +1,2 @@
 # dotfiles
-My personal dotfile for my Linux pc
+My personal dotfile for my Linux Debian Based pc
