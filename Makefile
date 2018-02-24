@@ -19,6 +19,8 @@ apt:
 	@apt-get install --yes zsh
 	@apt-get install --yes emacs
 	@apt-get install --yes lftp
+	@apt-get install --yes w3m-img
+	@apt-get install --yes neofetch
 	@apt-get install --yes openssh-client
 	@apt-get install --yes ffmpeg
 	@apt-get install --yes git git-core git-svn git-flow
