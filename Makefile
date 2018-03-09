@@ -1,54 +1,40 @@
 CONFIG_DIR =./config
 PYTHON_DIR =./python 
 
-zsh:
-	@echo "Work only on ZSH terminal"
-	@chsh -s $(which zsh)
-	@git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-	@ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+help:
+	@echo 'Makefile for my personal dotfiles'
+	@echo ""
+	@echo 'Usage:'
+	@echo '	make configsetup	Setting all the configs'
+	@echo '	make apt		Install all the needed packages'
+	@echo '	make configsetup	Setting all the configs'
+	@echo '	make zsh		Adding the ZSH stuff'
+	@echo '	make pyinstall		Install all the module for python 2 and 3'
+	@echo '	make end              Test for the installazione'
+	@echo '                                                                          '
 
-python:
-	@echo "Need sudo"
-	@pip2 install -r ${PYTHON_DIR}/requirements2.txt
-	@pip3 install -r ${PYTHON_DIR}/requirements3.txt
+configsetup:
+	cp -r "./bin" "${HOME}/bin"
+	mkdir ${HOME}/Coding/GoStuff
+	cd config; for file in *;do cp -r "$$file" "${HOME}/.$$file";done
+	git clone https://github.com/fundor333/emacs.d.git "${HOME}/.emacs"
 
 apt:
-	@echo "Need sudo"
-	@apt-get install --yes curl
-	@apt-get install --yes wget
-	@apt-get install --yes dpkg
-	@apt-get install --yes tar
-	@apt-get install --yes nano
-	@apt-get install --yes zsh
-	@apt-get install --yes emacs
-	@apt-get install --yes lftp
-	@apt-get install --yes w3m-img
-	@apt-get install --yes neofetch
-	@apt-get install --yes openssh-client
-	@apt-get install --yes ffmpeg
-	@apt-get install --yes git git-core git-svn git-flow
-	@apt-get install --yes gcc
-	@apt-get install --yes build-essential
-	@apt-get install --yes default-jdk
+	echo "Need sudo"
+	cat apt.txt | xargs sudo apt-get install -y
 
-golang:
-	@mkdir ~/Coding/GoStuff
-	@echo "GOPATH=$HOME/Coding/GoStuff" >> ~/.bashrc
-	@echo "export GOPATH" >> ~/.bashrc
-	@echo "PATH=\$PATH:\$GOPATH/bin
-	@source ~/.bashrc
+zsh:
+	echo "Work only on ZSH terminal"
+	chsh -s $(which zsh)
+	git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+	ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
-config:
-	@cp ${HOME}/.bash_profile ${CONFIG_DIR}/bash_profile
-	@cp ${HOME}/.bashrc ${CONFIG_DIR}/bashrc
-	@cp ${HOME}/.editorconfig ${CONFIG_DIR}/editorconfig
-	@cp ${HOME}/.gitconfig ${CONFIG_DIR}/gitconfig
-	@cp ${HOME}/.irbrc ${CONFIG_DIR}/irbrc
-	@cp ${HOME}/.zshrc ${CONFIG_DIR}/zshrc
-	@cp ${HOME}/.config/neofetch ${CONFIG_DIR}/neofetch
-	@cp ${HOME}/.config/darktable ${CONFIG_DIR}/darktable
-	@git clone https://github.com/fundor333/emacs.d.git "${HOME}/.emacs"
-	@jt -t oceans16
+pyinstall:
+	echo "Need sudo"
+	sudo pip2 install -r ${PYTHON_DIR}/requirements2.txt
+	sudo pip3 install -r ${PYTHON_DIR}/requirements3.txt
+	jt -t oceans16
+
 end:
-	@echo "We made it!"
-	@curl -L http://git.io/unix
+	echo "We made it!"
+	curl -L http://git.io/unix
