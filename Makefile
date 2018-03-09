@@ -1,5 +1,5 @@
 CONFIG_DIR =./config
-PYTHON_DIR =./python 
+PYTHON_DIR =./python
 
 help:
 	@echo 'Makefile for my personal dotfiles'
@@ -18,6 +18,12 @@ configsetup:
 	mkdir ${HOME}/Coding/GoStuff
 	cd config; for file in *;do cp -r "$$file" "${HOME}/.$$file";done
 	git clone https://github.com/fundor333/emacs.d.git "${HOME}/.emacs"
+	mkdir -p ~/.local/share/fonts
+	for type in Bold Light Medium Regular Retina; do
+	    wget -O ~/.local/share/fonts/FiraCode-${type}.ttf \
+	    "https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-${type}.ttf?raw=true";
+	done
+	fc-cache -f
 
 apt:
 	echo "Need sudo"
