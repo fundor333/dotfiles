@@ -2,15 +2,18 @@ CONFIG_DIR =./config
 PYTHON_DIR =./python 
 
 zsh:
+	@echo "Work only on ZSH terminal"
 	@chsh -s $(which zsh)
 	@git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 	@ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 python:
-	@pip2 install -r ${PYTHON_DIR}/requirements.txt
+	@echo "Need sudo"
+	@pip2 install -r ${PYTHON_DIR}/requirements2.txt
 	@pip3 install -r ${PYTHON_DIR}/requirements3.txt
 
 apt:
+	@echo "Need sudo"
 	@apt-get install --yes curl
 	@apt-get install --yes wget
 	@apt-get install --yes dpkg
@@ -45,7 +48,7 @@ config:
 	@cp ${HOME}/.config/neofetch ${CONFIG_DIR}/neofetch
 	@cp ${HOME}/.config/darktable ${CONFIG_DIR}/darktable
 	@git clone https://github.com/fundor333/emacs.d.git "${HOME}/.emacs"
-
+	@jt -t oceans16
 end:
 	@echo "We made it!"
 	@curl -L http://git.io/unix
