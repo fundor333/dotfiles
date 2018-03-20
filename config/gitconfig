@@ -1,6 +1,7 @@
 [user]
 	name = Fundor333
 	email = fundor333@gmail.com
+	signingkey = 3FAC5F68
 [core]
 	editor = emacs
 	autocrlf = input
@@ -30,3 +31,5 @@
 	hotfix = hotfix-
 	support = support-
 	versiontag = v
+[commit]
+	gpgsign = true
