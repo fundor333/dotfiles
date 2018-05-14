@@ -18,6 +18,7 @@ configsetup:
 	mkdir ${HOME}/Coding/GoStuff
 	cd config; for file in *;do cp -r "$$file" "${HOME}/.$$file";done
 	git clone https://github.com/fundor333/emacs.d.git "${HOME}/.emacs"
+	curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 	mkdir -p ~/.local/share/fonts
 	for type in Bold Light Medium Regular Retina; do
 	    wget -O ~/.local/share/fonts/FiraCode-${type}.ttf \
