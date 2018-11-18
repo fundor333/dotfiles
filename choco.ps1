@@ -1,0 +1,15 @@
+choco install adobereader
+choco install googlechrome
+choco install vlc
+choco install git
+choco install skype
+choco install 7zip
+choco install inkscape
+choco install vscode
+choco install jetbrainstoolbox
+choco install thunderbird
+choco install libreoffice-fresh
+choco install filezilla
+choco install firacode
+choco install postgresql
+choco install pgadmin4
