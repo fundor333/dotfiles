@@ -3,7 +3,7 @@ Host intranet intranet.alilaguna.it
     IdentityFile ~/.ssh/alilaguna_rsa
     User developer
 
-Host intranet2 35.204.22.128
-    Hostname 35.204.22.128
-    IdentityFile ~/.ssh/alilaguna_rsa
-    User developer
+Host github github.com
+    Hostname github.com
+    IdentityFile ~/.ssh/fundor333_rsa
+
