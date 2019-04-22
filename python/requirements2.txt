@@ -1,4 +1,0 @@
-pipenv
-pelican
-requests
-markdown

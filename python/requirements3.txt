@@ -1,6 +1,0 @@
-pipenv
-jupyter
-jupyterthemes
-pelican
-requests
-markdown
