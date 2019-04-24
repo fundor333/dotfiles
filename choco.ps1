@@ -13,3 +13,4 @@ choco install filezilla
 choco install firacode
 choco install postgresql
 choco install pgadmin4
+choco install alacritty
