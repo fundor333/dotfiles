@@ -26,11 +26,15 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ls='ls -GwF'
 alias ll='ls -alh'
-
+alias myip="curl http://ipecho.net/plain; echo"
+alias start_server='python -m http.server 8888'
 alias zshrc='code ~/.zshrc'
 alias gitconfig='code ~/.gitconfig'
 
