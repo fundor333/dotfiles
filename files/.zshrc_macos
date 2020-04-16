@@ -1,0 +1,37 @@
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+export PATH="$PATH:/Users/matteoscarpa/flutter/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
+
+plugins=(
+  git
+  bundler
+  dotenv
+  osx
+  rake
+  rbenv
+  ruby
+  jsontools
+  node
+  pip
+  web-search
+  zsh-autosuggestions
+  colored-man-pages
+  colorize
+  common-aliases
+  copyfile
+)
+
+autoload -Uz compinit && compinit
+
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ls='ls -GwF'
+alias ll='ls -alh'
+
+alias zshrc='code ~/.zshrc'
+alias gitconfig='code ~/.gitconfig'
+
+eval "$(starship init zsh)"
