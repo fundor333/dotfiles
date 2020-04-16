@@ -1,5 +1,5 @@
 [character]
-symbol = "🧑🏻‍💻"
+symbol = "🧑🏻‍💻~ "
 
 [directory]
 fish_style_pwd_dir_length = 10
@@ -12,3 +12,6 @@ symbol = "💀 "
 
 [package]
 symbol = "🎉 "
+
+[python]
+symbol = "🐍 "
