@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+import json
+import urllib.request, urllib.parse, urllib.error
+
+url = "http://static.unive.it/sitows/index/personebiblioteche"
+
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
+for key in list(data.keys()):
+    print((key+": "+data[key]['persone']+"/"+data[key]['max']))

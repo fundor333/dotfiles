@@ -12,15 +12,55 @@ indent_style = tab
 insert_final_newline = true
 charset = utf-8
 
+[ChangeLog]
+indent_size = 8
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.html]
+indent_style = tab
+indent_size = 4
+
+[*.css]
+indent_style = tab
+indent_size = 4
+
+[*.js]
+indent_style = tab
+indent_size = 2
+
+[*.rs]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.php]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.go]
+indent_style = tab
+indent_size = 4
+
+[{*.md,*.json}]
+max_line_length = null
+
 [*.yml]
 indent_style = space
 indent_size = 2
 
-[.gitconfig]
-indent_style = tab
-tab_width   = 8
-indent_size = 8
-
 [Makefile]
 indent_style = tab
-indent_size = 4
+
+# Matches theexact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
