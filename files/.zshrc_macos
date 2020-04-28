@@ -33,7 +33,7 @@ SPACESHIP_CHAR_SYMBOL="(°,,,°) "
 
 
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-export PATH="$PATH:/Users/matteoscarpa/flutter/bin"
+export PATH="$PATH:$HOME/flutter/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
 
 plugins=(
