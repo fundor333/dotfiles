@@ -1,12 +1,22 @@
 [user]
 	name = Fundor333
 	email = fundor333@fundor333.com
-	signingkey = 3FAC5F68
+	signingKey = CFBD434632108CB2266D82E51A17150618BD0584
 [core]
-	editor = emacs
+	editor = code
 	autocrlf = input
+	excludesfile = /Users/matteoscarpa/.gitignore_global
 [push]
 	default = simple
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  s = show
 [github]
 	user = fundor333
 [gitflow "prefix"]
@@ -17,6 +27,7 @@
 	versiontag = v
 [commit]
 	gpgsign = true
+	template = /Users/matteoscarpa/.stCommitMsg
 
 [color]
   pager = true
@@ -69,3 +80,12 @@
   selected = normal
   separator = red bold
   linenumber = normal
+[cola]
+	spellcheck = false
+[tag]
+	forceSignAnnotated = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
