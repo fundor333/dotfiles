@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import random
 
@@ -470,5 +470,5 @@ foo = [
 "DNS server drank too much and had a hiccup",
 "Your machine had the fuses in backwards."]
 
-print()
-print(random.choice(foo))
+print("")
+print(random.choice(foo).capitalize())
