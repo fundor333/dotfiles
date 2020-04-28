@@ -62,10 +62,29 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+ZSH_THEME="spaceship"
+
+SPACESHIP_PROMPT_ORDER=(
+  time     #
+  vi_mode  # these sections will be
+  user     # before prompt char
+  host     #
+  char
+  dir
+  git
+  node
+  ruby
+  xcode
+  swift
+  golang
+  docker
+  venv
+  pyenv
+)
 
 source $ZSH/oh-my-zsh.sh
 
+SPACESHIP_CHAR_SYMBOL="(°,,,°) "
 
 # User configuration
 
@@ -93,9 +112,15 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/opt/flutter/bin:$PATH
 
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias bofh='fortune bofh-excuses'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias sl='ls'
+alias ls='ls -GwF'
+alias ll='ls -alh'
+alias myip="curl http://ipecho.net/plain; echo"
+alias start_server='python -m http.server 8888'
+alias zshrc='code ~/.zshrc'
+alias gitconfig='code ~/.gitconfig'
 
 
 neofetch --config ~/.config/neofetch/config.conf 
