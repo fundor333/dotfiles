@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- create:
+    ~/Coding:
+    ~/.gostuff:
+
+- link:
+    ~/.zshrc:
+    ~/.irbrc:
+    ~/.editorconfig:
+    ~/.gitconfig:
+    ~/script:
+    ~/Xresources:
+    ~/.ssh/config: ssh/config
+    ~/.emacs.d:
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [chmod +x ~/script/*]
