@@ -13,9 +13,10 @@
     ~/.irbrc:
     ~/.editorconfig:
     ~/.gitconfig:
-    ~/script:
-    ~/Xresources:
+    ~/.gitignore_global:
+    ~/.Xresources:
     ~/.ssh/config: ssh/config
+    ~/script:
     ~/.emacs.d:
 
 - shell:
