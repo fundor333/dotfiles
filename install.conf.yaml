@@ -2,6 +2,11 @@
     link:
       create: true
       relink: true
+      force: true
+
+- create:
+    ~/Coding:
+    ~/.gostuff:
 
 - link:
     ~/.zshrc:
@@ -13,6 +18,6 @@
     ~/.ssh/config: ssh/config
     ~/.emacs.d:
 
-
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
+    - [chmod +x ~/script/*]
