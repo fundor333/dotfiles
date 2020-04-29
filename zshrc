@@ -4,10 +4,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="spaceship"
 
 SPACESHIP_PROMPT_ORDER=(
@@ -27,42 +23,14 @@ SPACESHIP_PROMPT_ORDER=(
   venv
   pyenv
 )
+
 source $ZSH/oh-my-zsh.sh
 
 SPACESHIP_CHAR_SYMBOL="(°,,,°) "
 
-
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-export PATH="$PATH:$HOME/flutter/bin"
-export PATH="$PATH:$HOME/.cargo/bin"
+
 export PATH="$PATH:$HOME/script"
-
-plugins=(
-  git
-  bundler
-  dotenv
-  osx
-  rake
-  rbenv
-  ruby
-  jsontools
-  node
-  pip
-  web-search
-  zsh-autosuggestions
-  colored-man-pages
-  colorize
-  common-aliases
-  copyfile
-)
-
-autoload -Uz compinit && compinit
-
-zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
-fpath=(~/.zsh $fpath)
-
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
 
 alias ..='cd ..'
 alias ...='cd ../..'

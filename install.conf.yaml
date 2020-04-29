@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- link:
+    ~/.zshrc:
+    ~/.irbrc:
+    ~/.editorconfig:
+    ~/.gitconfig:
+    ~/script:
+    ~/Xresources:
+    ~/.ssh/config: ssh/config
+
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
