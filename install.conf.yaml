@@ -11,6 +11,7 @@
     ~/script:
     ~/Xresources:
     ~/.ssh/config: ssh/config
+    ~/.emacs.d:
 
 
 - shell:
