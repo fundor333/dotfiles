@@ -1,0 +1,15 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    ~/.bin: bin_windows
+
+- shell:
+    - [chmod +x ~\.bin\*]
+    - [chmod +x ~\script\*]
+    - [setx /M path "%path%;%USERPROFILE%\script"]
+    - [setx /M path "%path%;%USERPROFILE%\.bin"]
+    - [setx /M path "%path%;cmd.exe /K %USERPROFILE%\.bin\aliases.cmd"]
