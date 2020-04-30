@@ -5,9 +5,13 @@ Make with the bot https://github.com/anishathalye/dotbot
 
 For Linux you need to launch
 
-    ./install
+    ./install-profile linux
+
+For Mac you need to launch
+
+    ./install-profile mac
 
 For Windows you need to launch
 
     export MSYS=winsymlinks:nativestrict
-    ./install --no-color windows
+    ./install-profile windows --no-color windows

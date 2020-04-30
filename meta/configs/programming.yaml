@@ -1,0 +1,6 @@
+- create:
+          ~/Coding:
+          ~/.gostuff:
+
+- link:
+          ~/.editorconfig:
