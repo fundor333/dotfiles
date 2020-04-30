@@ -1,0 +1,27 @@
+- create:
+    /usr/local/opt/openssl/lib/:
+
+- brew:
+    - git
+    - git-lfs
+    - emacs
+    - pyenv
+    - git-flow
+    - heroku
+    - python
+    - python@3.5
+    - python@3.6
+    - python@3.7
+    - python@3.8
+    - python@3.9
+    - sqlite
+    - dart
+    - openssl
+    - elixir
+    - hugo
+    - qt
+    - erlang
+    - pipenv
+    - redis
+    - sass/sass/sass
+    - postgresql
