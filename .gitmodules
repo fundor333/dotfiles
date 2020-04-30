@@ -3,7 +3,7 @@
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 [submodule "emacs.d"]
-	path = emacs.d
+	path = .emacs.d
 	url = https://github.com/fundor333/emacs.d.git
 [submodule "dotbot-brew"]
 	path = .dotbot-brew

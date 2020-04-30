@@ -7,3 +7,4 @@
 - link:
     ~/.config/darktable: config/darktable
     ~/.config/neofetch: config/neofetch
+    ~/.emacs.d: .emacs.d
