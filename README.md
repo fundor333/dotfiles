@@ -10,4 +10,4 @@ For Linux you need to launch
 For Windows you need to launch
 
     export MSYS=winsymlinks:nativestrict
-    ./install --no-color
+    ./install --no-color windows
