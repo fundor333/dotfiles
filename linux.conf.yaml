@@ -1,0 +1,9 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    ~/.config/darktable: config/darktable
+    ~/.config/neofetch: config/neofetch

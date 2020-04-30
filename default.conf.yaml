@@ -1,20 +1,20 @@
 - defaults:
-          link:
-                  create: true
-                  relink: true
-                  force: true
+    link:
+      create: true
+      relink: true
+      force: true
 
 - create:
-          ~/Coding:
-          ~/.gostuff:
+    ~/Coding:
+    ~/.gostuff:
 
 - link:
-          ~/.editorconfig:
-          ~/.gitconfig:
-          ~/.gitignore_global:
-          ~/.ssh/config: ssh/config
-          ~/script:
+    ~/.editorconfig:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.ssh/config: ssh/config
+    ~/script:
 
 - shell:
-          - [git submodule update --init --recursive, Installing submodules]
-          - [chmod +x ~/script/*]
+    - [git submodule update --init --recursive, Installing submodules]
+    - [chmod +x ~/script/*]
