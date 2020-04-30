@@ -11,3 +11,6 @@
 [submodule "spaceship"]
 	path = .spaceship
 	url = https://github.com/denysdovhan/spaceship-prompt.git
+[submodule "oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git

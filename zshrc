@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 
 # All spaceship stuff
 ZSH_THEME="spaceship"
@@ -79,9 +80,8 @@ export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 export PATH="$PATH:$HOME/script"
 
 # golang
-export $HOME/.gostuff
-export PATH=\$PATH:\$GOPATH/bin
-
+# export $HOME/.gostuff
+# export PATH=\$PATH:\$GOPATH/bin
 
 # Aliases
 alias ..='cd ..'

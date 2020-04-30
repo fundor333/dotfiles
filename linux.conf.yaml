@@ -4,7 +4,17 @@
       relink: true
       force: true
 
+- create:
+    - ~/.oh-my-zsh-custom/themes:
+
 - link:
     ~/.config/darktable: config/darktable
     ~/.config/neofetch: config/neofetch
     ~/.emacs.d: .emacs.d
+    ~/.oh-my-zsh: .oh-my-zsh
+    ~/.oh-my-zsh-custom/themes/spaceship.zsh-theme: .spaceship/spaceship.zsh-theme
+
+- shell:
+    - [
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)",
+      ]
