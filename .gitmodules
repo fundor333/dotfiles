@@ -2,9 +2,6 @@
 	path = meta/.dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty 
-[submodule "dotbot-vscode"]
-	path = meta/.dotbot-vscode
-	url = https://github.com/hujianxin/dotbot-vscode
 [submodule "emacs.d"]
 	path = .emacs.d
 	url = https://github.com/fundor333/emacs.d.git
