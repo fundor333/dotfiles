@@ -22,3 +22,4 @@
           - redis
           - sass/sass/sass
           - postgresql
+          - exercism
