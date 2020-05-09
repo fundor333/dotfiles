@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import random
+
+foo = [
+    "¯\_(ツ)_/¯",
+    "(｀∀´)Ψ",
+    "(ó﹏ò｡)",
+    "( ͡° ͜ʖ ͡°)",
+    "(•ω•)",
+    "(°,,,°)",
+    "(;,,;)",
+    "~#~",
+]
+print(random.choice(foo).capitalize() + " ")

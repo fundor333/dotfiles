@@ -46,7 +46,14 @@ SPACESHIP_PROMPT_ORDER=(
 
 source $ZSH/oh-my-zsh.sh
 
-SPACESHIP_CHAR_SYMBOL="(°,,,°) "
+# Mac Fix
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+
+# My script
+export PATH="$PATH:$HOME/script"
+
+VAR=$(smileemoji)
+SPACESHIP_CHAR_SYMBOL=$VAR
 
 # Plugins stuff
 plugins=(
@@ -73,11 +80,6 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 
-# MAc Fix
-export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-
-# My script
-export PATH="$PATH:$HOME/script"
 
 # golang
 # export $HOME/.gostuff
