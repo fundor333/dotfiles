@@ -80,3 +80,14 @@ Host fuel.fundor333.com
   User root
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/fundor333_mol
+
+Host me    
+  HostName 82.165.19.85
+  User simone  
+  Port 33160
+
+Host appletune
+  HostName 64.227.119.108
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/fundor333_mol
+  User root

@@ -95,6 +95,7 @@ alias myip="curl http://ipecho.net/plain; echo"
 alias start_server='python -m http.server 8888'
 alias zshrc='code ~/.zshrc'
 alias gitconfig='code ~/.gitconfig'
+alias sshconfig='code ~/.ssh/config'
 
 # Start command
 bofh
