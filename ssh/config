@@ -22,12 +22,6 @@ Host maps.alilaguna.it
   User developer
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
-  
-Host bauer.veneziaturismo.net
-  HostName 35.246.247.89'
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
 
 Host 167.71.34.219
   HostName 167.71.34.219
