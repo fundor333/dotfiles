@@ -85,3 +85,9 @@ Host appletune
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/fundor333_mol
   User root
+
+Host pybossa
+  HostName 34.89.210.243
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/fundor333_mol
+  User mscarpa
