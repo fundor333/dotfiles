@@ -1,6 +1,11 @@
 - create:
           ~/Coding:
           ~/.gostuff:
+          ~/.ipython:
+          ~/.jupyter:
+          ~/.gem:
+          ~/.ploty:
+          ~/.poetry:
 
 - link:
           ~/.editorconfig:
