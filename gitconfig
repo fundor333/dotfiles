@@ -1,7 +1,7 @@
 [user]
 	name = Fundor333
 	email = fundor333@fundor333.com
-	signingKey = 789A916F9BB88E03
+	signingKey = F1895BE71403782400CAC1934B8CC11B254E2C9E
 [core]
 	editor = code
 	autocrlf = input
