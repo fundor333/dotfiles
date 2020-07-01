@@ -1,3 +1,25 @@
-- vscodefile:
-          file: Vscodefile
-          insiders: true
+- shell:
+          - [code --install-extension batisteo.vscode-django]
+          - [code --install-extension bungcip.better-toml]
+          - [code --install-extension DavidAnson.vscode-markdownlint]
+          - [code --install-extension DotJoshJohnson.xml]
+          - [code --install-extension EditorConfig.EditorConfig]
+          - [code --install-extension Equinusocio.vsc-community-material-theme]
+          - [code --install-extension Equinusocio.vsc-material-theme]
+          - [code --install-extension equinusocio.vsc-material-theme-icons]
+          - [code --install-extension esbenp.prettier-vscode]
+          - [code --install-extension HookyQR.beautify]
+          - [code --install-extension James-Yu.latex-workshop]
+          - [code --install-extension leighlondon.eml]
+          - [code --install-extension magicstack.MagicPython]
+          - [code --install-extension mechatroner.rainbow-csv]
+          - [code --install-extension ms-azuretools.vscode-docker]
+          - [code --install-extension MS-CEINTL.vscode-language-pack-it]
+          - [code --install-extension ms-python.python]
+          - [code --install-extension PKief.material-icon-theme]
+          - [code --install-extension redhat.vscode-yaml]
+
+- link:
+          ~/AppData/Code/User/settings.json: vscode/settings.json
+          ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+          ~/.config/Code/User/settings.json: vscode/settings.json
