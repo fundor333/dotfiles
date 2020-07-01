@@ -11,3 +11,6 @@
 [submodule "oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "meta/dotbot-vscode"]
+	path = meta/dotbot-vscode
+	url = https://github.com/hujianxin/dotbot-vscode.git
