@@ -1,14 +1,19 @@
 - defaults:
-    link:
-      create: true
-      relink: true
-      force: true
+          link:
+                  create: true
+                  relink: true
+                  force: true
 
 - link:
-    ~/script:
+          ~/script:
 
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
-    - [chmod +x ~/script/*]
+          - [git submodule sync --recursive, Synchronize the URLs of submodules]
+          - [git submodule update --init --recursive, Update the submodules]
+          - [chmod +x ~/script/*]
+          - [
+                    '[[ "$(uname -a)" = *[M,m]icrosoft* ]] && sudo cp --remove-destination "linux/wsl/wsl.conf" /etc/wsl.conf',
+                    Force re-copy wsl configs,
+            ]
 
 - clean: ["~"]

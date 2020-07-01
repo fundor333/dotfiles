@@ -6,6 +6,7 @@
           ~/.gem:
           ~/.ploty:
           ~/.poetry:
+          ~/.rustup:
 
 - link:
           ~/.editorconfig:
