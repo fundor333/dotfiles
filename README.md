@@ -14,4 +14,4 @@ For Mac you need to launch
 For Windows you need to launch on GitBash as administrator
 
     export MSYS=winsymlinks:nativestrict
-    ./install-profile windows --no-color windows
+    ./install-profile windows
