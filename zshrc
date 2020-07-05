@@ -96,6 +96,7 @@ alias start_server='python -m http.server 8888'
 alias zshrc='code ~/.zshrc'
 alias gitconfig='code ~/.gitconfig'
 alias sshconfig='code ~/.ssh/config'
+alias dotfiles='code ~/Coding/dotfiles'
 
 # Start command
 bofh
