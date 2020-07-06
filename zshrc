@@ -69,6 +69,7 @@ plugins=(
   pip
   web-search
   zsh-autosuggestions
+  zsh-syntax-highlighting
   colored-man-pages
   colorize
   common-aliases
