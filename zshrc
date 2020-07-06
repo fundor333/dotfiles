@@ -56,25 +56,7 @@ VAR=$(smileemoji)
 SPACESHIP_CHAR_SYMBOL=$VAR
 
 # Plugins stuff
-plugins=(
-  git
-  bundler
-  dotenv
-  osx
-  rake
-  rbenv
-  ruby
-  jsontools
-  node
-  pip
-  web-search
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-  colored-man-pages
-  colorize
-  common-aliases
-  copyfile
-)
+plugins=( zsh-autosuggestions zsh-syntax-highlighting )
 
 autoload -Uz compinit && compinit
 
