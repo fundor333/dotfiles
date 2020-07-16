@@ -4,5 +4,5 @@
           ~/.git-hooks:
           ~/.gitmessage:
 
-- script:
+- shell:
           - [chmod +x ~/.git-hooks/*]
