@@ -6,6 +6,7 @@
 	editor = code
 	autocrlf = input
 	excludesfile = /Users/matteoscarpa/.gitignore_global
+	hooksPath = ~/.git-hooks
 [push]
 	default = simple
 [alias]

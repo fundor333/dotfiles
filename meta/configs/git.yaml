@@ -1,3 +1,7 @@
 - link:
           ~/.gitconfig:
           ~/.gitignore_global:
+          ~/.git-hooks:
+
+- script:
+          - [chmod +x ~/.git-hooks/*]
