@@ -5,7 +5,7 @@
 [core]
 	editor = code
 	autocrlf = input
-	excludesfile = /Users/matteoscarpa/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	hooksPath = ~/.git-hooks
 [push]
 	default = simple
@@ -28,7 +28,7 @@
 	versiontag = v
 [commit]
 	gpgsign = true
-	template = /Users/matteoscarpa/.stCommitMsg
+	template = ~/.stCommitMsg
 
 [tag]
 	forceSignAnnotated = true
