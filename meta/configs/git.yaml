@@ -2,6 +2,7 @@
           ~/.gitconfig:
           ~/.gitignore_global:
           ~/.git-hooks:
+          ~/.gitmessage:
 
 - script:
           - [chmod +x ~/.git-hooks/*]

@@ -28,7 +28,7 @@
 	versiontag = v
 [commit]
 	gpgsign = true
-	template = ~/.stCommitMsg
+	template = ~/.gitmessage
 
 [tag]
 	forceSignAnnotated = true
