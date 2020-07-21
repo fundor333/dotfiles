@@ -9,4 +9,4 @@ def nekoGET(endpoint):
   else:
     print(r.json()["url"])
 
-nekoGET("neko")
+print(nekoGET("neko"))
