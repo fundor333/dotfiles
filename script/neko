@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+import requests
+
+def nekoGET(endpoint):
+  r = requests.get("https://neko-love.xyz/api/v1/" + endpoint)
+  if r.status_code != 200:
+    print("An error has occurred")
+  else:
+    print(r.json()["url"])
+
+nekoGET("neko")
