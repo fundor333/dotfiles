@@ -4,4 +4,12 @@ echo "----------"
 echo "All done!"
 echo "----------"
 
+{ # try
+
+    dijo -c "track-up commits" &&
+
+} || { # catch
+    # save log for exception 
+}
+
 exec <&-
