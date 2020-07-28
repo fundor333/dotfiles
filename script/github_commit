@@ -12,7 +12,7 @@ def getter_commit(dictio=dict, url = f'http://github.com/{GITHUB_NAME}'):
 	soup = BeautifulSoup(page.text, 'html.parser')
 	commits = soup.findAll("rect", {"class": "day"})
 	for e in commits:
-		dictio[e['data-date']] = e['data-count']
+		dictio[e['data-date']] =int( e['data-count'])
 	return dictio
 
 
@@ -26,5 +26,5 @@ dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&f
 dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2019-12-01&to=2019-12-31")
 dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2020-12-01&to=2020-12-31")
 
-with open('data.json', 'w') as outfile:
+with open("data.json", "w") as outfile:
     json.dump(dictio, outfile)
