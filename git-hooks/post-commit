@@ -4,4 +4,9 @@ echo "----------"
 echo "All done!"
 echo "----------"
 
+{
+    dijo -c "track-up commits" &&
+} || { 
+}
+
 exec <&-

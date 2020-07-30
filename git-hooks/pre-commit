@@ -1,5 +1,5 @@
 #!/bin/sh
-
+git status
 echo "----------"
 echo "Would you like to play a game?"
 
