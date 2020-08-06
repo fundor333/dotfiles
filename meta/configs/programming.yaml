@@ -10,3 +10,5 @@
 
 - link:
           ~/.editorconfig:
+          ~/.alacritty.yml:
+          ~/AppData/Roaming/alacritty/alacritty.yml: alacritty.yml
