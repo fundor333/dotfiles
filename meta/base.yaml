@@ -6,6 +6,8 @@
 
 - link:
           ~/script:
+          ~/.sslverify:
+          
 
 - shell:
           - [git submodule sync --recursive, Synchronize the URLs of submodules]

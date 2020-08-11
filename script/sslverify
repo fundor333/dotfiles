@@ -8,6 +8,8 @@ import socket
 import ssl
 import time
 
+import tkinter as tk
+from tkinter import ttk
 
 logger = logging.getLogger('SSLVerify')
 
@@ -46,32 +48,44 @@ def test_host(hostname: str, buffer_days: int=30) -> str:
     try:
         will_expire_in = ssl_valid_time_remaining(hostname)
     except ssl.CertificateError as e:
-        return f'{hostname} cert error {e}'
+        return f'❌ {hostname} cert error {e}'
     except ssl.SSLError as e:
-        return f'{hostname} cert error {e}'
+        return f'❌ {hostname} cert error {e}'
     except socket.timeout as e:
-        return f'{hostname} could not connect'
+        return f'❌ {hostname} could not connect'
     else:
         if will_expire_in < datetime.timedelta(days=0):
-            return f'{hostname} cert will expired'
+            return f'❌ {hostname} cert will expired'
         elif will_expire_in < datetime.timedelta(days=buffer_days):
-            return f'{hostname} cert will expire in {will_expire_in}'
+            return f'⏳ {hostname} cert will expire in {will_expire_in}'
         else:
-            return f'{hostname} cert is fine'
+            return f'✔️ {hostname} cert is fine'
+
+
+def popupmsg(msg):
+    popup = tk.Tk()
+    popup.geometry("300x150") 
+    popup.wm_title("SSL Verify")
+
+    frame = tk.Frame(popup) 
+    frame.pack() 
+  
+    bottomframe = tk.Frame(popup) 
+    bottomframe.pack( side = "top" ) 
+
+    label = ttk.Label(bottomframe, text=msg)
+    label.pack(side="top", fill="x", pady=10)
+    B1 = ttk.Button(popup, text="Okay", command = popup.destroy)
+    B1.pack()
+    popup.mainloop()
 
 
 if __name__ == '__main__':
-    loglevel = os.environ.get('LOGLEVEL', 'INFO')
-    numeric_level = getattr(logging, loglevel.upper(), None)
-    if not isinstance(numeric_level, int):
-        raise ValueError('Invalid log level: %s' % loglevel)
-    logging.basicConfig(level=numeric_level)
+	f = open(os.path.expanduser("~/.sslverify"), "r")
+	end_message = ""
+	for host in f.readlines():
+		host = host.strip()
+		message = test_host(host)
+		end_message+= "\n"+message
+	popupmsg(end_message)
 
-    start = time.time()
-    for host in fileinput.input():
-        host = host.strip()
-        logger.debug('Testing host {}'.format(host))
-        message = test_host(host)
-        print(message)
-
-    logger.debug('Time: {}'.format(time.time() - start))
