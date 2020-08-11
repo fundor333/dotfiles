@@ -72,7 +72,6 @@ fpath=(~/.zsh $fpath)
 alias ..='cd ..'
 alias ...='cd ../..'
 alias sl='ls'
-alias ls='ls -GwF'
 alias ll='ls -alh'
 alias myip="curl http://ipecho.net/plain; echo"
 alias start_server='python -m http.server 8888'
