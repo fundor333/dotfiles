@@ -17,3 +17,6 @@
 [submodule ".zsh-autosuggestions"]
 	path = .zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "crontab-dotbot"]
+	path = crontab-dotbot
+	url = https://github.com/fundor333/crontab-dotbot.git
