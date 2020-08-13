@@ -63,6 +63,8 @@ autoload -Uz compinit && compinit
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 
+export EDITOR=nano
+export VISUAL="$EDITOR"
 
 # golang
 # export $HOME/.gostuff
