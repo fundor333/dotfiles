@@ -7,9 +7,7 @@ import os
 import socket
 import ssl
 import time
-
-import tkinter as tk
-from tkinter import ttk
+import emoji
 
 logger = logging.getLogger("SSLVerify")
 
@@ -41,36 +39,55 @@ def test_host(hostname: str, buffer_days: int = 30) -> str:
     try:
         will_expire_in = ssl_valid_time_remaining(hostname)
     except ssl.CertificateError as e:
-        return "❌ " + hostname + " cert error " + str(e)
+        return (
+            emoji.emojize(":cross_mark: ", use_aliases=True)
+            + hostname
+            + hostname
+            + " cert error "
+            + str(e)
+        )
     except ssl.SSLError as e:
-        return "❌ " + hostname + " cert error " + str(e)
+        return (
+            emoji.emojize(":cross_mark: ", use_aliases=True)
+            + hostname
+            + hostname
+            + " cert error "
+            + str(e)
+        )
     except socket.timeout as e:
-        return "❌ " + hostname + " could not connect"
+        return (
+            emoji.emojize(":cross_mark: ", use_aliases=True)
+            + hostname
+            + hostname
+            + " could not connect"
+        )
     else:
         if will_expire_in < datetime.timedelta(days=0):
-            return "❌ " + hostname + " cert will expired"
+            return (
+                emoji.emojize(":cross_mark: ", use_aliases=True)
+                + hostname
+                + " cert will expired"
+            )
         elif will_expire_in < datetime.timedelta(days=buffer_days):
-            return "⏳ " + hostname + " cert will expire in " + will_expire_in
+            return (
+                emoji.emojize(":hourglass_not_done: ", use_aliases=True)
+                + hostname
+                + " cert will expire in "
+                + will_expire_in
+            )
         else:
-            return "✔️ " + hostname + " cert is fine"
-
-
-def popupmsg(msg):
-    from plyer.utils import platform
-    from plyer import notification
-
-    notification.notify(
-        title="Here is the title", message=msg, app_name="Here is the application name",
-    )
+            return (
+                emoji.emojize(":thumbsup: ", use_aliases=True)
+                + hostname
+                + " cert is fine"
+            )
 
 
 if __name__ == "__main__":
-    f = open(os.path.expanduser("~/.sslverify"), "r")
+    f = open(os.path.expanduser("~/.sslverify"), "r", encoding="utf-8")
     end_message = ""
     for host in f.readlines():
         host = host.strip()
         message = test_host(host)
-        end_message += "\n" + message
-    print(end_message)
-    popupmsg(end_message)
+        print(message)
 
