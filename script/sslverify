@@ -7,28 +7,28 @@ import os
 import socket
 import ssl
 import time
+
 import emoji
 
 logger = logging.getLogger("SSLVerify")
 
 
 class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
+    HEADER = "\033[95m"
+    OKBLUE = "\033[94m"
+    OKGREEN = "\033[92m"
+    WARNING = "\033[93m"
+    FAIL = "\033[91m"
+    ENDC = "\033[0m"
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
 
 
 def ssl_expiry_datetime(hostname: str) -> datetime.datetime:
     ssl_date_fmt = r"%b %d %H:%M:%S %Y %Z"
 
     context = ssl.create_default_context()
-    conn = context.wrap_socket(socket.socket(
-        socket.AF_INET), server_hostname=hostname, )
+    conn = context.wrap_socket(socket.socket(socket.AF_INET), server_hostname=hostname,)
     # 3 second timeout because Lambda has runtime limitations
     conn.settimeout(3.0)
 
@@ -42,8 +42,7 @@ def ssl_expiry_datetime(hostname: str) -> datetime.datetime:
 def ssl_valid_time_remaining(hostname: str) -> datetime.timedelta:
     """Get the number of days left in a cert's lifetime."""
     expires = ssl_expiry_datetime(hostname)
-    logger.debug("SSL cert for {} expires at {}".format(
-        hostname, expires.isoformat()))
+    logger.debug("SSL cert for {} expires at {}".format(hostname, expires.isoformat()))
     return expires - datetime.datetime.utcnow()
 
 
@@ -52,23 +51,21 @@ def test_host(hostname: str, buffer_days: int = 30) -> str:
     try:
         will_expire_in = ssl_valid_time_remaining(hostname)
     except socket.gaierror as e:
-        return (f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} found nothing. Maybe wrong hostname{bcolors.ENDC}"
-                )
+        return f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} found nothing. Maybe wrong hostname{bcolors.ENDC}"
     except ssl.CertificateError as e:
-        if 'Hostname mismatch' in str(e):
-            return (f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} Host mismatch, certificate is not valid for {hostname}"
-                    )
+        if "Hostname mismatch" in str(e):
+            return f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} Host mismatch, certificate is not valid for {hostname}"
     except ssl.SSLError as e:
         return f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} SSL error {e}"
     except socket.timeout as e:
-        return(f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} could not connect")
+        return f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} could not connect"
     else:
         if will_expire_in < datetime.timedelta(days=0):
-            return (f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} cert will expired")
+            return f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} cert will expired"
         elif will_expire_in < datetime.timedelta(days=buffer_days):
-            return (f"{bcolors.WARNING}{emoji.emojize(':hourglass_not_done: ', use_aliases=True)} {hostname} cert will expire in { will_expire_in}")
+            return f"{bcolors.WARNING}{emoji.emojize(':hourglass_not_done: ', use_aliases=True)} {hostname} cert will expire in { will_expire_in}"
         else:
-            return (f"{bcolors.OKBLUE}{ emoji.emojize(':thumbsup: ', use_aliases=True)} {hostname} cert is fine")
+            return f"{bcolors.OKBLUE}{ emoji.emojize(':thumbsup: ', use_aliases=True)} {hostname} cert is fine"
 
 
 if __name__ == "__main__":
