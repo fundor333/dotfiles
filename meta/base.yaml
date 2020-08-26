@@ -7,6 +7,7 @@
 - link:
           ~/script:
           ~/.sslverify:
+          ~/.djangocheck:
 
 - shell:
           - [git submodule sync --recursive, Synchronize the URLs of submodules]
@@ -14,7 +15,3 @@
           - [chmod +x ~/script/*]
 
 - clean: ["~"]
-
-- crontab:
-          - cron: "0 10 * * *"
-            command: "sslverify"
