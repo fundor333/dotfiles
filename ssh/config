@@ -103,3 +103,10 @@ Host gitlab.alilaguna
   HostName 192.168.50.26
   PreferredAuthentications password
   User gitlab
+
+
+Host ninshubur.alilaguna.it
+  HostName ninshubur.alilaguna.it
+  User developer
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/alilaguna
