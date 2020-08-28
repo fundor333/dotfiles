@@ -110,3 +110,10 @@ Host ninshubur.alilaguna.it
   User developer
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
+
+
+Host inquisition
+  HostName 193.206.140.14
+  PreferredAuthentications password
+  User alilaguna
+  Port 8891
