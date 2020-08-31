@@ -71,7 +71,6 @@ def test_host(hostname: str, buffer_days: int = 30) -> [str, str, str]:
   logger.info(output_strng)
   return output_strng
 
-
 if __name__ == "__main__":
   headers = ["Ok", "Host", "Expired"]
   if len(sys.argv) > 1:
@@ -84,4 +83,5 @@ if __name__ == "__main__":
       host = host.strip()
       message = test_host(host)
       end_message.append(message)
+    end_message = sorted(end_message, key=lambda x:x[2])
     print(tabulate(end_message, headers, tablefmt="pipe"))
