@@ -6,8 +6,7 @@ import os
 import socket
 import ssl
 import sys
-
-import emoji
+from tabulate import tabulate
 
 logger = logging.getLogger("SSLVerify")
 
@@ -23,7 +22,7 @@ class bcolors:
   UNDERLINE = "\033[4m"
 
 
-def ssl_expiry_datetime(hostname: str) -> datetime.datetime:
+def ssl_valid_time_remaining(hostname: str) -> datetime.datetime:
   ssl_date_fmt = r"%b %d %H:%M:%S %Y %Z"
 
   context = ssl.create_default_context()
@@ -38,46 +37,51 @@ def ssl_expiry_datetime(hostname: str) -> datetime.datetime:
   return datetime.datetime.strptime(ssl_info["notAfter"], ssl_date_fmt)
 
 
-def ssl_valid_time_remaining(hostname: str) -> datetime.timedelta:
-  """Get the number of days left in a cert's lifetime."""
-  expires = ssl_expiry_datetime(hostname)
-  logger.debug("SSL cert for {} expires at {}".format(hostname, expires.isoformat()))
-  return expires - datetime.datetime.utcnow()
-
-
-def test_host(hostname: str, buffer_days: int = 30) -> str:
+def test_host(hostname: str, buffer_days: int = 30) -> [str, str, str]:
   """Return test message for hostname cert expiration."""
+  limit = datetime.datetime.now() + datetime.timedelta(days=buffer_days)
   output_strng = None
   try:
     will_expire_in = ssl_valid_time_remaining(hostname)
   except socket.gaierror as e:
-    output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} found nothing. Maybe wrong hostname{bcolors.ENDC}"
+    output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
+		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   except ssl.CertificateError as e:
     if "Hostname mismatch" in str(e):
-      output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} Host mismatch, certificate is not valid for {hostname}"
+      output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
+		      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",  f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   except ssl.SSLError as e:
-    output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} SSL error {e}"
+    output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
+		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",  f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   except socket.timeout as e:
-    output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} could not connect"
+    output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
+		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   else:
-    if will_expire_in < datetime.timedelta(days=0):
-      output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark: ', use_aliases=True)} {hostname} cert will expired"
-    elif will_expire_in < datetime.timedelta(days=buffer_days):
-      output_strng = f"{bcolors.WARNING}{emoji.emojize(':hourglass_not_done: ', use_aliases=True)} {hostname} cert will expire in {will_expire_in}"
+    if will_expire_in < limit:
+      output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
+		      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+		      f"{will_expire_in}"]
+    elif will_expire_in < limit:
+      output_strng = [f"{bcolors.WARNING}XX{bcolors.ENDC}",
+		      f"{bcolors.WARNING}{hostname}{bcolors.ENDC}",
+		      f"{bcolors.WARNING}{will_expire_in}{bcolors.ENDC}"]
     else:
-      output_strng = f"{bcolors.OKGREEN}{emoji.emojize(':thumbsup: ', use_aliases=True)} {hostname} cert is fine"
+      output_strng = [f"{bcolors.OKGREEN}OK{bcolors.ENDC}", f"{hostname}",
+		      f"{will_expire_in}"]
   logger.info(output_strng)
   return output_strng
 
 
 if __name__ == "__main__":
+  headers = ["Ok", "Host", "Expired"]
   if len(sys.argv) > 1:
     for e in sys.argv[1:]:
-      print(test_host(e))
+      print(tabulate([test_host(e)], headers, tablefmt="pipe"))
   else:
     f = open(os.path.expanduser("~/.sslverify"), "r", encoding="utf-8")
-    end_message = ""
+    end_message = []
     for host in f.readlines():
       host = host.strip()
       message = test_host(host)
-      print(message)
+      end_message.append(message)
+    print(tabulate(end_message, headers, tablefmt="pipe"))
