@@ -1,9 +1,5 @@
-# EditorConfig is awesome: http://EditorConfig.org
-
-# top-most EditorConfig file
 root = true
 
-# Unix-style newlines with a newline ending every file
 [*]
 end_of_line = lf
 tab_width   = 8
@@ -12,12 +8,6 @@ indent_style = tab
 insert_final_newline = true
 charset = utf-8
 
-[ChangeLog]
-indent_size = 8
-
-[{*.md,*.json}]
-max_line_length = null
-
 [*.{yml,yaml}]
 indent_style = space
 indent_size = 8
@@ -25,13 +15,11 @@ indent_size = 8
 [Makefile]
 indent_style = tab
 
-# Matches theexact files either package.json or .travis.yml
-[{package.json,.travis.yml}]
+[{package.json, .travis.yml}]
 indent_style = space
 indent_size = 2
 
-
-[*.py]
+[{*.py,sslverify,djangocheck,bibliounive,antigravity, nico_script}]
 indent_style = space
 tab_width = 4
 insert_final_newline = true

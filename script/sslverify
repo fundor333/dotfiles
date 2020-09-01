@@ -6,6 +6,7 @@ import os
 import socket
 import ssl
 import sys
+
 from tabulate import tabulate
 
 logger = logging.getLogger("SSLVerify")
@@ -45,31 +46,32 @@ def test_host(hostname: str, buffer_days: int = 30) -> [str, str, str]:
     will_expire_in = ssl_valid_time_remaining(hostname)
   except socket.gaierror as e:
     output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
+                    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   except ssl.CertificateError as e:
     if "Hostname mismatch" in str(e):
       output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",  f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
+                      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   except ssl.SSLError as e:
     output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",  f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
+                    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   except socket.timeout as e:
     output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
+                    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
   else:
     if will_expire_in < limit:
       output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
-		      f"{will_expire_in}"]
+                      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+                      f"{will_expire_in}"]
     elif will_expire_in < limit:
       output_strng = [f"{bcolors.WARNING}XX{bcolors.ENDC}",
-		      f"{bcolors.WARNING}{hostname}{bcolors.ENDC}",
-		      f"{bcolors.WARNING}{will_expire_in}{bcolors.ENDC}"]
+                      f"{bcolors.WARNING}{hostname}{bcolors.ENDC}",
+                      f"{bcolors.WARNING}{will_expire_in}{bcolors.ENDC}"]
     else:
       output_strng = [f"{bcolors.OKGREEN}OK{bcolors.ENDC}", f"{hostname}",
-		      f"{will_expire_in}"]
+                      f"{will_expire_in}"]
   logger.info(output_strng)
   return output_strng
+
 
 if __name__ == "__main__":
   headers = ["Ok", "Host", "Expired"]
@@ -83,5 +85,5 @@ if __name__ == "__main__":
       host = host.strip()
       message = test_host(host)
       end_message.append(message)
-    end_message = sorted(end_message, key=lambda x:x[2])
+    end_message = sorted(end_message, key=lambda x: x[2])
     print(tabulate(end_message, headers, tablefmt="pipe"))
