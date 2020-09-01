@@ -111,6 +111,18 @@ Host ninshubur.alilaguna.it
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
 
+Host maggiordomo
+  HostName 35.242.206.39 
+  User developer
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/alilaguna
+
+Host jenkins
+  HostName 35.242.206.39 
+  User developer
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/alilaguna
+
 
 Host inquisition
   HostName 193.206.140.14
