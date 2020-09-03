@@ -1,5 +1,3 @@
-# Home account
-
 Host 134.209.235.28
   HostName 134.209.235.28
   PreferredAuthentications publickey
@@ -29,7 +27,7 @@ Host marcopolopark.bucintoroviaggi.com
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
 
-Host 167.71.34.219
+Host molecola_aste
   HostName 167.71.34.219
   User root
   PreferredAuthentications publickey
@@ -41,13 +39,11 @@ Host gitlab.com
   AddKeysToAgent yes
   IdentityFile ~/.ssh/fundor333_rsa
 
-
 Host 207.154.215.177
   HostName 207.154.215.177
   User root
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/fundor333_mol
-
 
 Host github.com
   HostName github.com
@@ -55,13 +51,11 @@ Host github.com
   AddKeysToAgent yes
   IdentityFile ~/.ssh/fundor333_rsa
 
-
 Host bauer.veneziaturismo.net
   HostName bauer.veneziaturismo.net
   User developer
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
-
 
 Host intranet.bucintoroviaggi.com
   HostName intranet.bucintoroviaggi.com
@@ -98,12 +92,10 @@ Host pybossa
   IdentityFile ~/.ssh/fundor333_mol
   User mscarpa
 
-
-Host gitlab.alilaguna
+Host gitlab.alilaguna.it
   HostName 192.168.50.26
   PreferredAuthentications password
   User gitlab
-
 
 Host ninshubur.alilaguna.it
   HostName ninshubur.alilaguna.it
@@ -123,9 +115,14 @@ Host jenkins
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
 
-
 Host inquisition
   HostName 193.206.140.14
   PreferredAuthentications password
   User alilaguna
   Port 8891
+
+Host bauer.veneziaturismo.net  marriott.veneziaturismo.net stregis.veneziaturismo.net marive.alilaguna.it aman.veneziaturismo.net casagredo.veneziaturismo.net deidogi.veneziaturismo.net hilton.veneziaturismo.net b2b.veneziaturismo.net
+  HostName 35.246.247.89
+  User developer
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/alilaguna
