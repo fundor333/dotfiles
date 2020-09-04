@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+
+import shutil
+import re
+import os
+from os import listdir
+from os.path import isfile, join
+
+onlyfiles = [f for f in listdir(".") if isfile(join(".", f))]
+
+for e in onlyfiles:
+    print(e)
+    if "COPIADIP" in e:
+        p = re.compile("COPIADIP-(.*)-(.*)-000620.pdf")
+        result = p.search(e)
+        print(f" {result.group(1)} {result.group(2)}")
+        os.rename(e, f"{result.group(2)}-{result.group(1)}-alilaguna.pdf")
