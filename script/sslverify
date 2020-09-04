@@ -6,82 +6,109 @@ import os
 import socket
 import ssl
 import sys
+
 from tabulate import tabulate
 
 logger = logging.getLogger("SSLVerify")
 
 
 class bcolors:
-  HEADER = "\033[95m"
-  OKBLUE = "\033[94m"
-  OKGREEN = "\033[92m"
-  WARNING = "\033[93m"
-  FAIL = "\033[91m"
-  ENDC = "\033[0m"
-  BOLD = "\033[1m"
-  UNDERLINE = "\033[4m"
+    HEADER = "\033[95m"
+    OKBLUE = "\033[94m"
+    OKGREEN = "\033[92m"
+    WARNING = "\033[93m"
+    FAIL = "\033[91m"
+    ENDC = "\033[0m"
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
 
 
 def ssl_valid_time_remaining(hostname: str) -> datetime.datetime:
-  ssl_date_fmt = r"%b %d %H:%M:%S %Y %Z"
+    ssl_date_fmt = r"%b %d %H:%M:%S %Y %Z"
 
-  context = ssl.create_default_context()
-  conn = context.wrap_socket(socket.socket(socket.AF_INET), server_hostname=hostname, )
-  # 3 second timeout because Lambda has runtime limitations
-  conn.settimeout(3.0)
+    context = ssl.create_default_context()
+    conn = context.wrap_socket(socket.socket(socket.AF_INET), server_hostname=hostname,)
+    # 3 second timeout because Lambda has runtime limitations
+    conn.settimeout(3.0)
 
-  logger.debug("Connect to {}".format(hostname))
-  conn.connect((hostname, 443))
-  ssl_info = conn.getpeercert()
-  # parse the string from the certificate into a Python datetime object
-  return datetime.datetime.strptime(ssl_info["notAfter"], ssl_date_fmt)
+    logger.debug("Connect to {}".format(hostname))
+    conn.connect((hostname, 443))
+    ssl_info = conn.getpeercert()
+    # parse the string from the certificate into a Python datetime object
+    return datetime.datetime.strptime(ssl_info["notAfter"], ssl_date_fmt)
 
 
 def test_host(hostname: str, buffer_days: int = 30) -> [str, str, str]:
-  """Return test message for hostname cert expiration."""
-  limit = datetime.datetime.now() + datetime.timedelta(days=buffer_days)
-  output_strng = None
-  try:
-    will_expire_in = ssl_valid_time_remaining(hostname)
-  except socket.gaierror as e:
-    output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
-  except ssl.CertificateError as e:
-    if "Hostname mismatch" in str(e):
-      output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",  f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
-  except ssl.SSLError as e:
-    output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",  f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
-  except socket.timeout as e:
-    output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		    f"{bcolors.FAIL}{hostname}{bcolors.ENDC}", f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}"]
-  else:
-    if will_expire_in < limit:
-      output_strng = [f"{bcolors.FAIL}KO{bcolors.ENDC}",
-		      f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
-		      f"{will_expire_in}"]
-    elif will_expire_in < limit:
-      output_strng = [f"{bcolors.WARNING}XX{bcolors.ENDC}",
-		      f"{bcolors.WARNING}{hostname}{bcolors.ENDC}",
-		      f"{bcolors.WARNING}{will_expire_in}{bcolors.ENDC}"]
+    """Return test message for hostname cert expiration."""
+    limit = datetime.datetime.now() + datetime.timedelta(days=buffer_days)
+    output_strng = None
+    try:
+        will_expire_in = ssl_valid_time_remaining(hostname)
+    except socket.gaierror as e:
+        output_strng = [
+            f"{bcolors.FAIL}KO{bcolors.ENDC}",
+            f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+            f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+        ]
+    except ssl.CertificateError as e:
+        if "Hostname mismatch" in str(e):
+            output_strng = [
+                f"{bcolors.FAIL}KO{bcolors.ENDC}",
+                f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+                f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+            ]
+    except ssl.SSLError as e:
+        output_strng = [
+            f"{bcolors.FAIL}KO{bcolors.ENDC}",
+            f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+            f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+        ]
+    except socket.timeout as e:
+        output_strng = [
+            f"{bcolors.FAIL}KO{bcolors.ENDC}",
+            f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+            f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+        ]
     else:
-      output_strng = [f"{bcolors.OKGREEN}OK{bcolors.ENDC}", f"{hostname}",
-		      f"{will_expire_in}"]
-  logger.info(output_strng)
-  return output_strng
+        if will_expire_in is None:
+            output_strng = [
+                f"{bcolors.FAIL}KO{bcolors.ENDC}",
+                f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+                f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+            ]
+        elif will_expire_in < limit:
+            output_strng = [
+                f"{bcolors.FAIL}KO{bcolors.ENDC}",
+                f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+                f"{will_expire_in}",
+            ]
+        elif will_expire_in < limit:
+            output_strng = [
+                f"{bcolors.WARNING}XX{bcolors.ENDC}",
+                f"{bcolors.WARNING}{hostname}{bcolors.ENDC}",
+                f"{bcolors.WARNING}{will_expire_in}{bcolors.ENDC}",
+            ]
+        else:
+            output_strng = [
+                f"{bcolors.OKGREEN}OK{bcolors.ENDC}",
+                f"{hostname}",
+                f"{will_expire_in}",
+            ]
+    logger.info(output_strng)
+    return output_strng
+
 
 if __name__ == "__main__":
-  headers = ["Ok", "Host", "Expired"]
-  if len(sys.argv) > 1:
-    for e in sys.argv[1:]:
-      print(tabulate([test_host(e)], headers, tablefmt="pipe"))
-  else:
-    f = open(os.path.expanduser("~/.sslverify"), "r", encoding="utf-8")
-    end_message = []
-    for host in f.readlines():
-      host = host.strip()
-      message = test_host(host)
-      end_message.append(message)
-    end_message = sorted(end_message, key=lambda x:x[2])
-    print(tabulate(end_message, headers, tablefmt="pipe"))
+    headers = ["Ok", "Host", "Expired"]
+    if len(sys.argv) > 1:
+        for e in sys.argv[1:]:
+            print(tabulate([test_host(e)], headers, tablefmt="pipe"))
+    else:
+        f = open(os.path.expanduser("~/.sslverify"), "r", encoding="utf-8")
+        end_message = []
+        for host in f.readlines():
+            host = host.strip()
+            message = test_host(host)
+            end_message.append(message)
+        end_message = sorted(end_message, key=lambda x: x[2])
+        print(tabulate(end_message, headers, tablefmt="pipe"))

@@ -1,0 +1,56 @@
+#!/usr/bin/env python
+
+from reportlab.graphics import renderPDF
+from reportlab.graphics.barcode import qr
+from reportlab.graphics.shapes import Drawing
+from reportlab.lib.pagesizes import A4
+from reportlab.pdfgen import canvas
+
+
+def qrcode(turno, postazione, operatore, data_turno, importo_versamento, orario):
+    turno = str(turno).rjust(7, "_")
+    postazione = postazione.rjust(4, "_")
+    operatore = operatore.rjust(7, "_")
+    data_turno = data_versamento = data_turno.rjust(6, "_")
+    ora_inizio = ora_fine = orario.rjust(4, "_")
+    importo_versamento = importo_versamento.rjust(7, "_")
+
+    return (
+        turno
+        + postazione
+        + operatore
+        + data_turno
+        + ora_inizio
+        + ora_fine
+        + data_versamento
+        + importo_versamento
+    )
+
+
+def createBarCodes(
+    turno, postazione, operatore, data_turno, importo_versamento, orario
+):
+    """
+    Create barcode examples and embed in a PDF
+    """
+    c = canvas.Canvas("barcodes.pdf", pagesize=A4)
+    qr_code = qr.QrCodeWidget(
+        qrcode(turno, postazione, operatore, data_turno, importo_versamento, orario)
+    )
+    bounds = qr_code.getBounds()
+    d = Drawing(45, 45)
+    d.add(qr_code)
+    renderPDF.draw(d, c, 15, 405)
+    c.save()
+
+
+if __name__ == "__main__":
+    turno = input("Turno [M582]:\n")
+    postazione = input("Postazione [BIGL]:\n")
+    operatore = input("Operatore fastbook [ELISA.S]:\n")
+    data_turno = input("Data turno in formato ddmmyy [070820]:\n")
+    importo_versamento = input(
+        "Inporto versamento con i centesimi senza virgola o punto [500000]:\n"
+    )
+    orario = input("Orario:\n")
+    createBarCodes(turno, postazione, operatore, data_turno, importo_versamento, orario)

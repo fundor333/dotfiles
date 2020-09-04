@@ -12,6 +12,7 @@ import emoji
 import sys
 
 import requests
+from tabulate import tabulate
 
 logger = logging.getLogger("CheckDjango")
 
@@ -35,24 +36,42 @@ def test_host(url, path="/life", dict_out={"status": "alive and kicking"}):
     if 200 <= r.status_code < 400:
         try:
             if r.json() == dict_out:
-                output_strng = f"{bcolors.OKGREEN}{emoji.emojize(':thumbsup: ', use_aliases=True)} {url} all ok"
+                output_strng = [
+                    f"{bcolors.OKGREEN}{emoji.emojize(':thumbsup: ', use_aliases=True)}",
+                    url,
+                    "",
+                ]
             else:
-                output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)} {url} return message {r.json()['status']}"
+                output_strng = [
+                    f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}",
+                    url,
+                    r.json()["status"],
+                ]
         except ValueError:
-            output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)} {url} not well"
+            output_strng = [
+                f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}",
+                url,
+                "",
+            ]
     else:
-        output_strng = f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)} {url} return status code {r.status_code}"
-    logger.info(output_strng)
+        output_strng = [
+            f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}",
+            url,
+            r.status_code,
+        ]
     return output_strng
 
 
 if __name__ == "__main__":
+    headers = ["Ok", "Host", "Message"]
     if len(sys.argv) > 1:
         for e in sys.argv[1:]:
-            print(test_host(e))
+            print(tabulate(test_host(e), headers, tablefmt="pipe"))
     else:
         f = open(os.path.expanduser("~/.djangocheck"), "r", encoding="utf-8")
-        end_message = ""
+        end_message = []
         for host in f.readlines():
             host = host.strip()
-            print(test_host(host))
+            end_message.append(test_host(host))
+        end_message = sorted(end_message, key=lambda x: x[1])
+        print(tabulate(end_message, headers, tablefmt="pipe"))
