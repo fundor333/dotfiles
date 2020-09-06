@@ -37,25 +37,25 @@ def test_host(url, path="/life", dict_out={"status": "alive and kicking"}):
         try:
             if r.json() == dict_out:
                 output_strng = [
-                    f"{bcolors.OKGREEN}{emoji.emojize(':thumbsup: ', use_aliases=True)}",
+                    f"{bcolors.OKGREEN}{emoji.emojize(':thumbsup: ', use_aliases=True)}{bcolors.ENDC}",
                     url,
                     "",
                 ]
             else:
                 output_strng = [
-                    f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}",
+                    f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}{bcolors.ENDC}",
                     url,
                     r.json()["status"],
                 ]
         except ValueError:
             output_strng = [
-                f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}",
+                f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}{bcolors.ENDC}",
                 url,
                 "",
             ]
     else:
         output_strng = [
-            f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}",
+            f"{bcolors.FAIL}{emoji.emojize(':cross_mark:', use_aliases=True)}{bcolors.ENDC}",
             url,
             r.status_code,
         ]
