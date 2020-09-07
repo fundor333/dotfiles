@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
+import json
+
 import requests
 from bs4 import BeautifulSoup
-import json
 
 GITHUB_NAME= "fundor333"
 

@@ -3,15 +3,15 @@ import datetime
 import logging
 import os
 import sys
+
+import whois  # pip install python-whois
 from tabulate import tabulate
-from ipwhois import IPWhois
-import socket
-import dns # pip install dnspython
-import whois # pip install python-whois
 
 logger = logging.getLogger("DNS Checker")
 
+
 # http://rudyr.com/post/python-dns-lookup/
+
 
 class bcolors:
   HEADER = "\033[95m"
@@ -25,27 +25,30 @@ class bcolors:
 
 
 def dns_check(domain) -> [str, str, str]:
-  w = whois.whois('webscraping.com')
-  print(w)
+  w = whois.whois(domain)
   if w['domain_name'] is None:
     output_strng = [
       f"{bcolors.WARNING}XX{bcolors.ENDC}",
       f"{bcolors.WARNING}{domain}{bcolors.ENDC}",
+      "",
       f"{bcolors.WARNING}Error trying to connect to socket{bcolors.ENDC}",
     ]
   else:
-    flag = w.expiration_date >= (datetime.datetime.now()-datetime.timedelta(days=30))
+    flag = w.expiration_date >= (
+      datetime.datetime.now() - datetime.timedelta(days=30))
 
     if flag:
       output_strng = [
         f"{bcolors.OKGREEN}OK{bcolors.ENDC}",
         f"{domain}",
+        f"{w.creation_date}",
         f"{w.expiration_date}",
       ]
     else:
       output_strng = [
         f"{bcolors.WARNING}XX{bcolors.ENDC}",
         f"{bcolors.WARNING}{domain}{bcolors.ENDC}",
+        f"{w.creation_date}",
         f"{bcolors.WARNING}{w.expiration_date}{bcolors.ENDC}",
       ]
   logger.info(output_strng)
@@ -53,7 +56,7 @@ def dns_check(domain) -> [str, str, str]:
 
 
 if __name__ == "__main__":
-  headers = ["Ok", "Host", "Message"]
+  headers = ["Ok", "Host", "Creation", "Expiration"]
   if len(sys.argv) > 1:
     for e in sys.argv[1:]:
       print(tabulate(dns_check(e), headers, tablefmt="pipe"))
@@ -63,5 +66,5 @@ if __name__ == "__main__":
     for host in f.readlines():
       host = host.strip()
       end_message.append(dns_check(host))
-    end_message = sorted(end_message, key=lambda x: x[1])
+    end_message = sorted(end_message, key=lambda x: x[2])
     print(tabulate(end_message, headers, tablefmt="pipe"))
