@@ -92,7 +92,7 @@ Host pybossa
   IdentityFile ~/.ssh/fundor333_mol
   User mscarpa
 
-Host gitlab.alilaguna.it
+Host gitlab.alilaguna
   HostName 192.168.50.26
   PreferredAuthentications password
   User gitlab

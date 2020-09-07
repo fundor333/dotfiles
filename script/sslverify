@@ -44,6 +44,12 @@ def test_host(hostname: str, buffer_days: int = 30) -> [str, str, str]:
     output_strng = None
     try:
         will_expire_in = ssl_valid_time_remaining(hostname)
+    except FileNotFoundError as e:
+        output_strng = [
+            f"{bcolors.FAIL}KO{bcolors.ENDC}",
+            f"{bcolors.FAIL}{hostname}{bcolors.ENDC}",
+            f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+        ]
     except socket.gaierror as e:
         output_strng = [
             f"{bcolors.FAIL}KO{bcolors.ENDC}",
@@ -109,6 +115,15 @@ if __name__ == "__main__":
         for host in f.readlines():
             host = host.strip()
             message = test_host(host)
-            end_message.append(message)
+            if message:
+                end_message.append(message)
+            else:
+                end_message.append(
+                    [
+                        f"{bcolors.FAIL}KO{bcolors.ENDC}",
+                        f"{bcolors.FAIL}{host}{bcolors.ENDC}",
+                        f"{bcolors.FAIL}****-**-** **:**:**{bcolors.ENDC}",
+                    ]
+                )
         end_message = sorted(end_message, key=lambda x: x[2])
         print(tabulate(end_message, headers, tablefmt="pipe"))
