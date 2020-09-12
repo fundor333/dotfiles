@@ -11,8 +11,6 @@
           ~/.dnschecker:
 
 - shell:
-          - [git submodule sync --recursive, Synchronize the URLs of submodules]
-          - [git submodule update --init --recursive, Update the submodules]
           - [chmod +x ~/script/*]
 
 - clean: ["~"]
