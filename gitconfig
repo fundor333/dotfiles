@@ -6,7 +6,6 @@
 	editor = nano
 	autocrlf = input
 	excludesfile = ~/.gitignore_global
-	hooksPath = ~/.git-hooks
 [push]
 	default = simple
 [alias]

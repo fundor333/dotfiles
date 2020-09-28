@@ -84,3 +84,4 @@ alias dotfiles='code ~/Coding/dotfiles'
 
 # Start command
 bofh
+alias python=/usr/local/bin/python3.8
