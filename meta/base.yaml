@@ -6,9 +6,6 @@
 
 - link:
           ~/script:
-          ~/.sslverify:
-          ~/.djangocheck:
-          ~/.dnschecker:
 
 - shell:
           - [chmod +x ~/script/*]
