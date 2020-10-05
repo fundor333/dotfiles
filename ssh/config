@@ -126,3 +126,9 @@ Host bauer.veneziaturismo.net marriott.veneziaturismo.net stregis.veneziaturismo
   User developer
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
+
+Host innave.net
+  HostName 35.210.243.219
+  User developer
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/alilaguna
