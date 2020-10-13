@@ -81,6 +81,7 @@ alias zshrc='code ~/.zshrc'
 alias gitconfig='code ~/.gitconfig'
 alias sshconfig='code ~/.ssh/config'
 alias dotfiles='code ~/Coding/dotfiles'
+alias ducks='du -cks * | sort -rn | head'
 
 # Start command
 bofh
