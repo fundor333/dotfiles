@@ -1,10 +1,1 @@
-{
-	"colors": {
-		"info_colo": "\u001b[94m",
-		"debug_color": "\u001b[92m",
-		"warning_color": "\u001b[91m",
-		"end_color": "\u001b[0m"
-	},
-	"logger_level": "INFO",
-	"data_path": "~/.servergrimoire/data"
-}
+{"logger_level": "ERROR", "data_path": "C:\\Users\\mscarpa\\.servergrimoire\\data"}

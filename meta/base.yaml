@@ -6,6 +6,7 @@
 
 - link:
           ~/script:
+          ~/.servergrimoire:
 
 - shell:
           - [chmod +x ~/script/*]
