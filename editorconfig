@@ -59,7 +59,8 @@ indent_style = space
 indent_size = 2
 
 [Makefile]
-indent_style = tab
+indent_style = space
+indent_size = 4
 
 # Matches theexact files either package.json or .travis.yml
 [{package.json,.travis.yml}]
