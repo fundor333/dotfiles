@@ -4,6 +4,8 @@
           ~/.oh-my-zsh-custom/plugins/zsh-syntax-highlighting:
 
 - link:
+          ~/.zprofile:
+          ~/.zshrc:
           ~/.oh-my-zsh: .oh-my-zsh
           ~/.oh-my-zsh-custom/themes/spaceship.zsh-theme: .spaceship/spaceship.zsh-theme
           ~/.oh-my-zsh-custom/plugins/zsh-autosuggestions: .zsh-autosuggestions

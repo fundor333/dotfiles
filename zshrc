@@ -1,10 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
-
 # All spaceship stuff
 ZSH_THEME="spaceship"
 
@@ -46,11 +39,6 @@ SPACESHIP_PROMPT_ORDER=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Mac Fix
-export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-
-# My script
-export PATH="$PATH:$HOME/script"
 
 VAR=$(smileemoji)
 SPACESHIP_CHAR_SYMBOL=$VAR
@@ -62,9 +50,6 @@ autoload -Uz compinit && compinit
 
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
-
-export EDITOR=nano
-export VISUAL="$EDITOR"
 
 # golang
 # export $HOME/.gostuff
@@ -82,7 +67,7 @@ alias gitconfig='code ~/.gitconfig'
 alias sshconfig='code ~/.ssh/config'
 alias dotfiles='code ~/Coding/dotfiles'
 alias ducks='du -cks * | sort -rn | head'
+alias python=/usr/local/bin/python3.8
 
 # Start command
 bofh
-alias python=/usr/local/bin/python3.8

@@ -132,3 +132,8 @@ Host innave.net innave www.innave.net
   User developer
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/alilaguna
+
+Host calzino
+  HostName 192.168.50.20
+  User alilaguna
+  PreferredAuthentications password

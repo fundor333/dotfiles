@@ -1,15 +1,14 @@
 - create:
-    ~/Coding:
-    ~/.gostuff:
-    ~/.ipython:
-    ~/.jupyter:
-    ~/.gem:
-    ~/.ploty:
-    ~/.poetry:
-    ~/.rustup:
+          ~/Coding:
+          ~/.gostuff:
+          ~/.ipython:
+          ~/.jupyter:
+          ~/.gem:
+          ~/.ploty:
+          ~/.poetry:
+          ~/.rustup:
 
 - link:
-    ~/.editorconfig:
-    ~/.alacritty.yml:
-    ~/AppData/Roaming/alacritty/alacritty.yml: alacritty.yml
-    ~/.servergrimoire:
+          ~/.editorconfig:
+          ~/.alacritty.yml:
+          ~/.servergrimoire:

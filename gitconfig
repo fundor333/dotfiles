@@ -3,7 +3,7 @@
 	email = fundor333@fundor333.com
 	signingkey = C0BCDB82
 [core]
-	editor = nano
+	editor = code
 	autocrlf = input
 	excludesfile = ~/.gitignore_global
 [push]
