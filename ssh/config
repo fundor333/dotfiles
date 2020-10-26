@@ -121,7 +121,7 @@ Host inquisition
   User alilaguna
   Port 8891
 
-Host bauer.veneziaturismo.net marriott.veneziaturismo.net stregis.veneziaturismo.net marive.alilaguna.it aman.veneziaturismo.net casagredo.veneziaturismo.net deidogi.veneziaturismo.net hilton.veneziaturismo.net b2b.veneziaturismo.net
+Host bauer.veneziaturismo.net marriott.veneziaturismo.net stregis.veneziaturismo.net marive.alilaguna.it aman.veneziaturismo.net casagredo.veneziaturismo.net deidogi.veneziaturismo.net hilton.veneziaturismo.net b2b.veneziaturismo.net caronte
   HostName 35.246.247.89
   User developer
   PreferredAuthentications publickey
