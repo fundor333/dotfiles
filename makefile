@@ -7,9 +7,9 @@ mac: ## Sync config for Mac
 	./install-profile mac
 
 .PHONY: linux
-mac: ## Sync config for Linux
+linux: ## Sync config for Linux
 	./install-profile linux
 
 .PHONY: windows
-mac: ## Sync config for Windows
+windows: ## Sync config for Windows
 	./install-profile windows
