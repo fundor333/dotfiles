@@ -1,8 +1,14 @@
+bandit
 black
 django
 flake8
 flask
+mkdocs
+mypy
 pipenv
 poetry
 pre-commit
+pydocstyle
+pyflakes
+pylint
 requests
