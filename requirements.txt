@@ -6,7 +6,6 @@ flask
 mkdocs
 mypy
 pipenv
-poetry
 pre-commit
 pydocstyle
 pyflakes
