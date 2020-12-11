@@ -8,26 +8,26 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 aspmx3.googlemail.com.",
-          "5 alt1.aspmx.l.google.com.",
+          "10 aspmx2.googlemail.com.",
           "5 alt2.aspmx.l.google.com.",
           "1 aspmx.l.google.com.",
-          "10 aspmx2.googlemail.com."
+          "5 alt1.aspmx.l.google.com.",
+          "10 aspmx3.googlemail.com."
         ],
         "NS": [
-          "dns.ns3.it.",
-          "dns2.ns3.it."
+          "dns2.ns3.it.",
+          "dns.ns3.it."
         ],
         "TXT": [
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
           "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
-          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\""
+          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\""
         ]
       },
       "ssl_check": {
         "domain": "alilaguna.it",
-        "expired": "2020-12-13 12:00:00",
-        "status": "KO"
+        "expired": "2021-03-10 10:34:37",
+        "status": "OK"
       },
       "url": "alilaguna.it"
     },
@@ -123,10 +123,10 @@
       },
       "dns_lookup": {
         "NS": [
+          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d3.googledomains.com."
+          "ns-cloud-d2.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -144,21 +144,21 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 alt1.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
           "10 alt3.aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
-          "1 aspmx.l.google.com."
+          "10 alt4.aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com."
         ],
         "NS": [
+          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d3.googledomains.com."
+          "ns-cloud-d2.googledomains.com."
         ],
         "TXT": [
-          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\"",
-          "\"v=spf1 include:_spf.google.com ~all\""
+          "\"v=spf1 include:_spf.google.com ~all\"",
+          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\""
         ]
       },
       "ssl_check": {
@@ -176,10 +176,10 @@
       },
       "dns_lookup": {
         "NS": [
+          "ns-cloud-a1.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
           "ns-cloud-a3.googledomains.com.",
-          "ns-cloud-a4.googledomains.com.",
-          "ns-cloud-a1.googledomains.com."
+          "ns-cloud-a4.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -197,10 +197,10 @@
       },
       "dns_lookup": {
         "NS": [
+          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d2.googledomains.com."
+          "ns-cloud-d1.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -483,14 +483,14 @@
       "dns_lookup": {
         "MX": [
           "5 alt1.aspmx.l.google.com.",
-          "10 alt3.aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
+          "10 alt3.aspmx.l.google.com.",
           "1 aspmx.l.google.com."
         ],
         "NS": [
-          "dns2.ns3.it.",
-          "dns.ns3.it."
+          "dns.ns3.it.",
+          "dns2.ns3.it."
         ],
         "TXT": [
           "\"v=spf1 include:_spf.google.com ~all\"",
