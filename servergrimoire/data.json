@@ -9,19 +9,19 @@
       "dns_lookup": {
         "MX": [
           "10 aspmx3.googlemail.com.",
-          "10 aspmx2.googlemail.com.",
-          "1 aspmx.l.google.com.",
           "5 alt1.aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com."
+          "5 alt2.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
+          "10 aspmx2.googlemail.com."
         ],
         "NS": [
-          "dns2.ns3.it.",
-          "dns.ns3.it."
+          "dns.ns3.it.",
+          "dns2.ns3.it."
         ],
         "TXT": [
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
+          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
           "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
-          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\""
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\""
         ]
       },
       "ssl_check": {
@@ -123,10 +123,10 @@
       },
       "dns_lookup": {
         "NS": [
+          "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d4.googledomains.com."
+          "ns-cloud-d3.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -144,17 +144,17 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 alt4.aspmx.l.google.com.",
-          "10 alt3.aspmx.l.google.com.",
           "5 alt1.aspmx.l.google.com.",
-          "1 aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com."
+          "10 alt3.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "1 aspmx.l.google.com."
         ],
         "NS": [
-          "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d1.googledomains.com."
+          "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d2.googledomains.com.",
+          "ns-cloud-d3.googledomains.com."
         ],
         "TXT": [
           "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\"",
@@ -251,36 +251,6 @@
         "status": "OK"
       },
       "url": "hilton.veneziaturismo.net"
-    },
-    "innave.net": {
-      "dns_checker": {
-        "creation": "2021-08-09 10:40:05",
-        "expiration": "2021-08-09 10:40:05",
-        "status": "OK"
-      },
-      "dns_lookup": {
-        "MX": [
-          "1 aspmx.l.google.com.",
-          "5 alt1.aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com.",
-          "10 aspmx2.googlemail.com.",
-          "10 aspmx3.googlemail.com."
-        ],
-        "NS": [
-          "dns.ns3.it.",
-          "dns2.ns3.it."
-        ],
-        "TXT": [
-          "\"v=spf1 includi:_spf.google.com ~all\"",
-          "\"google-site-verification=NPM900BUBit8ZjFNGsOk5cFPnVN5Vjid9-Xut--5I_o\""
-        ]
-      },
-      "ssl_check": {
-        "domain": "innave.net",
-        "expired": "****-**-** **:**:**",
-        "status": "KO"
-      },
-      "url": "innave.net"
     },
     "innavefw01.alilaguna.it": {
       "dns_checker": {
@@ -512,19 +482,19 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 alt3.aspmx.l.google.com.",
-          "1 aspmx.l.google.com.",
           "5 alt1.aspmx.l.google.com.",
+          "10 alt3.aspmx.l.google.com.",
           "10 alt4.aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com."
+          "5 alt2.aspmx.l.google.com.",
+          "1 aspmx.l.google.com."
         ],
         "NS": [
-          "dns.ns3.it.",
-          "dns2.ns3.it."
+          "dns2.ns3.it.",
+          "dns.ns3.it."
         ],
         "TXT": [
-          "\"google-site-verification=k6LQJ1lkxff7GQI_57-8jVazX3_94KgYmOsL_kzjBB4\"",
-          "\"v=spf1 include:_spf.google.com ~all\""
+          "\"v=spf1 include:_spf.google.com ~all\"",
+          "\"google-site-verification=k6LQJ1lkxff7GQI_57-8jVazX3_94KgYmOsL_kzjBB4\""
         ]
       },
       "ssl_check": {
@@ -578,9 +548,9 @@
     },
     "www.fundor333.ninja": {
       "dns_checker": {
-        "creation": "Error trying to connect to socket",
-        "expiration": "Error trying to connect to socket",
-        "status": "XX"
+        "creation": "2021-09-05 15:28:51",
+        "expiration": "2021-09-05 15:28:51",
+        "status": "OK"
       },
       "dns_lookup": {},
       "ssl_check": {
@@ -590,19 +560,19 @@
       },
       "url": "www.fundor333.ninja"
     },
-    "www.innave.net": {
+    "www.innave.it": {
       "dns_checker": {
-        "creation": "2021-08-09 10:40:05",
-        "expiration": "2021-08-09 10:40:05",
+        "creation": "2021-05-15 00:00:00",
+        "expiration": "2021-05-15 00:00:00",
         "status": "OK"
       },
       "dns_lookup": {},
       "ssl_check": {
-        "domain": "www.innave.net",
-        "expired": "2021-02-21 11:37:48",
+        "domain": "www.innave.it",
+        "expired": "2021-11-16 16:19:59",
         "status": "OK"
       },
-      "url": "www.innave.net"
+      "url": "www.innave.it"
     },
     "www.isolachenoncearte.it": {
       "dns_checker": {
