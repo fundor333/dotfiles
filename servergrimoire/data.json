@@ -8,20 +8,20 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 ASPMX2.GOOGLEMAIL.COM.",
+          "10 ASPMX3.GOOGLEMAIL.COM.",
+          "5 ALT2.ASPMX.L.GOOGLE.COM.",
           "1 ASPMX.L.GOOGLE.COM.",
           "5 ALT1.ASPMX.L.GOOGLE.COM.",
-          "10 ASPMX3.GOOGLEMAIL.COM.",
-          "5 ALT2.ASPMX.L.GOOGLE.COM."
+          "10 ASPMX2.GOOGLEMAIL.COM."
         ],
         "NS": [
-          "venus.ns.cloudflare.COM.",
-          "drew.ns.cloudflare.COM."
+          "venus.ns.cloudflare.com.",
+          "drew.ns.cloudflare.com."
         ],
         "TXT": [
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
           "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
-          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\""
+          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\""
         ]
       },
       "ssl_check": {
@@ -49,8 +49,8 @@
     },
     "appletune.fundor333.com": {
       "dns_checker": {
-        "creation": "2020-12-15 20:45:08",
-        "expiration": "2020-12-15 20:45:08",
+        "creation": "2021-12-15 20:45:08",
+        "expiration": "2021-12-15 20:45:08",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -130,24 +130,24 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d4.googledomains.com."
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d4.googledomains.com.",
+          "ns-cloud-d1.googledomains.com."
         ]
       },
       "ssl_check": {
         "domain": "digitaltearoom.com",
-        "expired": "2021-01-17 18:46:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-03-18 18:49:56",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "digitaltearoom.com"
     },
     "fundor333.com": {
       "dns_checker": {
-        "creation": "2020-12-15 20:45:08",
-        "expiration": "2020-12-15 20:45:08",
+        "creation": "2021-12-15 20:45:08",
+        "expiration": "2021-12-15 20:45:08",
         "status": "OK"
       },
       "dns_lookup": {
@@ -155,18 +155,18 @@
           "5 alt1.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
           "10 alt3.aspmx.l.google.com.",
-          "1 aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com."
+          "10 alt4.aspmx.l.google.com.",
+          "1 aspmx.l.google.com."
         ],
         "NS": [
-          "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d1.googledomains.com."
+          "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d2.googledomains.com."
         ],
         "TXT": [
-          "\"v=spf1 include:_spf.google.com ~all\"",
-          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\""
+          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\"",
+          "\"v=spf1 include:_spf.google.com ~all\""
         ]
       },
       "ssl_check": {
@@ -185,10 +185,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-a4.googledomains.com.",
+          "ns-cloud-a1.googledomains.com.",
           "ns-cloud-a3.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
-          "ns-cloud-a1.googledomains.com."
+          "ns-cloud-a4.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -207,10 +207,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d3.googledomains.com."
+          "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d2.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -275,9 +275,9 @@
       "dns_lookup": {},
       "ssl_check": {
         "domain": "innavefw01.alilaguna.it",
-        "expired": "2021-01-12 10:00:49",
-        "organization_name": "Let's Encrypt Authority X3",
-        "status": "XX"
+        "expired": "2021-03-18 09:32:52",
+        "organization_name": "R3",
+        "status": "OK"
       },
       "url": "innavefw01.alilaguna.it"
     },
@@ -290,8 +290,8 @@
       "dns_lookup": {},
       "ssl_check": {
         "domain": "intranet.alilaguna.it",
-        "expired": "2021-01-18 11:56:09",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-03-19 13:38:39",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "intranet.alilaguna.it"
@@ -511,15 +511,15 @@
       },
       "dns_lookup": {
         "MX": [
+          "5 ALT1.ASPMX.L.GOOGLE.com.",
           "10 ALT3.ASPMX.L.GOOGLE.com.",
-          "1 ASPMX.L.GOOGLE.com.",
-          "10 ALT4.ASPMX.L.GOOGLE.com.",
           "5 ALT2.ASPMX.L.GOOGLE.com.",
-          "5 ALT1.ASPMX.L.GOOGLE.com."
+          "1 ASPMX.L.GOOGLE.com.",
+          "10 ALT4.ASPMX.L.GOOGLE.com."
         ],
         "NS": [
-          "dns2.ns3.it.",
-          "dns.ns3.it."
+          "dns.ns3.it.",
+          "dns2.ns3.it."
         ],
         "TXT": [
           "\"v=spf1 include:_spf.google.com ~all\"",
@@ -528,8 +528,8 @@
       },
       "ssl_check": {
         "domain": "venezianabunkeraggi.com",
-        "expired": "2021-01-14 23:56:54",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-03-15 23:34:45",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "venezianabunkeraggi.com"
@@ -543,7 +543,7 @@
       "dns_lookup": {},
       "ssl_check": {
         "domain": "www.digitaltearoom.com",
-        "expired": "2021-01-20 20:51:13",
+        "expired": "2021-03-20 05:30:34",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -551,8 +551,8 @@
     },
     "www.fundor333.com": {
       "dns_checker": {
-        "creation": "2020-12-15 20:45:08",
-        "expiration": "2020-12-15 20:45:08",
+        "creation": "2021-12-15 20:45:08",
+        "expiration": "2021-12-15 20:45:08",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -642,8 +642,8 @@
       "dns_lookup": {},
       "ssl_check": {
         "domain": "www.venezianabunkeraggi.com",
-        "expired": "2021-01-14 23:56:54",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-03-15 23:34:45",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "www.venezianabunkeraggi.com"
