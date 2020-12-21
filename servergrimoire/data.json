@@ -8,20 +8,20 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 ASPMX3.GOOGLEMAIL.COM.",
-          "5 ALT2.ASPMX.L.GOOGLE.COM.",
-          "1 ASPMX.L.GOOGLE.COM.",
-          "5 ALT1.ASPMX.L.GOOGLE.COM.",
-          "10 ASPMX2.GOOGLEMAIL.COM."
+          "10 aspmx3.googlemail.com.",
+          "10 aspmx2.googlemail.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com.",
+          "1 aspmx.l.google.com."
         ],
         "NS": [
-          "venus.ns.cloudflare.com.",
-          "drew.ns.cloudflare.com."
+          "dns2.ns3.it.",
+          "dns.ns3.it."
         ],
         "TXT": [
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
           "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
-          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\""
+          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\""
         ]
       },
       "ssl_check": {
@@ -130,10 +130,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d1.googledomains.com."
+          "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d2.googledomains.com."
         ]
       },
       "ssl_check": {
@@ -152,16 +152,16 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 alt1.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
           "10 alt3.aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com.",
-          "1 aspmx.l.google.com."
+          "1 aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com."
         ],
         "NS": [
+          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d2.googledomains.com."
         ],
         "TXT": [
@@ -186,8 +186,8 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-a1.googledomains.com.",
-          "ns-cloud-a3.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
+          "ns-cloud-a3.googledomains.com.",
           "ns-cloud-a4.googledomains.com."
         ]
       },
@@ -207,9 +207,9 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d2.googledomains.com."
         ]
       },
@@ -511,11 +511,11 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 ALT1.ASPMX.L.GOOGLE.com.",
-          "10 ALT3.ASPMX.L.GOOGLE.com.",
-          "5 ALT2.ASPMX.L.GOOGLE.com.",
-          "1 ASPMX.L.GOOGLE.com.",
-          "10 ALT4.ASPMX.L.GOOGLE.com."
+          "10 alt3.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com."
         ],
         "NS": [
           "dns.ns3.it.",
