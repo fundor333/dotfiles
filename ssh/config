@@ -1,139 +1,124 @@
-Host 134.209.235.28
-  HostName 134.209.235.28
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
+IdentityFile ~/.ssh/fundor333_mol
+IdentityFile ~/.ssh/alilaguna
 
-Host intranet.alilaguna.it
-  HostName 35.204.22.128
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+#SCE_SEPARATOR:Lavoro
 
+#SCE_ICON:briefcase
 Host presenze.alilaguna.it
-  HostName 35.198.178.137
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
-  
-Host maps.alilaguna.it
-  HostName maps.alilaguna.it
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+	User developer
+	HostName 35.198.178.137
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
 
-Host marcopolopark.bucintoroviaggi.com
-  HostName 35.198.118.221
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
 
-Host molecola_aste
-  HostName 167.71.34.219
-  User root
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
-
-Host gitlab.com
-  HostName gitlab.com
-  User git
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/fundor333_rsa
-
-Host 207.154.215.177
-  HostName 207.154.215.177
-  User root
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
-
-Host github.com
-  HostName github.com
-  User git
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/fundor333_rsa
-
-Host bauer.veneziaturismo.net
-  HostName bauer.veneziaturismo.net
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+#SCE_ICON:suitcase
+Host intranet.alilaguna.it
+	User developer
+	HostName 35.204.22.128
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
 
 Host intranet.bucintoroviaggi.com
-  HostName intranet.bucintoroviaggi.com
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
-
-Host isolachenoncearte.it
-  HostName 165.22.82.136
-  User root
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
-
-Host fuel.fundor333.com
-  HostName fuel.fundor333.com
-  User root
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
-
-Host me    
-  HostName 82.165.19.85
-  User simone  
-  Port 33160
-
-Host appletune
-  HostName 64.227.119.108
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
-  User root
-
-Host pybossa
-  HostName 34.89.210.243
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/fundor333_mol
-  User mscarpa
-
-Host gitlab.alilaguna
-  HostName 192.168.50.26
-  PreferredAuthentications password
-  User gitlab
+	User developer
+	HostName intranet.bucintoroviaggi.com
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
 
 Host ninshubur.alilaguna.it
-  HostName ninshubur.alilaguna.it
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+	User developer
+	HostName ninshubur.alilaguna.it
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
 
 Host maggiordomo
-  HostName 35.242.206.39 
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+	User developer
+	HostName 35.242.206.39
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
+
+#SCE_ICON:briefcase
+Host marcopolopark.bucintoroviaggi.com
+	User developer
+	HostName 35.198.118.221
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
+
+#SCE_ICON:briefcase
+Host maps.alilaguna.it
+	User developer
+	HostName maps.alilaguna.it
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
+
+Host gitlab.alilaguna
+	User gitlab
+	HostName 192.168.50.26
+	PreferredAuthentications password
 
 Host jenkins
-  HostName 35.242.206.39 
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+	User developer
+	HostName 35.242.206.39
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
 
 Host inquisition
-  HostName 193.206.140.14
-  PreferredAuthentications password
-  User alilaguna
-  Port 8891
+	User alilaguna
+	HostName 193.206.140.14
+	Port 8891
+	PreferredAuthentications password
 
+
+# Sistema Caronte
+#
 Host bauer.veneziaturismo.net marriott.veneziaturismo.net stregis.veneziaturismo.net marive.alilaguna.it aman.veneziaturismo.net casagredo.veneziaturismo.net deidogi.veneziaturismo.net hilton.veneziaturismo.net b2b.veneziaturismo.net caronte
-  HostName 35.246.247.89
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+	User developer
+	HostName 35.246.247.89
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
+
+# Socket Contadenaro Alilaguna
+Host calzino
+	User alilaguna
+	HostName 192.168.50.20
+	PreferredAuthentications password
 
 Host innave.net innave www.innave.net
-  HostName 35.210.243.219
-  User developer
-  PreferredAuthentications publickey
-  IdentityFile ~/.ssh/alilaguna
+	User developer
+	HostName 35.210.243.219
+	IdentityFile ~/.ssh/alilaguna
+	PreferredAuthentications publickey
 
-Host calzino
-  HostName 192.168.50.20
-  User alilaguna
-  PreferredAuthentications password
+#SCE_SEPARATOR:Progetti Tools
+
+#SCE_ICON:pirate
+Host molecola_aste
+	User root
+	HostName 167.71.34.219
+	IdentityFile ~/.ssh/fundor333_mol
+	PreferredAuthentications publickey
+
+#SCE_SEPARATOR:Personali
+
+Host gitlab.com
+	User git
+	HostName gitlab.com
+	IdentityFile ~/.ssh/fundor333_rsa
+	AddKeysToAgent yes
+
+Host github.com
+	User git
+	HostName github.com
+	IdentityFile ~/.ssh/fundor333_rsa
+	AddKeysToAgent yes
+
+Host isolachenoncearte.it
+	User root
+	HostName 165.22.82.136
+	IdentityFile ~/.ssh/fundor333_mol
+	PreferredAuthentications publickey
+
+Host appletune
+	User root
+	HostName 64.227.119.108
+	IdentityFile ~/.ssh/fundor333_mol
+	PreferredAuthentications publickey

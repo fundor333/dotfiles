@@ -8,21 +8,25 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 aspmx3.googlemail.com.",
-          "10 aspmx2.googlemail.com.",
-          "5 alt2.aspmx.l.google.com.",
-          "5 alt1.aspmx.l.google.com.",
-          "1 aspmx.l.google.com."
+          "5 ALT1.ASPMX.L.GOOGLE.COM.",
+          "10 ASPMX2.GOOGLEMAIL.COM.",
+          "5 ALT2.ASPMX.L.GOOGLE.COM.",
+          "1 ASPMX.L.GOOGLE.COM.",
+          "10 ASPMX3.GOOGLEMAIL.COM."
         ],
         "NS": [
-          "dns2.ns3.it.",
-          "dns.ns3.it."
+          "drew.ns.cloudflare.com.",
+          "venus.ns.cloudflare.com."
         ],
         "TXT": [
           "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
-          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
-          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\""
+          "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
+          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\""
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://alilaguna.it"
       },
       "ssl_check": {
         "domain": "alilaguna.it",
@@ -39,6 +43,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://aman.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "aman.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -54,6 +62,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://appletune.fundor333.com"
+      },
       "ssl_check": {
         "domain": "appletune.fundor333.com",
         "expired": "2021-02-08 05:37:36",
@@ -69,6 +81,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://b2b.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "b2b.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -84,6 +100,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://bauer.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "bauer.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -99,6 +119,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://casagredo.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "casagredo.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -114,6 +138,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://deidogi.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "deidogi.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -130,11 +158,15 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d2.googledomains.com."
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://digitaltearoom.com"
       },
       "ssl_check": {
         "domain": "digitaltearoom.com",
@@ -152,27 +184,31 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 alt4.aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com.",
-          "10 alt3.aspmx.l.google.com.",
           "1 aspmx.l.google.com.",
-          "5 alt1.aspmx.l.google.com."
+          "10 alt3.aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com."
         ],
         "NS": [
+          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d2.googledomains.com."
+          "ns-cloud-d4.googledomains.com."
         ],
         "TXT": [
           "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\"",
           "\"v=spf1 include:_spf.google.com ~all\""
         ]
       },
+      "page_checker": {
+        "status": 200,
+        "url": "https://fundor333.com"
+      },
       "ssl_check": {
         "domain": "fundor333.com",
-        "expired": "2021-01-24 15:43:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-03-25 17:32:22",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "fundor333.com"
@@ -186,14 +222,18 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-a1.googledomains.com.",
+          "ns-cloud-a4.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
-          "ns-cloud-a3.googledomains.com.",
-          "ns-cloud-a4.googledomains.com."
+          "ns-cloud-a3.googledomains.com."
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://fundor333.dev"
       },
       "ssl_check": {
         "domain": "fundor333.dev",
-        "expired": "2021-01-31 05:29:26",
+        "expired": "2021-03-29 20:11:47",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -207,11 +247,15 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d2.googledomains.com."
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://fundor333.ninja"
       },
       "ssl_check": {
         "domain": "fundor333.ninja",
@@ -228,6 +272,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://getyourguide.bucintoroviaggi.com"
+      },
       "ssl_check": {
         "domain": "getyourguide.bucintoroviaggi.com",
         "expired": "2021-02-06 08:03:43",
@@ -243,6 +291,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://gitlab.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "gitlab.alilaguna.it",
         "expired": "2021-02-17 10:00:39",
@@ -258,6 +310,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://hilton.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "hilton.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -273,6 +329,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 500,
+        "url": "https://innavefw01.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "innavefw01.alilaguna.it",
         "expired": "2021-03-18 09:32:52",
@@ -288,6 +348,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://intranet.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "intranet.alilaguna.it",
         "expired": "2021-03-19 13:38:39",
@@ -303,11 +367,15 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 408,
+        "url": "https://intranet.bucintoroviaggi.com"
+      },
       "ssl_check": {
         "domain": "intranet.bucintoroviaggi.com",
-        "expired": "2021-02-03 21:03:15",
-        "organization_name": "Let's Encrypt Authority X3",
-        "status": "OK"
+        "expired": "****-**-** **:**:**",
+        "organization_name": "***",
+        "status": "KO"
       },
       "url": "intranet.bucintoroviaggi.com"
     },
@@ -322,13 +390,17 @@
           "5.144.164.173"
         ],
         "MX": [
-          "10 m-13b.th.seeweb.it.",
-          "20 smtp-avas-th.seeweb.it."
+          "20 smtp-avas-th.seeweb.it.",
+          "10 m-13b.th.seeweb.it."
         ],
         "NS": [
           "ns1.th.seeweb.it.",
           "ns2.th.seeweb.it."
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://isolachenoncearte.it"
       },
       "ssl_check": {
         "domain": "isolachenoncearte.it",
@@ -345,6 +417,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 403,
+        "url": "https://jenkins.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "jenkins.alilaguna.it",
         "expired": "2021-03-12 23:00:17",
@@ -360,6 +436,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://kitsune.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "kitsune.alilaguna.it",
         "expired": "2021-02-04 08:52:14",
@@ -375,6 +455,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://kitsunetest.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "kitsunetest.alilaguna.it",
         "expired": "2021-02-06 04:46:12",
@@ -390,6 +474,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://maps.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "maps.alilaguna.it",
         "expired": "2021-02-16 20:02:06",
@@ -405,6 +493,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://marcopolopark.bucintoroviaggi.com"
+      },
       "ssl_check": {
         "domain": "marcopolopark.bucintoroviaggi.com",
         "expired": "2021-02-26 09:05:06",
@@ -413,6 +505,32 @@
       },
       "url": "marcopolopark.bucintoroviaggi.com"
     },
+    "mareabot.org": {
+      "dns_checker": {
+        "creation": "2021-12-27 22:10:54",
+        "expiration": "2021-12-27 22:10:54",
+        "status": "OK"
+      },
+      "dns_lookup": {
+        "NS": [
+          "ns-cloud-c4.googledomains.com.",
+          "ns-cloud-c2.googledomains.com.",
+          "ns-cloud-c1.googledomains.com.",
+          "ns-cloud-c3.googledomains.com."
+        ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://mareabot.org"
+      },
+      "ssl_check": {
+        "domain": "mareabot.org",
+        "expired": "2021-03-27 21:21:08",
+        "organization_name": "R3",
+        "status": "OK"
+      },
+      "url": "mareabot.org"
+    },
     "marive.alilaguna.it": {
       "dns_checker": {
         "creation": "2021-11-17 00:00:00",
@@ -420,6 +538,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://marive.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "marive.alilaguna.it",
         "expired": "2021-01-31 10:40:44",
@@ -435,6 +557,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://marriott.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "marriott.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -450,11 +576,15 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 400,
+        "url": "https://monitoring.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "monitoring.alilaguna.it",
-        "expired": "2021-02-05 01:34:59",
-        "organization_name": "Let's Encrypt Authority X3",
-        "status": "OK"
+        "expired": "****-**-** **:**:**",
+        "organization_name": "***",
+        "status": "KO"
       },
       "url": "monitoring.alilaguna.it"
     },
@@ -465,6 +595,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://ninshubur.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "ninshubur.alilaguna.it",
         "expired": "2021-02-24 20:17:07",
@@ -480,6 +614,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://presenze.alilaguna.it"
+      },
       "ssl_check": {
         "domain": "presenze.alilaguna.it",
         "expired": "2021-02-21 20:04:26",
@@ -495,6 +633,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://stregis.veneziaturismo.net"
+      },
       "ssl_check": {
         "domain": "stregis.veneziaturismo.net",
         "expired": "2021-01-31 10:40:44",
@@ -511,20 +653,24 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 alt3.aspmx.l.google.com.",
-          "1 aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com.",
-          "5 alt1.aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com."
+          "5 ALT2.ASPMX.L.GOOGLE.com.",
+          "10 ALT4.ASPMX.L.GOOGLE.com.",
+          "5 ALT1.ASPMX.L.GOOGLE.com.",
+          "1 ASPMX.L.GOOGLE.com.",
+          "10 ALT3.ASPMX.L.GOOGLE.com."
         ],
         "NS": [
-          "dns.ns3.it.",
-          "dns2.ns3.it."
+          "dns2.ns3.it.",
+          "dns.ns3.it."
         ],
         "TXT": [
-          "\"v=spf1 include:_spf.google.com ~all\"",
-          "\"google-site-verification=k6LQJ1lkxff7GQI_57-8jVazX3_94KgYmOsL_kzjBB4\""
+          "\"google-site-verification=k6LQJ1lkxff7GQI_57-8jVazX3_94KgYmOsL_kzjBB4\"",
+          "\"v=spf1 include:_spf.google.com ~all\""
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://venezianabunkeraggi.com"
       },
       "ssl_check": {
         "domain": "venezianabunkeraggi.com",
@@ -541,6 +687,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.digitaltearoom.com"
+      },
       "ssl_check": {
         "domain": "www.digitaltearoom.com",
         "expired": "2021-03-20 05:30:34",
@@ -556,6 +706,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.fundor333.com"
+      },
       "ssl_check": {
         "domain": "www.fundor333.com",
         "expired": "2021-02-20 23:23:40",
@@ -571,6 +725,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.fundor333.dev"
+      },
       "ssl_check": {
         "domain": "www.fundor333.dev",
         "expired": "2021-02-02 12:12:06",
@@ -586,6 +744,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.fundor333.ninja"
+      },
       "ssl_check": {
         "domain": "www.fundor333.ninja",
         "expired": "2021-02-01 15:16:00",
@@ -601,6 +763,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.innave.it"
+      },
       "ssl_check": {
         "domain": "www.innave.it",
         "expired": "2021-11-16 16:19:59",
@@ -621,9 +787,13 @@
           "10 m-13b.th.seeweb.it."
         ],
         "NS": [
-          "ns2.th.seeweb.it.",
-          "ns1.th.seeweb.it."
+          "ns1.th.seeweb.it.",
+          "ns2.th.seeweb.it."
         ]
+      },
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.isolachenoncearte.it"
       },
       "ssl_check": {
         "domain": "www.isolachenoncearte.it",
@@ -640,6 +810,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "https://www.venezianabunkeraggi.com"
+      },
       "ssl_check": {
         "domain": "www.venezianabunkeraggi.com",
         "expired": "2021-03-15 23:34:45",
@@ -655,6 +829,10 @@
         "status": "OK"
       },
       "dns_lookup": {},
+      "page_checker": {
+        "status": 200,
+        "url": "http://www.venezianogas.net"
+      },
       "ssl_check": {
         "domain": "www.venezianogas.net",
         "expired": "****-**-** **:**:**",
