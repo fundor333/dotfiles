@@ -8,19 +8,19 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 ALT1.ASPMX.L.GOOGLE.COM.",
-          "10 ASPMX2.GOOGLEMAIL.COM.",
-          "5 ALT2.ASPMX.L.GOOGLE.COM.",
-          "1 ASPMX.L.GOOGLE.COM.",
-          "10 ASPMX3.GOOGLEMAIL.COM."
+          "10 aspmx2.googlemail.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "10 aspmx3.googlemail.com.",
+          "1 aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com."
         ],
         "NS": [
-          "drew.ns.cloudflare.com.",
-          "venus.ns.cloudflare.com."
+          "dns2.ns3.it.",
+          "dns.ns3.it."
         ],
         "TXT": [
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
           "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
           "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\""
         ]
       },
@@ -49,8 +49,8 @@
       },
       "ssl_check": {
         "domain": "aman.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "aman.veneziaturismo.net"
@@ -87,8 +87,8 @@
       },
       "ssl_check": {
         "domain": "b2b.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "b2b.veneziaturismo.net"
@@ -106,8 +106,8 @@
       },
       "ssl_check": {
         "domain": "bauer.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "bauer.veneziaturismo.net"
@@ -125,8 +125,8 @@
       },
       "ssl_check": {
         "domain": "casagredo.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "casagredo.veneziaturismo.net"
@@ -144,8 +144,8 @@
       },
       "ssl_check": {
         "domain": "deidogi.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "deidogi.veneziaturismo.net"
@@ -158,10 +158,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d4.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d2.googledomains.com."
+          "ns-cloud-d4.googledomains.com."
         ]
       },
       "page_checker": {
@@ -184,21 +184,21 @@
       },
       "dns_lookup": {
         "MX": [
-          "1 aspmx.l.google.com.",
-          "10 alt3.aspmx.l.google.com.",
-          "5 alt1.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com."
+          "10 alt4.aspmx.l.google.com.",
+          "10 alt3.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com."
         ],
         "NS": [
+          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d4.googledomains.com."
         ],
         "TXT": [
-          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\"",
-          "\"v=spf1 include:_spf.google.com ~all\""
+          "\"v=spf1 include:_spf.google.com ~all\"",
+          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\""
         ]
       },
       "page_checker": {
@@ -222,9 +222,9 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-a1.googledomains.com.",
-          "ns-cloud-a4.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
-          "ns-cloud-a3.googledomains.com."
+          "ns-cloud-a3.googledomains.com.",
+          "ns-cloud-a4.googledomains.com."
         ]
       },
       "page_checker": {
@@ -247,10 +247,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d2.googledomains.com."
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d2.googledomains.com.",
+          "ns-cloud-d4.googledomains.com."
         ]
       },
       "page_checker": {
@@ -259,7 +259,7 @@
       },
       "ssl_check": {
         "domain": "fundor333.ninja",
-        "expired": "2021-02-01 14:28:00",
+        "expired": "2021-03-30 19:35:21",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -316,8 +316,8 @@
       },
       "ssl_check": {
         "domain": "hilton.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "hilton.veneziaturismo.net"
@@ -368,7 +368,7 @@
       },
       "dns_lookup": {},
       "page_checker": {
-        "status": 408,
+        "status": 400,
         "url": "https://intranet.bucintoroviaggi.com"
       },
       "ssl_check": {
@@ -514,8 +514,8 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-c4.googledomains.com.",
-          "ns-cloud-c2.googledomains.com.",
           "ns-cloud-c1.googledomains.com.",
+          "ns-cloud-c2.googledomains.com.",
           "ns-cloud-c3.googledomains.com."
         ]
       },
@@ -544,8 +544,8 @@
       },
       "ssl_check": {
         "domain": "marive.alilaguna.it",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "marive.alilaguna.it"
@@ -563,8 +563,8 @@
       },
       "ssl_check": {
         "domain": "marriott.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "marriott.veneziaturismo.net"
@@ -639,8 +639,8 @@
       },
       "ssl_check": {
         "domain": "stregis.veneziaturismo.net",
-        "expired": "2021-01-31 10:40:44",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-01 18:21:15",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "stregis.veneziaturismo.net"
@@ -653,11 +653,11 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 ALT2.ASPMX.L.GOOGLE.com.",
-          "10 ALT4.ASPMX.L.GOOGLE.com.",
-          "5 ALT1.ASPMX.L.GOOGLE.com.",
-          "1 ASPMX.L.GOOGLE.com.",
-          "10 ALT3.ASPMX.L.GOOGLE.com."
+          "10 alt4.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "10 alt3.aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com."
         ],
         "NS": [
           "dns2.ns3.it.",
@@ -731,7 +731,7 @@
       },
       "ssl_check": {
         "domain": "www.fundor333.dev",
-        "expired": "2021-02-02 12:12:06",
+        "expired": "2021-04-03 09:44:46",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -750,7 +750,7 @@
       },
       "ssl_check": {
         "domain": "www.fundor333.ninja",
-        "expired": "2021-02-01 15:16:00",
+        "expired": "2021-03-30 21:19:42",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -783,12 +783,12 @@
       },
       "dns_lookup": {
         "MX": [
-          "20 smtp-avas-th.seeweb.it.",
-          "10 m-13b.th.seeweb.it."
+          "10 m-13b.th.seeweb.it.",
+          "20 smtp-avas-th.seeweb.it."
         ],
         "NS": [
-          "ns1.th.seeweb.it.",
-          "ns2.th.seeweb.it."
+          "ns2.th.seeweb.it.",
+          "ns1.th.seeweb.it."
         ]
       },
       "page_checker": {
