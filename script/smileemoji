@@ -14,5 +14,7 @@ foo = [
     "(͠≖ ͜ʖ͠≖)",
     "( ಠ ͜ʖರೃ)",
     "ლ(´ڡ`ლ)",
+    "(• ε •)",
+    "◉_◉",
 ]
 print(random.choice(foo).capitalize() + " ")

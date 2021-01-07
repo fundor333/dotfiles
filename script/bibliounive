@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 
 import json
-import urllib.error
-import urllib.request
+import requests
 from tabulate import tabulate
 
-url = "http://static.unive.it/sitows/index/personebiblioteche"
+url = " http://apps.unive.it/sitows/index/personebiblioteche"
 
-response = urllib.request.urlopen(url)
-data = json.loads(response.read())
+response = requests.get(url)
+data = response.json()
 end_message = []
 for key in list(data.keys()):
     end_message.append((key, f"{data[key]['persone']}/{data[key]['max']}"))
