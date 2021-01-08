@@ -1,82 +1,59 @@
-[user]
-	name = Fundor333
-	email = fundor333@fundor333.com
-	signingkey = C0BCDB82
-[core]
-	editor = nano
-	autocrlf = input
-	excludesfile = ~/.gitignore_global
-
-	# Treat spaces before tabs and all kinds of trailing whitespace as an error.
-	# [default] trailing-space: looks for spaces at the end of a line
-	# [default] space-before-tab: looks for spaces before tabs at the beginning of a line
-	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
-
-	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
-	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
-	precomposeunicode = false
-
-	# Speed up commands involving untracked files such as `git status`.
-	# https://git-scm.com/docs/git-update-index#_untracked_cache
-	untrackedCache = true
-
-[push]
-	default = simple
 [alias]
-	s = show
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	type = cat-file -t
-	dump = cat-file -p
-[github]
-	user = fundor333
-[gitflow "prefix"]
-	feature = feature-
-	release = release-
-	hotfix = hotfix-
-	support = support-
-	versiontag = v
-[commit]
-	gpgsign = true
-	template = ~/.gitmessage
-
-[tag]
-	forceSignAnnotated = true
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[pull]
-	rebase = false
+        br = branch
+        ci = commit
+        co = checkout
+        dump = cat-file -p
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        s = show
+        st = status
+        type = cat-file -t
 [color]
-	ui = auto
-[init]
-	defaultBranch = main
+        ui = auto
+[commit]
+        gpgsign = true
+        template = ~/.gitmessage
+[core]
+        autocrlf = input
+        editor = nano
+        excludesfile = ~/.gitignore_global
+        precomposeunicode = false
+        untrackedCache = true
+        whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        process = git-lfs filter-process
+        required = true
+        smudge = git-lfs smudge -- %f
+[gitflow "prefix"]
+        feature = feature-
+        hotfix = hotfix-
+        release = release-
+        support = support-
+        versiontag = v
+[github]
+        user = fundor333
 [help]
-        autocorrect = 1
-
-# URL shorthands
-
-[url "git@github.com:"]
-
-	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-
-[url "git://github.com/"]
-
-	insteadOf = "github:"
-
-[url "git@gist.github.com:"]
-
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-
+[init]
+        defaultBranch = main
+[pull]
+        rebase = false
+[push]
+        default = simple
+[tag]
+        forceSignAnnotated = true
 [url "git://gist.github.com/"]
-
-	insteadOf = "gist:"
+        insteadOf = "gist:"
+[url "git://github.com/"]
+        insteadOf = "github:"
+[url "git@gist.github.com:"]
+        insteadOf = "gst:"
+        pushInsteadOf = "gist:"
+        pushInsteadOf = "git://gist.github.com/"
+[url "git@github.com:"]
+        insteadOf = "gh:"
+        pushInsteadOf = "git://github.com/"
+        pushInsteadOf = "github:"
+[user]
+        email = fundor333@fundor333.com
+        name = Fundor333
+        signingkey = C0BCDB82
