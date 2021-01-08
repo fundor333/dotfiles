@@ -7,6 +7,8 @@ repos:
                   - id: check-xml
                   - id: check-yaml
                   - id: check-toml
+                  - id: pretty-format-json
+                    args: ["--autofix"]
                   - id: end-of-file-fixer
                   - id: requirements-txt-fixer
                   - id: trailing-whitespace

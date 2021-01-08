@@ -1,0 +1,8 @@
+git config user.name "Matteo Scarpa"
+git config user.email github@fundor333.com
+git log
+git rebase -i HEAD~20
+git log
+git rebase --continue
+git log
+git rebase --continue && git commit --amend --reset-author --no-edit --no-verify && git --no-pager log -n 3
