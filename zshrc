@@ -41,7 +41,7 @@ VAR=$(smileemoji)
 SPACESHIP_CHAR_SYMBOL=$VAR
 
 # Plugins stuff
-plugins=( zsh-autosuggestions zsh-syntax-highlighting bofh django)
+plugins=( zsh-autosuggestions zsh-syntax-highlighting bofh django smile git docker git-flow pipenv python ssh-agent)
 
 autoload -Uz compinit && compinit
 
