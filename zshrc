@@ -37,19 +37,18 @@ SPACESHIP_PROMPT_ORDER=(
   char          # Prompt character
 )
 
-source $ZSH/oh-my-zsh.sh
-
-
 VAR=$(smileemoji)
 SPACESHIP_CHAR_SYMBOL=$VAR
 
 # Plugins stuff
-plugins=( zsh-autosuggestions zsh-syntax-highlighting )
+plugins=( zsh-autosuggestions zsh-syntax-highlighting bofh django)
 
 autoload -Uz compinit && compinit
 
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
+
+source $ZSH/oh-my-zsh.sh
 
 # golang
 # export $HOME/.gostuff
