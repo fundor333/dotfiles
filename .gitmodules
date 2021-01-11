@@ -23,3 +23,6 @@
 [submodule "bofh"]
 	path = .bofh
 	url = https://github.com/fundor333/bofh.git
+[submodule ".smile"]
+	path = .smile
+	url = https://github.com/fundor333/smile.git

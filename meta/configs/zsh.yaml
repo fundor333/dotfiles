@@ -11,3 +11,4 @@
           ~/.oh-my-zsh-custom/plugins/zsh-autosuggestions: .zsh-autosuggestions
           ~/.oh-my-zsh-custom/plugins/zsh-syntax-highlighting: .zsh-syntax-highlighting
           ~/.oh-my-zsh-custom/plugins/bofh: .bofh
+          ~/.oh-my-zsh-custom/plugins/smile: .smile
