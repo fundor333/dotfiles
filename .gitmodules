@@ -20,3 +20,6 @@
 [submodule "crontab-dotbot"]
 	path = crontab-dotbot
 	url = https://github.com/fundor333/crontab-dotbot.git
+[submodule "bofh"]
+	path = bofh
+	url = https://github.com/fundor333/bofh.git
