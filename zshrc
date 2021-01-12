@@ -37,7 +37,7 @@ SPACESHIP_PROMPT_ORDER=(
   char          # Prompt character
 )
 
-VAR=$(smileemoji)
+VAR=$(smile)
 SPACESHIP_CHAR_SYMBOL=$VAR
 
 # Plugins stuff
