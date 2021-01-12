@@ -1,0 +1,3 @@
+- crontab:
+          - cron: 0 * * * *
+            command: servergrimoire run
