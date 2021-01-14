@@ -1,5 +1,5 @@
-bat
-cron_unix
+bash
+fish
 git
 ipython
 programming

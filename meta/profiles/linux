@@ -1,7 +1,7 @@
-bat
-cron_unix
+bash
 darktable
 emacs
+fish
 git
 ipython
 neofetch
