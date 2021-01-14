@@ -3,6 +3,7 @@
           ~/.gitignore_global:
           ~/.git-hooks:
           ~/.gitmessage:
+          ~/.config/gh/config.yml: config/gh/config.yml
 
 - shell:
           - [chmod +x ~/.git-hooks/*]

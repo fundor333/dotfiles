@@ -6,6 +6,7 @@
 - link:
           ~/.zprofile:
           ~/.zshrc:
+          ~/.zsh_aliases: alias
           ~/.oh-my-zsh: .oh-my-zsh
           ~/.oh-my-zsh-custom/themes/spaceship.zsh-theme: .spaceship/spaceship.zsh-theme
           ~/.oh-my-zsh-custom/plugins/zsh-autosuggestions: .zsh-autosuggestions
