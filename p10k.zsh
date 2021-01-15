@@ -32,10 +32,18 @@
   # The list of segments shown on the left. Fill it with the most important segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
     # =========================[ Line #1 ]=========================
+    battery
+    vpn_ip
+    wifi
+    load
+    ram
+    public_ip
+    # =========================[ Line #2 ]=========================
+    newline                 # \n
     os_icon                 # os identifier
     dir                     # current directory
     vcs                     # git status
-    # =========================[ Line #2 ]=========================
+    # =========================[ Line #3 ]=========================
     newline                 # \n
     # prompt_char           # prompt symbol
   )
