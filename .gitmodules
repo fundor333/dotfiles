@@ -1,28 +1,28 @@
 [submodule "dotbot"]
-	path = meta/.dotbot
-	url = https://github.com/anishathalye/dotbot
-	ignore = dirty
+path = meta/.dotbot
+url = https://github.com/anishathalye/dotbot
+ignore = dirty
 [submodule "emacs.d"]
-	path = .emacs.d
-	url = https://github.com/fundor333/emacs.d.git
+path = .emacs.d
+url = https://github.com/fundor333/emacs.d.git
 [submodule "spaceship"]
-	path = .spaceship
-	url = https://github.com/denysdovhan/spaceship-prompt.git
+path = .spaceship
+url = https://github.com/denysdovhan/spaceship-prompt.git
 [submodule "oh-my-zsh"]
-	path = .oh-my-zsh
-	url = https://github.com/ohmyzsh/ohmyzsh.git
+path = .oh-my-zsh
+url = https://github.com/ohmyzsh/ohmyzsh.git
 [submodule ".zsh-syntax-highlighting"]
-	path = .zsh-syntax-highlighting
-	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+path = .zsh-syntax-highlighting
+url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule ".zsh-autosuggestions"]
-	path = .zsh-autosuggestions
-	url = https://github.com/zsh-users/zsh-autosuggestions.git
+path = .zsh-autosuggestions
+url = https://github.com/zsh-users/zsh-autosuggestions.git
 [submodule "crontab-dotbot"]
-	path = crontab-dotbot
-	url = https://github.com/fundor333/crontab-dotbot.git
+path = crontab-dotbot
+url = https://github.com/fundor333/crontab-dotbot.git
 [submodule "bofh"]
-	path = .bofh
-	url = https://github.com/fundor333/bofh.git
+path = .bofh
+url = https://github.com/fundor333/bofh.git
 [submodule ".smile"]
-	path = .smile
-	url = https://github.com/fundor333/smile.git
+path = .smile
+url = https://github.com/fundor333/smile.git
