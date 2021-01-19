@@ -54,6 +54,6 @@
         pushInsteadOf = "git://github.com/"
         pushInsteadOf = "github:"
 [user]
-        email = fundor333@fundor333.com
-        name = Fundor333
+	email = fundor333@fundor333.com
+	name = Fundor333
         signingkey = C0BCDB82
