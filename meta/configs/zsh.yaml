@@ -9,7 +9,6 @@
           ~/.p10k.zsh:
           ~/.zsh_aliases: alias
           ~/.oh-my-zsh: .oh-my-zsh
-          ~/.oh-my-zsh-custom/themes/spaceship.zsh-theme: .spaceship/spaceship.zsh-theme
           ~/.oh-my-zsh-custom/themes/powerlevel10k.zsh-theme: .powerlevel10k/powerlevel10k.zsh-theme
           ~/.oh-my-zsh-custom/plugins/zsh-autosuggestions: .zsh-autosuggestions
           ~/.oh-my-zsh-custom/plugins/zsh-syntax-highlighting: .zsh-syntax-highlighting
