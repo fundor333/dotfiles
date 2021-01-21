@@ -7,3 +7,5 @@ export ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 export EDITOR="code"
 export BROWSER="firefox"
 export SCRIPT_FOLDER="$HOME/.scripts/"
+
+export LANG="it_IT.utf8"
