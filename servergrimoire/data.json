@@ -8,11 +8,11 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 ASPMX2.GOOGLEMAIL.COM.",
-          "10 ASPMX3.GOOGLEMAIL.COM.",
-          "5 ALT2.ASPMX.L.GOOGLE.COM.",
           "5 ALT1.ASPMX.L.GOOGLE.COM.",
-          "1 ASPMX.L.GOOGLE.COM."
+          "10 ASPMX3.GOOGLEMAIL.COM.",
+          "1 ASPMX.L.GOOGLE.COM.",
+          "10 ASPMX2.GOOGLEMAIL.COM.",
+          "5 ALT2.ASPMX.L.GOOGLE.COM."
         ],
         "NS": [
           "drew.ns.cloudflare.com.",
@@ -158,10 +158,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d3.googledomains.com."
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d2.googledomains.com.",
+          "ns-cloud-d1.googledomains.com."
         ]
       },
       "page_checker": {
@@ -184,16 +184,16 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 alt1.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
           "10 alt3.aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com.",
-          "1 aspmx.l.google.com."
+          "5 alt1.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com."
         ],
         "NS": [
-          "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d4.googledomains.com.",
+          "ns-cloud-d2.googledomains.com.",
+          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d3.googledomains.com."
         ],
         "TXT": [
@@ -221,10 +221,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-a3.googledomains.com.",
           "ns-cloud-a1.googledomains.com.",
+          "ns-cloud-a4.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
-          "ns-cloud-a4.googledomains.com."
+          "ns-cloud-a3.googledomains.com."
         ]
       },
       "page_checker": {
@@ -248,9 +248,9 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d1.googledomains.com."
+          "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d3.googledomains.com."
         ]
       },
       "page_checker": {
@@ -366,8 +366,8 @@
       },
       "ssl_check": {
         "domain": "isolachenoncearte.it",
-        "expired": "2021-02-24 06:52:09",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-25 09:05:23",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "isolachenoncearte.it"
@@ -442,8 +442,8 @@
       },
       "ssl_check": {
         "domain": "marcopolopark.bucintoroviaggi.com",
-        "expired": "2021-02-26 09:05:06",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-27 19:41:12",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "marcopolopark.bucintoroviaggi.com"
@@ -456,10 +456,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-c4.googledomains.com.",
-          "ns-cloud-c1.googledomains.com.",
           "ns-cloud-c3.googledomains.com.",
-          "ns-cloud-c2.googledomains.com."
+          "ns-cloud-c1.googledomains.com.",
+          "ns-cloud-c2.googledomains.com.",
+          "ns-cloud-c4.googledomains.com."
         ]
       },
       "page_checker": {
@@ -525,8 +525,8 @@
       },
       "ssl_check": {
         "domain": "ninshubur.alilaguna.it",
-        "expired": "2021-02-24 20:17:07",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-25 23:25:13",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "ninshubur.alilaguna.it"
@@ -577,10 +577,10 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 ALT3.ASPMX.L.GOOGLE.com.",
-          "1 ASPMX.L.GOOGLE.com.",
           "5 ALT2.ASPMX.L.GOOGLE.com.",
+          "10 ALT3.ASPMX.L.GOOGLE.com.",
           "10 ALT4.ASPMX.L.GOOGLE.com.",
+          "1 ASPMX.L.GOOGLE.com.",
           "5 ALT1.ASPMX.L.GOOGLE.com."
         ],
         "NS": [
@@ -711,8 +711,8 @@
           "20 smtp-avas-th.seeweb.it."
         ],
         "NS": [
-          "ns2.th.seeweb.it.",
-          "ns1.th.seeweb.it."
+          "ns1.th.seeweb.it.",
+          "ns2.th.seeweb.it."
         ]
       },
       "page_checker": {
@@ -721,8 +721,8 @@
       },
       "ssl_check": {
         "domain": "www.isolachenoncearte.it",
-        "expired": "2021-02-24 06:52:09",
-        "organization_name": "Let's Encrypt Authority X3",
+        "expired": "2021-04-25 09:05:23",
+        "organization_name": "R3",
         "status": "OK"
       },
       "url": "www.isolachenoncearte.it"

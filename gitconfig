@@ -1,59 +1,59 @@
 [alias]
-        br = branch
-        ci = commit
-        co = checkout
-        dump = cat-file -p
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-        s = show
-        st = status
-        type = cat-file -t
+br = branch
+ci = commit
+co = checkout
+dump = cat-file -p
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+s = show
+st = status
+type = cat-file -t
 [color]
-        ui = auto
+ui = auto
 [commit]
-        gpgsign = true
-        template = ~/.gitmessage
+gpgsign = true
+template = ~/.gitmessage
 [core]
-        autocrlf = input
-        editor = nano
-        excludesfile = ~/.gitignore_global
-        precomposeunicode = false
-        untrackedCache = true
-        whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+autocrlf = input
+editor = nano
+excludesfile = ~/.gitignore_global
+precomposeunicode = false
+untrackedCache = true
+whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 [filter "lfs"]
-        clean = git-lfs clean -- %f
-        process = git-lfs filter-process
-        required = true
-        smudge = git-lfs smudge -- %f
+clean = git-lfs clean -- %f
+process = git-lfs filter-process
+required = true
+smudge = git-lfs smudge -- %f
 [gitflow "prefix"]
-        feature = feature-
-        hotfix = hotfix-
-        release = release-
-        support = support-
-        versiontag = v
+feature = feature-
+hotfix = hotfix-
+release = release-
+support = support-
+versiontag = v
 [github]
-        user = fundor333
+user = fundor333
 [help]
 [init]
-        defaultBranch = main
+defaultBranch = stable
 [pull]
-        rebase = false
+rebase = false
 [push]
-        default = simple
+default = simple
 [tag]
-        forceSignAnnotated = true
+forceSignAnnotated = true
 [url "git://gist.github.com/"]
-        insteadOf = "gist:"
+insteadOf = "gist:"
 [url "git://github.com/"]
-        insteadOf = "github:"
+insteadOf = "github:"
 [url "git@gist.github.com:"]
-        insteadOf = "gst:"
-        pushInsteadOf = "gist:"
-        pushInsteadOf = "git://gist.github.com/"
+insteadOf = "gst:"
+pushInsteadOf = "gist:"
+pushInsteadOf = "git://gist.github.com/"
 [url "git@github.com:"]
-        insteadOf = "gh:"
-        pushInsteadOf = "git://github.com/"
-        pushInsteadOf = "github:"
+insteadOf = "gh:"
+pushInsteadOf = "git://github.com/"
+pushInsteadOf = "github:"
 [user]
-	email = fundor333@fundor333.com
-	name = Fundor333
-        signingkey = C0BCDB82
+email = fundor333@fundor333.com
+name = Fundor333
+signingkey = C0BCDB82
