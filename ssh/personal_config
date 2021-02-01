@@ -1,0 +1,16 @@
+IdentityFile ~/.ssh/keys/fundor333_mol
+
+
+#SCE_SEPARATOR:Hosting
+
+Host gitlab.com
+	User git
+	HostName gitlab.com
+	IdentityFile ~/.ssh/fundor333_rsa
+	AddKeysToAgent yes
+
+Host github.com
+	User git
+	HostName github.com
+	IdentityFile ~/.ssh/fundor333_rsa
+	AddKeysToAgent yes

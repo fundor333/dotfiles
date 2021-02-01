@@ -1,4 +1,4 @@
-choco install adobereader
+choco install openssh
 choco install googlechrome
 choco install vlc
 choco install git

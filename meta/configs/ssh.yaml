@@ -1,2 +1,5 @@
 - link:
-          ~/.ssh/config: ssh/config
+    ~/.ssh/config: ssh/config
+    ~/.ssh/config-dir/job_config: ssh/job_config
+    ~/.ssh/config-dir/personal_config: ssh/personal_config
+    ~/.ssh/config-dir/hosting_config: ssh/hosting_config

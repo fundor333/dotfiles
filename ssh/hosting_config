@@ -1,0 +1,15 @@
+IdentityFile ~/.ssh/keys/fundor333_mol
+
+#SCE_SEPARATOR:Personali
+
+Host isolachenoncearte.it
+	User root
+	HostName 165.22.82.136
+	IdentityFile ~/.ssh/keys/fundor333_mol
+	PreferredAuthentications publickey
+
+Host appletune
+	User root
+	HostName 64.227.119.108
+	IdentityFile ~/.ssh/keys/fundor333_mol
+	PreferredAuthentications publickey
