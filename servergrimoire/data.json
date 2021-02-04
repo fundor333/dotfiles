@@ -8,20 +8,20 @@
       },
       "dns_lookup": {
         "MX": [
-          "10 ASPMX2.GOOGLEMAIL.COM.",
-          "1 ASPMX.L.GOOGLE.COM.",
-          "5 ALT1.ASPMX.L.GOOGLE.COM.",
-          "5 ALT2.ASPMX.L.GOOGLE.COM.",
-          "10 ASPMX3.GOOGLEMAIL.COM."
+          "1 aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "10 aspmx2.googlemail.com.",
+          "5 alt1.aspmx.l.google.com.",
+          "10 aspmx3.googlemail.com."
         ],
         "NS": [
-          "drew.ns.cloudflare.com.",
-          "venus.ns.cloudflare.com."
+          "dns2.ns3.it.",
+          "dns.ns3.it."
         ],
         "TXT": [
+          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
           "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
-          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\""
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\""
         ]
       },
       "page_checker": {
@@ -158,10 +158,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d4.googledomains.com."
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d4.googledomains.com.",
+          "ns-cloud-d1.googledomains.com."
         ]
       },
       "page_checker": {
@@ -184,21 +184,21 @@
       },
       "dns_lookup": {
         "MX": [
-          "5 alt2.aspmx.l.google.com.",
           "5 alt1.aspmx.l.google.com.",
-          "10 alt3.aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
           "1 aspmx.l.google.com.",
-          "10 alt4.aspmx.l.google.com."
+          "10 alt3.aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com."
         ],
         "NS": [
-          "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d3.googledomains.com."
+          "ns-cloud-d2.googledomains.com.",
+          "ns-cloud-d3.googledomains.com.",
+          "ns-cloud-d4.googledomains.com."
         ],
         "TXT": [
-          "\"v=spf1 include:_spf.google.com ~all\"",
-          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\""
+          "\"google-site-verification=F27Kcc0M0TEdD1M-ZR-EjvbG0ftptnE1Ww3ycfvXBxk\"",
+          "\"v=spf1 include:_spf.google.com ~all\""
         ]
       },
       "page_checker": {
@@ -221,9 +221,9 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-a3.googledomains.com.",
           "ns-cloud-a1.googledomains.com.",
           "ns-cloud-a2.googledomains.com.",
+          "ns-cloud-a3.googledomains.com.",
           "ns-cloud-a4.googledomains.com."
         ]
       },
@@ -248,9 +248,9 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-d4.googledomains.com.",
+          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d1.googledomains.com.",
-          "ns-cloud-d3.googledomains.com."
+          "ns-cloud-d1.googledomains.com."
         ]
       },
       "page_checker": {
@@ -322,6 +322,25 @@
       },
       "url": "hilton.veneziaturismo.net"
     },
+    "http://bookingbasilicasanmarco.it": {
+      "dns_checker": {
+        "creation": "2021-09-15 00:00:00",
+        "expiration": "2021-09-15 00:00:00",
+        "status": "OK"
+      },
+      "dns_lookup": {},
+      "page_checker": {
+        "status": 400,
+        "url": "https://http://bookingbasilicasanmarco.it"
+      },
+      "ssl_check": {
+        "domain": "http://bookingbasilicasanmarco.it",
+        "expired": "****-**-** **:**:**",
+        "organization_name": "***",
+        "status": "KO"
+      },
+      "url": "http://bookingbasilicasanmarco.it"
+    },
     "intranet.alilaguna.it": {
       "dns_checker": {
         "creation": "2021-11-17 00:00:00",
@@ -352,8 +371,8 @@
           "5.144.164.173"
         ],
         "MX": [
-          "20 smtp-avas-th.seeweb.it.",
-          "10 m-13b.th.seeweb.it."
+          "10 m-13b.th.seeweb.it.",
+          "20 smtp-avas-th.seeweb.it."
         ],
         "NS": [
           "ns1.th.seeweb.it.",
@@ -457,9 +476,9 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-c1.googledomains.com.",
-          "ns-cloud-c3.googledomains.com.",
+          "ns-cloud-c2.googledomains.com.",
           "ns-cloud-c4.googledomains.com.",
-          "ns-cloud-c2.googledomains.com."
+          "ns-cloud-c3.googledomains.com."
         ]
       },
       "page_checker": {
@@ -577,11 +596,11 @@
       },
       "dns_lookup": {
         "MX": [
-          "1 ASPMX.L.GOOGLE.com.",
-          "10 ALT3.ASPMX.L.GOOGLE.com.",
-          "5 ALT1.ASPMX.L.GOOGLE.com.",
-          "10 ALT4.ASPMX.L.GOOGLE.com.",
-          "5 ALT2.ASPMX.L.GOOGLE.com."
+          "10 alt3.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
+          "10 alt4.aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com."
         ],
         "NS": [
           "dns2.ns3.it.",
@@ -711,8 +730,8 @@
           "10 m-13b.th.seeweb.it."
         ],
         "NS": [
-          "ns1.th.seeweb.it.",
-          "ns2.th.seeweb.it."
+          "ns2.th.seeweb.it.",
+          "ns1.th.seeweb.it."
         ]
       },
       "page_checker": {
