@@ -1,4 +1,5 @@
 choco install openssh
+choco install makefile
 choco install googlechrome
 choco install vlc
 choco install git

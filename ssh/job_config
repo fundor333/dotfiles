@@ -67,6 +67,12 @@ Host inquisition
 	Port 8891
 	PreferredAuthentications password
 
+Host psegno
+	User alilaguna
+	HostName 193.206.140.14
+	Port 8890
+	PreferredAuthentications password
+
 
 # Sistema Caronte
 Host bauer.veneziaturismo.net marriott.veneziaturismo.net stregis.veneziaturismo.net marive.alilaguna.it aman.veneziaturismo.net casagredo.veneziaturismo.net deidogi.veneziaturismo.net hilton.veneziaturismo.net b2b.veneziaturismo.net caronte
