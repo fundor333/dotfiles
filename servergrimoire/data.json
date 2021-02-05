@@ -8,10 +8,10 @@
       },
       "dns_lookup": {
         "MX": [
-          "1 aspmx.l.google.com.",
+          "5 alt1.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
           "10 aspmx2.googlemail.com.",
-          "5 alt1.aspmx.l.google.com.",
+          "1 aspmx.l.google.com.",
           "10 aspmx3.googlemail.com."
         ],
         "NS": [
@@ -19,9 +19,9 @@
           "dns.ns3.it."
         ],
         "TXT": [
-          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\"",
           "\"google-site-verification=ivZwo6N8M_4EoW0JSXtRephLXw_l-Vrgv7dIg1Pm5Ww\"",
-          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\""
+          "\"google-site-verification=P_8fDONgdTEMj1QUJDYg-rz-9vupmftjlSx6rEXsI-s\"",
+          "\"v=spf1 ip4:195.120.15.18 include:_spf.google.com ~all\""
         ]
       },
       "page_checker": {
@@ -158,10 +158,10 @@
       },
       "dns_lookup": {
         "NS": [
+          "ns-cloud-d1.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
           "ns-cloud-d3.googledomains.com.",
-          "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d1.googledomains.com."
+          "ns-cloud-d4.googledomains.com."
         ]
       },
       "page_checker": {
@@ -184,11 +184,11 @@
       },
       "dns_lookup": {
         "MX": [
+          "1 aspmx.l.google.com.",
+          "5 alt2.aspmx.l.google.com.",
           "5 alt1.aspmx.l.google.com.",
           "10 alt4.aspmx.l.google.com.",
-          "1 aspmx.l.google.com.",
-          "10 alt3.aspmx.l.google.com.",
-          "5 alt2.aspmx.l.google.com."
+          "10 alt3.aspmx.l.google.com."
         ],
         "NS": [
           "ns-cloud-d1.googledomains.com.",
@@ -248,9 +248,9 @@
       "dns_lookup": {
         "NS": [
           "ns-cloud-d4.googledomains.com.",
-          "ns-cloud-d3.googledomains.com.",
           "ns-cloud-d2.googledomains.com.",
-          "ns-cloud-d1.googledomains.com."
+          "ns-cloud-d1.googledomains.com.",
+          "ns-cloud-d3.googledomains.com."
         ]
       },
       "page_checker": {
@@ -371,8 +371,8 @@
           "5.144.164.173"
         ],
         "MX": [
-          "10 m-13b.th.seeweb.it.",
-          "20 smtp-avas-th.seeweb.it."
+          "20 smtp-avas-th.seeweb.it.",
+          "10 m-13b.th.seeweb.it."
         ],
         "NS": [
           "ns1.th.seeweb.it.",
@@ -475,10 +475,10 @@
       },
       "dns_lookup": {
         "NS": [
-          "ns-cloud-c1.googledomains.com.",
           "ns-cloud-c2.googledomains.com.",
-          "ns-cloud-c4.googledomains.com.",
-          "ns-cloud-c3.googledomains.com."
+          "ns-cloud-c1.googledomains.com.",
+          "ns-cloud-c3.googledomains.com.",
+          "ns-cloud-c4.googledomains.com."
         ]
       },
       "page_checker": {
@@ -597,14 +597,14 @@
       "dns_lookup": {
         "MX": [
           "10 alt3.aspmx.l.google.com.",
-          "1 aspmx.l.google.com.",
           "10 alt4.aspmx.l.google.com.",
           "5 alt2.aspmx.l.google.com.",
-          "5 alt1.aspmx.l.google.com."
+          "5 alt1.aspmx.l.google.com.",
+          "1 aspmx.l.google.com."
         ],
         "NS": [
-          "dns2.ns3.it.",
-          "dns.ns3.it."
+          "dns.ns3.it.",
+          "dns2.ns3.it."
         ],
         "TXT": [
           "\"google-site-verification=k6LQJ1lkxff7GQI_57-8jVazX3_94KgYmOsL_kzjBB4\"",
@@ -726,8 +726,8 @@
       },
       "dns_lookup": {
         "MX": [
-          "20 smtp-avas-th.seeweb.it.",
-          "10 m-13b.th.seeweb.it."
+          "10 m-13b.th.seeweb.it.",
+          "20 smtp-avas-th.seeweb.it."
         ],
         "NS": [
           "ns2.th.seeweb.it.",
