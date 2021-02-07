@@ -14,3 +14,9 @@ Host github.com
 	HostName github.com
 	IdentityFile ~/.ssh/fundor333_rsa
 	AddKeysToAgent yes
+
+Host bitbucket.org
+	User git
+	HostName bitbucket.org
+	IdentityFile ~/.ssh/fundor333_rsa
+	AddKeysToAgent yes
