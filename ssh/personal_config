@@ -20,3 +20,9 @@ Host bitbucket.org
 	HostName bitbucket.org
 	IdentityFile ~/.ssh/fundor333_rsa
 	AddKeysToAgent yes
+
+Host repository.elan42.com
+	User git
+	HostName repository.elan42.com
+	IdentityFile ~/.ssh/elan42
+	AddKeysToAgent yes
