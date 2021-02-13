@@ -1,3 +1,4 @@
-Include ~/.ssh/config-dir/job_config
+Include ~/.ssh/config-dir/alilaguna_config
+Include ~/.ssh/config-dir/elan42_config
 Include ~/.ssh/config-dir/personal_config
 Include ~/.ssh/config-dir/hosting_config
