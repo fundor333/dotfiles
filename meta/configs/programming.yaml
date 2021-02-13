@@ -1,14 +1,14 @@
 - create:
-          ~/Coding:
-          ~/.gostuff:
-          ~/.ipython:
-          ~/.jupyter:
-          ~/.gem:
-          ~/.ploty:
-          ~/.poetry:
-          ~/.rustup:
+    ~/Coding:
+    ~/.gostuff:
+    ~/.ipython:
+    ~/.jupyter:
+    ~/.gem:
+    ~/.ploty:
+    ~/.poetry:
+    ~/.rustup:
 
 - link:
-          ~/.editorconfig:
-          ~/.flake8:
-          ~/.hushlogin:
+    ~/.editorconfig: .editorconfig
+    ~/.flake8:
+    ~/.hushlogin:

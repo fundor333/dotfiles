@@ -1,26 +1,21 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
 root = true
 
+# Unix-style newlines with a newline ending every file
 [*]
 end_of_line = lf
-tab_width   = 8
+tab_width = 8
 indent_size = 2
-indent_style = tab
+indent_style = space
 insert_final_newline = true
 charset = utf-8
 
-[*.{yml,yaml}]
-indent_style = space
-indent_size = 2
+[ChangeLog]
+indent_size = 8
 
-[{Makefile, makefile}]
-indent_style = space
-indent_size = 4
-
-[{package.json, .travis.yml}]
-indent_style = space
-indent_size = 2
-
-[{*.py,sslverify,djangocheck,bibliounive,antigravity, nico_script,stipendi,dnschecker,dnslookup}]
+[*.py]
 indent_style = space
 tab_width = 4
 insert_final_newline = true
@@ -28,3 +23,62 @@ trim_trailing_whitespace = true
 end_of_line = lf
 charset = utf-8
 max_line_length = 119
+
+
+[*.html]
+indent_style = tab
+indent_size = 4
+
+[*.css]
+indent_style = tab
+indent_size = 4
+
+[*.js]
+indent_style = tab
+indent_size = 2
+
+[*.rs]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.php]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.go]
+indent_style = tab
+indent_size = 4
+
+[{*.md,*.json}]
+max_line_length = null
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[{Makefile, makefile}]
+indent_style = tab
+indent_size = 4
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
+
+[**.min.js]
+indent_style = ignore
+insert_final_newline = ignore
+
+[*.{tex,cls,lua}]
+indent_style = space
+indent_size = 3
+charset = utf-8
+
+[*.md]
+trim_trailing_whitespace = false
