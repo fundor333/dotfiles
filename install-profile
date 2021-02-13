@@ -17,15 +17,17 @@ BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${BASE_DIR}"
 
 while IFS= read -r config; do
-	CONFIGS+=" ${config}"
-done < "${META_DIR}/${PROFILES_DIR}/$1"
+  CONFIGS+=" ${config}"
+done <"${META_DIR}/${PROFILES_DIR}/$1"
 
 shift
 
 echo ${CONFIGS}
 
 for config in ${CONFIGS} ${@}; do
-	echo -e "\nConfigure $config"
-	configFile="$(mktemp)" ; echo -e "$(<"${BASE_DIR}/${META_DIR}/${BASE_CONFIG}${CONFIG_SUFFIX}")\n$(<"${BASE_DIR}/${META_DIR}/${CONFIG_DIR}/${config}${CONFIG_SUFFIX}")" > "$configFile"
-	"${BASE_DIR}/${META_DIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASE_DIR}" --plugin-dir crontab-dotbot -c "$configFile" ; rm -f "$configFile"
+  echo -e "\nConfigure $config"
+  configFile="$(mktemp)"
+  echo -e "$(<"${BASE_DIR}/${META_DIR}/${BASE_CONFIG}${CONFIG_SUFFIX}")\n$(<"${BASE_DIR}/${META_DIR}/${CONFIG_DIR}/${config}${CONFIG_SUFFIX}")" >"$configFile"
+  "${BASE_DIR}/${META_DIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASE_DIR}" --plugin-dir crontab-dotbot --plugin-dir .dotbot-brew -c "$configFile"
+  rm -f "$configFile"
 done

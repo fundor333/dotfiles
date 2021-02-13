@@ -26,3 +26,6 @@ url = https://github.com/fundor333/smile.git
 [submodule ".powerlevel10k"]
 path = .powerlevel10k
 url = https://github.com/romkatv/powerlevel10k.git
+[submodule ".dotbot-brew"]
+	path = .dotbot-brew
+	url = https://github.com/d12frosted/dotbot-brew.git
