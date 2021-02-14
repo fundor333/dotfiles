@@ -1,6 +1,22 @@
 {
   "server": {
     "http://alilaguna.it": {
+      "dns_checker": {
+        "creation": "2021-11-17 00:00:00",
+        "expiration": "2021-11-17 00:00:00",
+        "status": "OK"
+      },
+      "dns_lookup": {},
+      "page_checker": {
+        "status": 400,
+        "url": "https://http://alilaguna.it"
+      },
+      "ssl_check": {
+        "domain": "http://alilaguna.it",
+        "expired": "2021-05-13 11:34:55",
+        "organization_name": "R3",
+        "status": "OK"
+      },
       "url": "http://alilaguna.it"
     },
     "http://bookingbasilicasanmarco.it": {
