@@ -1,3 +1,6 @@
+- tap:
+    - homebrew/cask-fonts
+
 - brew:
     - bat
     - cowsay
@@ -22,3 +25,8 @@
     - rust
     - sass/sass/sass
     - sassc
+    - xxh
+
+- cask:
+    - kitty
+    - font-hack-nerd-font

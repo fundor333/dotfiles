@@ -1,5 +1,4 @@
 - link:
-          ~/.config/bat: config/bat
-          ~/.bashrc:
-          ~/.profile:
-          ~/.bash_aliases: alias
+    ~/.bashrc:
+    ~/.profile:
+    ~/.bash_aliases: alias
