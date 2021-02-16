@@ -8,6 +8,7 @@ s = show
 st = status
 type = cat-file -t
 tags = describe --tags --abbrev=0
+pushall = push --tags
 [color]
 ui = auto
 [commit]
