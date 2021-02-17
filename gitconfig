@@ -41,6 +41,7 @@ defaultBranch = production
 rebase = false
 [push]
 default = simple
+	followTags = true
 [tag]
 forceSignAnnotated = true
 [url "git://gist.github.com/"]
