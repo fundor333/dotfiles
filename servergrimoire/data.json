@@ -184,7 +184,7 @@
       },
       "ssl_check": {
         "domain": "https://digitaltearoom.com",
-        "expired": "2021-03-18 18:49:56",
+        "expired": "2021-05-17 19:46:30",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -564,7 +564,7 @@
       },
       "ssl_check": {
         "domain": "https://www.digitaltearoom.com",
-        "expired": "2021-03-20 05:30:34",
+        "expired": "2021-05-17 14:16:38",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
