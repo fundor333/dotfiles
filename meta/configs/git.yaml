@@ -1,9 +1,16 @@
+- create:
+    ~/Coding:
+    ~/Coding/Alilaguna:
+    ~/Coding/Elan42:
+    ~/Coding/Personale:
+
 - link:
-          ~/.gitconfig:
-          ~/.gitignore_global:
-          ~/.git-hooks:
-          ~/.gitmessage:
-          ~/.config/gh/config.yml: config/gh/config.yml
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.git-hooks:
+    ~/.gitmessage:
+    ~/.git-identities: .git-identities
+    ~/.config/gh/config.yml: config/gh/config.yml
 
 - shell:
-          - [chmod +x ~/.git-hooks/*]
+    - [chmod +x ~/.git-hooks/*]

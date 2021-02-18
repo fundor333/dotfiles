@@ -317,7 +317,7 @@
       },
       "ssl_check": {
         "domain": "https://intranet.alilaguna.it",
-        "expired": "2021-03-19 13:38:39",
+        "expired": "2021-05-18 15:02:13",
         "organization_name": "R3",
         "status": "OK"
       },

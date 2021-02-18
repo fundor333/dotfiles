@@ -41,7 +41,7 @@ defaultBranch = production
 rebase = false
 [push]
 default = simple
-	followTags = true
+followTags = true
 [tag]
 forceSignAnnotated = true
 [url "git://gist.github.com/"]
@@ -57,6 +57,21 @@ insteadOf = "gh:"
 pushInsteadOf = "git://github.com/"
 pushInsteadOf = "github:"
 [user]
-email = fundor333@fundor333.com
+email = git@fundor333.com
 name = Fundor333
 signingkey = C0BCDB82
+
+[includeIf "gitdir:~/Coding/**"]
+path = ~/.git-identities/gitconfig-fundor333
+[includeIf "gitdir:~/Coding/Personale/**"]
+path = ~/.git-identities/gitconfig-fundor333
+[includeIf "gitdir:~/Github/**"]
+path = ~/.git-identities/gitconfig-fundor333
+[includeIf "gitdir:~/GitHub/**"]
+path = ~/.git-identities/gitconfig-fundor333
+
+[includeIf "gitdir:~/Coding/Alilaguna/**"]
+path = ~/.git-identities/gitconfig-alilaguna
+
+[includeIf "gitdir:~/Coding/Elan42/**"]
+path = ~/.git-identities/gitconfig-elan42
