@@ -2,8 +2,11 @@
     - homebrew/cask-fonts
 
 - brew:
+    - automake
     - bat
+    - cmake
     - cowsay
+    - coreutils
     - emacs
     - exercism
     - fish
@@ -14,6 +17,8 @@
     - graphviz
     - heroku
     - hugo
+    - node
+    - nvm
     - openssl
     - pyenv
     - python
