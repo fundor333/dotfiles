@@ -10,7 +10,7 @@
     ~/.gitignore_global:
     ~/.git-hooks:
     ~/.gitmessage:
-    ~/.git-identities: .git-identities
+    ~/.git-identities:
     ~/.config/gh/config.yml: config/gh/config.yml
 
 - shell:
