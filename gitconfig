@@ -67,8 +67,6 @@ path = ~/.git-identities/gitconfig-fundor333
 path = ~/.git-identities/gitconfig-fundor333
 [includeIf "gitdir:~/Github/**"]
 path = ~/.git-identities/gitconfig-fundor333
-[includeIf "gitdir:~/GitHub/**"]
-path = ~/.git-identities/gitconfig-fundor333
 
 [includeIf "gitdir:~/Coding/Alilaguna/**"]
 path = ~/.git-identities/gitconfig-alilaguna
