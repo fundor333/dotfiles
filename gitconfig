@@ -16,7 +16,7 @@ gpgsign = true
 template = ~/.gitmessage
 [core]
 autocrlf = input
-editor = nano
+editor = code --wait
 excludesfile = ~/.gitignore_global
 precomposeunicode = false
 untrackedCache = true
@@ -61,11 +61,13 @@ email = git@fundor333.com
 name = Fundor333
 signingkey = C0BCDB82
 
+[includeIf "gitdir:~/Github/**"]
+path = ~/.git-identities/gitconfig-fundor333
+
 [includeIf "gitdir:~/Coding/**"]
 path = ~/.git-identities/gitconfig-fundor333
+
 [includeIf "gitdir:~/Coding/Personale/**"]
-path = ~/.git-identities/gitconfig-fundor333
-[includeIf "gitdir:~/Github/**"]
 path = ~/.git-identities/gitconfig-fundor333
 
 [includeIf "gitdir:~/Coding/Alilaguna/**"]
