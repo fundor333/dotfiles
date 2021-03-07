@@ -1,0 +1,21 @@
+*.c text diff=cpp whitespace=trailing-space,space-before-tab,tab-in-indent
+*.cpp text diff=cpp whitespace=trailing-space,space-before-tab,tab-in-indent
+*.h text diff=cpp whitespace=trailing-space,space-before-tab,tab-in-indent
+*.hpp text diff=cpp whitespace=trailing-space,space-before-tab,tab-in-indent
+*.py text diff=python whitespace=trailing-space,space-before-tab,tab-in-indent
+*.tex text diff=tex whitespace=trailing-space,space-before-tab,tab-in-indent
+*.java text diff=java whitespace=trailing-space,space-before-tab,tab-in-indent
+*.pl text diff=perl whitespace=trailing-space,space-before-tab,tab-in-indent
+*.php text diff=php whitespace=trailing-space,space-before-tab,tab-in-indent
+*.rb text diff=ruby whitespace=trailing-space,space-before-tab,tab-in-indent
+
+*.vcproj eol=crlf
+*.dsp eol=crlf
+*.dsw eol=crlf
+
+*.sh eol=lf
+
+*.jpg binary
+*.png binary
+*.gif binary
+*.tiff binary

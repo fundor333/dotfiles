@@ -5,6 +5,7 @@
     ~/Coding/Personale:
 
 - link:
+    ~/.gitattributes:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.git-hooks:
