@@ -35,6 +35,7 @@ versiontag = v
 [github]
 user = fundor333
 [help]
+autocorrect = 40
 [init]
 defaultBranch = production
 [pull]
