@@ -10,19 +10,18 @@
     - emacs
     - exercism
     - fish
+    - firefox
     - fortune
     - gh
     - git
     - git-flow
     - graphviz
-    - heroku
     - hugo
     - node
     - nvm
     - openssl
     - pyenv
     - python
-    - python@3.7
     - python@3.8
     - python@3.9
     - pipenv
@@ -30,6 +29,7 @@
     - rust
     - sass/sass/sass
     - sassc
+    - thunderbird
     - xxh
 
 - cask:

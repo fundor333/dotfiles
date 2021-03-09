@@ -21,7 +21,6 @@ excludesfile = ~/.gitignore_global
 precomposeunicode = false
 untrackedCache = true
 whitespace = space-before-tab,-indent-with-non-tab,trailing-space
-hooksPath = /Users/matteoscarpa/.git-hooks
 [filter "lfs"]
 clean = git-lfs clean -- %f
 process = git-lfs filter-process
@@ -59,7 +58,7 @@ insteadOf = "gh:"
 pushInsteadOf = "git://github.com/"
 pushInsteadOf = "github:"
 [user]
-email = git@fundor333.com
+email = github@fundor333.com
 name = Fundor333
 signingkey = C0BCDB82
 

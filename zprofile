@@ -13,3 +13,4 @@ export EDITOR=nano
 export VISUAL="$EDITOR"
 
 source ~/.profile
+eval "$(/opt/homebrew/bin/brew shellenv)"

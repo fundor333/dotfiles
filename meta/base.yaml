@@ -1,14 +1,11 @@
 - defaults:
-          link:
-                  create: true
-                  relink: true
-                  force: true
+    link:
+      create: true
+      relink: true
+      force: true
 
 - link:
-          ~/.script:
-          ~/.servergrimoire:
-
-- shell:
-          - [chmod +x ~/script/*]
+    ~/.script:
+    ~/.servergrimoire:
 
 - clean: ["~"]

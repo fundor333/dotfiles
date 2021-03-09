@@ -9,3 +9,4 @@ export BROWSER="firefox"
 export SCRIPT_FOLDER="$HOME/.scripts/"
 
 export LANG="it_IT.utf8"
+eval "$(/opt/homebrew/bin/brew shellenv)"
