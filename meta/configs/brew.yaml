@@ -3,19 +3,26 @@
 
 - brew:
     - automake
+    - atom
     - bat
     - cmake
+    - cyberduck
     - cowsay
     - coreutils
+    - docker
     - emacs
     - exercism
     - fish
     - fortune
     - gh
     - git
+    - github
     - git-flow
     - graphviz
     - hugo
+    - iterm2
+    - libreoffice
+    - mactex
     - node
     - nvm
     - openssl
@@ -25,11 +32,17 @@
     - python@3.9
     - pipenv
     - postgresql
+    - r
     - rust
+    - slack
     - sass/sass/sass
     - sassc
-    - thunderbird
+    - telegram
+    - thunderbird-beta
     - xxh
+    - visual-studio-code
+    - vlc
+    - zoom
 
 - cask:
     - kitty
