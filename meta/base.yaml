@@ -5,7 +5,7 @@
       force: true
 
 - shell:
-    - [chmod +x ~/script/*]
+    - [chmod +x ~/.script/*]
 
 - link:
     ~/.script:
