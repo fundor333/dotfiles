@@ -10,7 +10,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/Library/Frameworks/Python.framework/Versions/3.8/bin:$PATH
 
 # My script
-export PATH="$PATH:$HOME/script"
+export PATH="$PATH:$HOME/.script"
 
 export EDITOR=nano
 export VISUAL="$EDITOR"
