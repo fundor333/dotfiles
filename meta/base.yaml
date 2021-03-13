@@ -4,6 +4,9 @@
       relink: true
       force: true
 
+- shell:
+    - [chmod +x ~/script/*]
+
 - link:
     ~/.script:
     ~/.servergrimoire:
