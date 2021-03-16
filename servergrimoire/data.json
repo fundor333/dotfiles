@@ -89,7 +89,7 @@
       },
       "ssl_check": {
         "domain": "https://appletune.fundor333.com",
-        "expired": "2021-04-09 20:06:58",
+        "expired": "2021-06-09 04:13:29",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -260,7 +260,7 @@
       },
       "ssl_check": {
         "domain": "https://getyourguide.bucintoroviaggi.com",
-        "expired": "2021-04-07 07:04:22",
+        "expired": "2021-06-06 06:04:53",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -279,7 +279,7 @@
       },
       "ssl_check": {
         "domain": "https://gitlab.alilaguna.it",
-        "expired": "2021-04-08 12:08:14",
+        "expired": "2021-06-08 02:12:19",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -374,7 +374,7 @@
       },
       "ssl_check": {
         "domain": "https://kitsunetest.alilaguna.it",
-        "expired": "2021-04-07 03:46:41",
+        "expired": "2021-06-06 02:47:11",
         "organization_name": "R3",
         "status": "OK"
       },
