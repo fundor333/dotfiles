@@ -33,6 +33,8 @@ support = support-
 versiontag = v
 [github]
 user = fundor333
+[gpg]
+program = gpg
 [help]
 autocorrect = 40
 [init]
@@ -42,6 +44,8 @@ rebase = false
 [push]
 default = simple
 followTags = true
+[tag]
+forceSignAnnotated = true
 [url "git://gist.github.com/"]
 insteadOf = "gist:"
 [url "git://github.com/"]
