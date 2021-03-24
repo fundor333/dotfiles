@@ -92,3 +92,9 @@ Host innave.net innave www.innave.net
 	HostName 35.210.243.219
 	IdentityFile ~/.ssh/keys/alilaguna
 	PreferredAuthentications publickey
+
+Host pacioli
+	User alilaguna
+	HostName 193.206.140.14
+	Port 8892
+	PreferredAuthentications password

@@ -5,27 +5,32 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-GITHUB_NAME= "fundor333"
+GITHUB_NAME = "fundor333"
 
-def getter_commit(dictio=dict, url = f'http://github.com/{GITHUB_NAME}'):
-	page = requests.get(url)
 
-	soup = BeautifulSoup(page.text, 'html.parser')
-	commits = soup.findAll("rect", {"class": "day"})
-	for e in commits:
-		dictio[e['data-date']] =int( e['data-count'])
-	return dictio
+def getter_commit(url=f'http://github.com/{GITHUB_NAME}'):
+  dictio = {}
+  page = requests.get(url)
+
+  soup = BeautifulSoup(page.text, 'html.parser')
+  print(soup)
+  commits = soup.findAll("rect", {"class": "day"})
+  for e in commits:
+    print(e)
+    dictio[e['data-date']] = int(e['data-count'])
+  return dictio
 
 
 dictio = {}
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2013-12-01&to=2013-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2014-12-01&to=2014-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2015-12-01&to=2015-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2016-12-01&to=2016-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2017-12-01&to=2017-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2018-12-01&to=2018-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2019-12-01&to=2019-12-31")
-dictio = getter_commit(dictio, f"https://github.com/{GITHUB_NAME}?tab=overview&from=2020-12-01&to=2020-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2013-12-01&to=2013-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2014-12-01&to=2014-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2015-12-01&to=2015-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2016-12-01&to=2016-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2017-12-01&to=2017-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2018-12-01&to=2018-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2019-12-01&to=2019-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2020-12-01&to=2020-12-31")
+dictio |= getter_commit(f"https://github.com/{GITHUB_NAME}?tab=overview&from=2021-12-01&to=2021-12-31")
 
 with open("data.json", "w") as outfile:
-    json.dump(dictio, outfile)
+  json.dump(dictio, outfile)
