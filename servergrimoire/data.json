@@ -338,7 +338,7 @@
         "domain": "https://isolachenoncearte.it",
         "expired": "2021-04-25 09:05:23",
         "organization_name": "R3",
-        "status": "OK"
+        "status": "XX"
       },
       "url": "https://isolachenoncearte.it"
     },
@@ -507,7 +507,7 @@
       },
       "ssl_check": {
         "domain": "https://presenze.alilaguna.it",
-        "expired": "2021-04-22 21:06:06",
+        "expired": "2021-06-22 06:19:49",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -583,7 +583,7 @@
       },
       "ssl_check": {
         "domain": "https://www.fundor333.com",
-        "expired": "2021-04-21 03:06:44",
+        "expired": "2021-06-19 06:48:07",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -640,7 +640,7 @@
       },
       "ssl_check": {
         "domain": "https://www.innave.net",
-        "expired": "2021-04-22 22:35:44",
+        "expired": "2021-06-22 10:36:16",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -661,7 +661,7 @@
         "domain": "https://www.isolachenoncearte.it",
         "expired": "2021-04-25 09:05:23",
         "organization_name": "R3",
-        "status": "OK"
+        "status": "XX"
       },
       "url": "https://www.isolachenoncearte.it"
     },
