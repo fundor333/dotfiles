@@ -13,3 +13,10 @@ linux: ## Sync config for Linux
 .PHONY: windows
 windows: ## Sync config for Windows
 	./install-profile windows
+
+.PHONY: submodule
+submodule: ## Get submodule for this repo
+	git submodule update --init --recursive
+
+.PHONY: submodule
+setup: submodule ## Setup the dotfiles for the other commands
