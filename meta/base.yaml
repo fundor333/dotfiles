@@ -10,5 +10,6 @@
 - link:
     ~/.script:
     ~/.servergrimoire:
+    ~/Dictionaries: Dictionaries
 
 - clean: ["~"]

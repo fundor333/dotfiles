@@ -336,9 +336,9 @@
       },
       "ssl_check": {
         "domain": "https://isolachenoncearte.it",
-        "expired": "2021-04-25 09:05:23",
+        "expired": "2021-06-24 21:30:41",
         "organization_name": "R3",
-        "status": "XX"
+        "status": "OK"
       },
       "url": "https://isolachenoncearte.it"
     },
@@ -412,7 +412,7 @@
       },
       "ssl_check": {
         "domain": "https://marcopolopark.bucintoroviaggi.com",
-        "expired": "2021-04-27 19:41:12",
+        "expired": "2021-06-27 05:31:33",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -488,7 +488,7 @@
       },
       "ssl_check": {
         "domain": "https://ninshubur.alilaguna.it",
-        "expired": "2021-04-25 23:25:13",
+        "expired": "2021-06-25 06:36:20",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -659,9 +659,9 @@
       },
       "ssl_check": {
         "domain": "https://www.isolachenoncearte.it",
-        "expired": "2021-04-25 09:05:23",
+        "expired": "2021-06-24 21:30:41",
         "organization_name": "R3",
-        "status": "XX"
+        "status": "OK"
       },
       "url": "https://www.isolachenoncearte.it"
     },
