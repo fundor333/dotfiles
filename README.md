@@ -1,6 +1,8 @@
 ![Logo](https://fundor333.com/img/pilogo.jpg)
 # dotfiles
 
+[![wakatime](https://wakatime.com/badge/github/fundor333/dotfiles.svg)](https://wakatime.com/badge/github/fundor333/dotfiles)
+
 My personal dotfile for my Linux, Mac, Windows workstation.
 Make with the bot [Dotbot](https://github.com/anishathalye/dotbot).
 
