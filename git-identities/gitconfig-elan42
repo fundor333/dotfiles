@@ -3,3 +3,4 @@ defaultBranch = main
 [user]
 email = matteo.scarpa@elan42.com
 name = Matteo Scarpa
+signingkey = 3B73FDF0DB2AB404
