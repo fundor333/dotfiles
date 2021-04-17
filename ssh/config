@@ -1,3 +1,1 @@
-Include ~/.ssh/config-dir/elan42_config
-Include ~/.ssh/config-dir/personal_config
-Include ~/.ssh/config-dir/hosting_config
+Include ~/.ssh/config-dir/*

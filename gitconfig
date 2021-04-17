@@ -10,7 +10,7 @@ type = cat-file -t
 tags = describe --tags --abbrev=0
 pushall = push --tags
 [color]
-ui = auto
+ui = true
 [commit]
 template = ~/.gitmessage
 [core]
@@ -25,6 +25,8 @@ clean = git-lfs clean -- %f
 process = git-lfs filter-process
 required = true
 smudge = git-lfs smudge -- %f
+[format]
+pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset %C(bold yellow)%GK%Creset
 [gitflow "prefix"]
 feature = feature-
 hotfix = hotfix-
@@ -39,6 +41,8 @@ program = gpg
 autocorrect = 40
 [init]
 defaultBranch = production
+[merge]
+log = true
 [pull]
 rebase = false
 [push]
