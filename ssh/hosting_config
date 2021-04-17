@@ -1,21 +1,27 @@
 IdentityFile ~/.ssh/keys/fundor333_mol
 
-#SCE_SEPARATOR:Hosting
+#SCE_GROUP:D8B9C2BB-72E7-496F-9F23-5F03F0406D43:::Hosting
 
 Host gitlab.com
 	User git
 	HostName gitlab.com
 	IdentityFile ~/.ssh/keys/fundor333_rsa
 	AddKeysToAgent yes
+	#SCEIcon gitlab
+	#SCEGroup D8B9C2BB-72E7-496F-9F23-5F03F0406D43
 
 Host github.com
 	User git
 	HostName github.com
 	IdentityFile ~/.ssh/keys/fundor333_rsa
 	AddKeysToAgent yes
+	#SCEIcon github
+	#SCEGroup D8B9C2BB-72E7-496F-9F23-5F03F0406D43
 
 Host bitbucket.org
 	User git
 	HostName bitbucket.org
 	IdentityFile ~/.ssh/keys/fundor333_rsa
 	AddKeysToAgent yes
+	#SCEIcon bitbucket
+	#SCEGroup D8B9C2BB-72E7-496F-9F23-5F03F0406D43

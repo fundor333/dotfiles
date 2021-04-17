@@ -1,8 +1,13 @@
 IdentityFile ~/.ssh/keys/elan42
 
+#SCE_GROUP:95FB5CA9-A550-4D6A-881C-F29254E49DB8:::Tools
 
 Host repository.elan42.com
 	User git
 	HostName repository.elan42.com
 	IdentityFile ~/.ssh/keys/elan42
 	AddKeysToAgent yes
+	#SCETerminal com.googlecode.iterm2
+	#SCEIcon gitlab
+
+#SCE_GROUP:B6CE84B2-08F0-4FDD-A89D-4DACED6C447F:::Servers
