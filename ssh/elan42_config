@@ -17,3 +17,9 @@ Host yukai
 	HostName yukai.elan42.com
 	Port 14022
 	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host olam
+	User matteo.scarpa
+	HostName olam.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
