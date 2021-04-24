@@ -33,6 +33,7 @@
     - pipenv
     - postgresql
     - r
+    - rabbitmq
     - rust
     - slack
     - sass/sass/sass
