@@ -1,6 +1,5 @@
 - link:
     ~/.ssh/config: ssh/config
-    ~/.ssh/config-dir/alilaguna_config: ssh/alilaguna_config
     ~/.ssh/config-dir/elan42_config: ssh/elan42_config
     ~/.ssh/config-dir/personal_config: ssh/personal_config
     ~/.ssh/config-dir/hosting_config: ssh/hosting_config
