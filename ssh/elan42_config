@@ -12,14 +12,74 @@ Host repository.elan42.com
 
 #SCE_GROUP:B6CE84B2-08F0-4FDD-A89D-4DACED6C447F:::Servers
 
-Host yukai
+Host arda
 	User matteo.scarpa
-	HostName yukai.elan42.com
+	HostName arda.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host cabiria
+	User matteo.scarpa
+	HostName cabiria.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host dracauda
+	User matteo.scarpa
+	HostName dracauda.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host hades
+	User matteo.scarpa
+	HostName hades.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host iperuranio
+	User matteo.scarpa
+	HostName iperuranio.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host nemesis
+	User matteo.scarpa
+	HostName nemesis.elan42.com
 	Port 14022
 	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
 Host olam
 	User matteo.scarpa
 	HostName olam.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host panareze
+	User matteo.scarpa
+	HostName panareze.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host sozokai
+	User matteo.scarpa
+	HostName sozokai.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host prometeo
+	User matteo.scarpa
+	HostName prometeo.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host yukai
+	User matteo.scarpa
+	HostName yukai.elan42.com
+	Port 14022
+	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
+
+Host zaphod
+	User matteo.scarpa
+	HostName zaphod.elan42.com
 	Port 14022
 	#SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
