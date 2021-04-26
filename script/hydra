@@ -90,8 +90,6 @@ class Checker:
     def add_entry(self, code, reason, page):
         if code in self.config.OK:
             return
-        code = code
-        reason = reason
         entry = {
             "code": code,
             "link": page["url"],
@@ -157,7 +155,6 @@ class Checker:
             InvalidURL,
             NotImplementedError,
             SocketTimeoutError,
-            TimeoutError,
             TypeError,
             UnicodeEncodeError,
             UnicodeDecodeError,
@@ -196,13 +193,15 @@ class Checker:
     def make_report(self):
         self.report = "---\ntitle: Broken Link Report"
         self.report += "\nchecked: " + str(len(self.visited))
-        self.report += "\nnumber of email links: " + str(len(self.mailto_links))
+        self.report += "\nnumber of email links: " + \
+            str(len(self.mailto_links))
         self.report += "\nemails: " + ", ".join(
             [str(m) for m in set(self.mailto_links)]
         )
         self.report += "\nbroken: " + str(len(self.broken))
         self.report += "\n---\n"
-        sorted_list = sorted(self.broken, key=lambda k: k["code"], reverse=True)
+        sorted_list = sorted(
+            self.broken, key=lambda k: k["code"], reverse=True)
         for link in sorted_list:
             self.report += f"\n- code:    {link['code']}\n  url:     {link['link']}\n  parent:  {link['parent']}\n  error:   {link['err']}\n"
         return self.report
@@ -213,7 +212,7 @@ class Checker:
             try:
                 target_url = self.TO_PROCESS.get(block=True, timeout=4)
                 if target_url["url"].startswith("mailto:"):
-                    email = target_url["url"][len("mailto:") :]
+                    email = target_url["url"][len("mailto:"):]
                     self.mailto_links.append(email)
 
                 elif target_url["url"] not in self.visited:
