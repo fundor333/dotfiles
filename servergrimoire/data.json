@@ -13,7 +13,7 @@
       },
       "ssl_check": {
         "domain": "http://alilaguna.it",
-        "expired": "2021-05-13 11:34:55",
+        "expired": "2021-07-12 11:47:58",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -27,12 +27,12 @@
       },
       "dns_lookup": {},
       "page_checker": {
-        "status": 200,
+        "status": 401,
         "url": "http://bookingbasilicasanmarco.it"
       },
       "ssl_check": {
         "domain": "http://bookingbasilicasanmarco.it",
-        "expired": "2021-05-03 14:45:53",
+        "expired": "2021-06-29 14:03:37",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -51,7 +51,7 @@
       },
       "ssl_check": {
         "domain": "https://alilaguna.it",
-        "expired": "2021-05-13 11:34:55",
+        "expired": "2021-07-12 11:47:58",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -59,8 +59,8 @@
     },
     "https://aman.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -97,8 +97,8 @@
     },
     "https://b2b.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -116,8 +116,8 @@
     },
     "https://bauer.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -135,8 +135,8 @@
     },
     "https://casagredo.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -154,8 +154,8 @@
     },
     "https://deidogi.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -184,7 +184,7 @@
       },
       "ssl_check": {
         "domain": "https://digitaltearoom.com",
-        "expired": "2021-05-17 19:46:30",
+        "expired": "2021-07-16 19:06:42",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -203,7 +203,7 @@
       },
       "ssl_check": {
         "domain": "https://fundor333.com",
-        "expired": "2021-05-24 17:31:00",
+        "expired": "2021-07-23 22:06:51",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -222,8 +222,8 @@
       },
       "ssl_check": {
         "domain": "https://fundor333.dev",
-        "expired": "2021-05-26 10:58:30",
-        "organization_name": "GTS CA 1D2",
+        "expired": "2021-07-23 02:39:30",
+        "organization_name": "GTS CA 1D4",
         "status": "OK"
       },
       "url": "https://fundor333.dev"
@@ -241,8 +241,8 @@
       },
       "ssl_check": {
         "domain": "https://fundor333.ninja",
-        "expired": "2021-05-27 00:49:25",
-        "organization_name": "GTS CA 1D2",
+        "expired": "2021-07-23 06:55:25",
+        "organization_name": "GTS CA 1D4",
         "status": "OK"
       },
       "url": "https://fundor333.ninja"
@@ -268,9 +268,9 @@
     },
     "https://gitlab.alilaguna.it": {
       "dns_checker": {
-        "creation": "2021-11-17 00:00:00",
-        "expiration": "2021-11-17 00:00:00",
-        "status": "OK"
+        "creation": "Error trying to connect to socket",
+        "expiration": "Error trying to connect to socket",
+        "status": "XX"
       },
       "dns_lookup": {},
       "page_checker": {
@@ -287,8 +287,8 @@
     },
     "https://hilton.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -317,7 +317,7 @@
       },
       "ssl_check": {
         "domain": "https://intranet.alilaguna.it",
-        "expired": "2021-05-18 15:02:13",
+        "expired": "2021-07-17 19:02:16",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -363,9 +363,9 @@
     },
     "https://kitsunetest.alilaguna.it": {
       "dns_checker": {
-        "creation": "2021-11-17 00:00:00",
-        "expiration": "2021-11-17 00:00:00",
-        "status": "OK"
+        "creation": "Error trying to connect to socket",
+        "expiration": "Error trying to connect to socket",
+        "status": "XX"
       },
       "dns_lookup": {},
       "page_checker": {
@@ -431,7 +431,7 @@
       },
       "ssl_check": {
         "domain": "https://mareabot.org",
-        "expired": "2021-05-26 20:33:32",
+        "expired": "2021-07-25 19:35:58",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -439,9 +439,9 @@
     },
     "https://marive.alilaguna.it": {
       "dns_checker": {
-        "creation": "2021-11-17 00:00:00",
-        "expiration": "2021-11-17 00:00:00",
-        "status": "OK"
+        "creation": "Error trying to connect to socket",
+        "expiration": "Error trying to connect to socket",
+        "status": "XX"
       },
       "dns_lookup": {},
       "page_checker": {
@@ -458,8 +458,8 @@
     },
     "https://marriott.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -496,9 +496,9 @@
     },
     "https://presenze.alilaguna.it": {
       "dns_checker": {
-        "creation": "2021-11-17 00:00:00",
-        "expiration": "2021-11-17 00:00:00",
-        "status": "OK"
+        "creation": "Error trying to connect to socket",
+        "expiration": "Error trying to connect to socket",
+        "status": "XX"
       },
       "dns_lookup": {},
       "page_checker": {
@@ -515,8 +515,8 @@
     },
     "https://stregis.veneziaturismo.net": {
       "dns_checker": {
-        "creation": "2021-04-26 15:21:52",
-        "expiration": "2021-04-26 15:21:52",
+        "creation": "2022-04-26 15:21:52",
+        "expiration": "2022-04-26 15:21:52",
         "status": "OK"
       },
       "dns_lookup": {},
@@ -545,7 +545,7 @@
       },
       "ssl_check": {
         "domain": "https://venezianabunkeraggi.com",
-        "expired": "2021-05-14 23:11:22",
+        "expired": "2021-07-13 23:28:34",
         "organization_name": "R3",
         "status": "OK"
       },
@@ -564,8 +564,8 @@
       },
       "ssl_check": {
         "domain": "https://www.digitaltearoom.com",
-        "expired": "2021-05-17 14:16:38",
-        "organization_name": "GTS CA 1D2",
+        "expired": "2021-07-14 23:54:38",
+        "organization_name": "GTS CA 1D4",
         "status": "OK"
       },
       "url": "https://www.digitaltearoom.com"
@@ -621,7 +621,7 @@
       },
       "ssl_check": {
         "domain": "https://www.fundor333.ninja",
-        "expired": "2021-05-27 03:30:06",
+        "expired": "2021-07-23 09:41:11",
         "organization_name": "GTS CA 1D2",
         "status": "OK"
       },
@@ -678,7 +678,7 @@
       },
       "ssl_check": {
         "domain": "https://www.venezianabunkeraggi.com",
-        "expired": "2021-05-14 23:11:22",
+        "expired": "2021-07-13 23:28:34",
         "organization_name": "R3",
         "status": "OK"
       },
