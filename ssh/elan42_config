@@ -12,7 +12,7 @@ Host repository.elan42.com
 
 #SCE_GROUP:B6CE84B2-08F0-4FDD-A89D-4DACED6C447F:::Servers
 
-Host arda
+Host arda arda.elan42.com
   User matteo.scarpa
   HostName arda.elan42.com
   Port 14022
@@ -20,7 +20,7 @@ Host arda
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host cabiria
+Host cabiria cabiria.elan42.com
   User matteo.scarpa
   HostName cabiria.elan42.com
   Port 14022
@@ -28,7 +28,7 @@ Host cabiria
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host dracauda
+Host dracauda dracauda.elan42.com
   User matteo.scarpa
   HostName dracauda.elan42.com
   Port 14022
@@ -36,7 +36,7 @@ Host dracauda
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host hades
+Host hades hades.elan42.com
   User matteo.scarpa
   HostName hades.elan42.com
   Port 14022
@@ -44,7 +44,7 @@ Host hades
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host iperuranio
+Host iperuranio iperuranio.elan42.com
   User matteo.scarpa
   HostName iperuranio.elan42.com
   Port 14022
@@ -52,7 +52,7 @@ Host iperuranio
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host nemesis
+Host nemesis nemesis.elan42.com
   User matteo.scarpa
   HostName nemesis.elan42.com
   Port 14022
@@ -60,7 +60,7 @@ Host nemesis
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host olam
+Host olam olam.elan42.com
   User matteo.scarpa
   HostName olam.elan42.com
   Port 14022
@@ -68,7 +68,7 @@ Host olam
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host panareze
+Host panareze panareze.elan42.com
   User matteo.scarpa
   HostName panareze.elan42.com
   Port 14022
@@ -76,7 +76,7 @@ Host panareze
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host sozokai
+Host sozokai sozokai.elan42.com
   User matteo.scarpa
   HostName sozokai.elan42.com
   Port 14022
@@ -84,7 +84,7 @@ Host sozokai
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host prometeo
+Host prometeo prometeo.elan42.com
   User matteo.scarpa
   HostName prometeo.elan42.com
   Port 14022
@@ -92,7 +92,7 @@ Host prometeo
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host yukai
+Host yukai yukai.elan42.com
   User matteo.scarpa
   HostName yukai.elan42.com
   Port 14022
@@ -100,7 +100,7 @@ Host yukai
   AddKeysToAgent yes
   #SCEGroup B6CE84B2-08F0-4FDD-A89D-4DACED6C447F
 
-Host zaphod
+Host zaphod zaphod.elan42.com
   User matteo.scarpa
   HostName zaphod.elan42.com
   Port 14022
