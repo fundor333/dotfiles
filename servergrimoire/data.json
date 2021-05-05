@@ -1,0 +1,2182 @@
+{
+  "server": {
+    "https://abanocongressi.com": {
+      "url": "https://abanocongressi.com"
+    },
+    "https://abanocongressi.it": {
+      "url": "https://abanocongressi.it"
+    },
+    "https://abbigliabimbo.it": {
+      "url": "https://abbigliabimbo.it"
+    },
+    "https://abbigliamentonautica.com": {
+      "url": "https://abbigliamentonautica.com"
+    },
+    "https://aboutformazione.it": {
+      "url": "https://aboutformazione.it"
+    },
+    "https://abracadamat.org": {
+      "url": "https://abracadamat.org"
+    },
+    "https://accademiadelsamoggia.it": {
+      "url": "https://accademiadelsamoggia.it"
+    },
+    "https://acroyogavenezia.com": {
+      "url": "https://acroyogavenezia.com"
+    },
+    "https://actualitytv.it": {
+      "url": "https://actualitytv.it"
+    },
+    "https://agenziadieventi.com": {
+      "url": "https://agenziadieventi.com"
+    },
+    "https://agenziadieventi.it": {
+      "url": "https://agenziadieventi.it"
+    },
+    "https://agroselectiva.com": {
+      "url": "https://agroselectiva.com"
+    },
+    "https://agroselectiva.it": {
+      "url": "https://agroselectiva.it"
+    },
+    "https://airusteghi.com": {
+      "url": "https://airusteghi.com"
+    },
+    "https://airusteghi.it": {
+      "url": "https://airusteghi.it"
+    },
+    "https://alagna.it": {
+      "url": "https://alagna.it"
+    },
+    "https://albatravelapulia.com": {
+      "url": "https://albatravelapulia.com"
+    },
+    "https://alessandrabonadies.blog": {
+      "url": "https://alessandrabonadies.blog"
+    },
+    "https://alessandrapagan.it": {
+      "url": "https://alessandrapagan.it"
+    },
+    "https://alluminioinfissi.it": {
+      "url": "https://alluminioinfissi.it"
+    },
+    "https://alvisenicoletti.com": {
+      "url": "https://alvisenicoletti.com"
+    },
+    "https://alvisenicoletti.info": {
+      "url": "https://alvisenicoletti.info"
+    },
+    "https://alvisenicoletti.it": {
+      "url": "https://alvisenicoletti.it"
+    },
+    "https://amarula-electronics.com": {
+      "url": "https://amarula-electronics.com"
+    },
+    "https://amarulaelectronics.com": {
+      "url": "https://amarulaelectronics.com"
+    },
+    "https://amarulasolutions.com": {
+      "url": "https://amarulasolutions.com"
+    },
+    "https://amarulasolutions.cz": {
+      "url": "https://amarulasolutions.cz"
+    },
+    "https://amarulasolutions.de": {
+      "url": "https://amarulasolutions.de"
+    },
+    "https://amarulasolutions.nl": {
+      "url": "https://amarulasolutions.nl"
+    },
+    "https://andreasegre.it": {
+      "url": "https://andreasegre.it"
+    },
+    "https://anticotrovatore.com": {
+      "url": "https://anticotrovatore.com"
+    },
+    "https://antifurtopadova.it": {
+      "url": "https://antifurtopadova.it"
+    },
+    "https://antifurtoveneto.it": {
+      "url": "https://antifurtoveneto.it"
+    },
+    "https://antifurtovenezia.it": {
+      "url": "https://antifurtovenezia.it"
+    },
+    "https://antifurtovicenza.it": {
+      "url": "https://antifurtovicenza.it"
+    },
+    "https://antonellibarsotti.com": {
+      "url": "https://antonellibarsotti.com"
+    },
+    "https://antonellibarsotti.it": {
+      "url": "https://antonellibarsotti.it"
+    },
+    "https://anzalonemaria.it": {
+      "url": "https://anzalonemaria.it"
+    },
+    "https://anzaloneristrutturazioni.it": {
+      "url": "https://anzaloneristrutturazioni.it"
+    },
+    "https://api-pa.com": {
+      "url": "https://api-pa.com"
+    },
+    "https://api-pa.it": {
+      "url": "https://api-pa.it"
+    },
+    "https://apipa.it": {
+      "url": "https://apipa.it"
+    },
+    "https://appalticoncessioni.com": {
+      "url": "https://appalticoncessioni.com"
+    },
+    "https://appalticontrattipubblici.com": {
+      "url": "https://appalticontrattipubblici.com"
+    },
+    "https://aquasystemsrl.com": {
+      "url": "https://aquasystemsrl.com"
+    },
+    "https://aquasystemsrl.it": {
+      "url": "https://aquasystemsrl.it"
+    },
+    "https://archimedecarrozzeria.com": {
+      "url": "https://archimedecarrozzeria.com"
+    },
+    "https://archiviodeigiochi.it": {
+      "url": "https://archiviodeigiochi.it"
+    },
+    "https://archiviogiochi.it": {
+      "url": "https://archiviogiochi.it"
+    },
+    "https://archivioitalianodeigiochi.it": {
+      "url": "https://archivioitalianodeigiochi.it"
+    },
+    "https://arte-mide.com": {
+      "url": "https://arte-mide.com"
+    },
+    "https://artemarmi.info": {
+      "url": "https://artemarmi.info"
+    },
+    "https://artemarmiitalia.com": {
+      "url": "https://artemarmiitalia.com"
+    },
+    "https://artesacra.org": {
+      "url": "https://artesacra.org"
+    },
+    "https://arteterapiaveneto.com": {
+      "url": "https://arteterapiaveneto.com"
+    },
+    "https://arteterapiavenezia.com": {
+      "url": "https://arteterapiavenezia.com"
+    },
+    "https://arteterapiavenezia.info": {
+      "url": "https://arteterapiavenezia.info"
+    },
+    "https://ascensoriprato.it": {
+      "url": "https://ascensoriprato.it"
+    },
+    "https://assocaseari.it": {
+      "url": "https://assocaseari.it"
+    },
+    "https://associazioneincore.it": {
+      "url": "https://associazioneincore.it"
+    },
+    "https://asthangayogavenezia.com": {
+      "url": "https://asthangayogavenezia.com"
+    },
+    "https://asthangayogavenezia.it": {
+      "url": "https://asthangayogavenezia.it"
+    },
+    "https://attivismoquanticoeuropeo.it": {
+      "url": "https://attivismoquanticoeuropeo.it"
+    },
+    "https://autemi.com": {
+      "url": "https://autemi.com"
+    },
+    "https://autemi.it": {
+      "url": "https://autemi.it"
+    },
+    "https://autocarrozzeriafilzi.it": {
+      "url": "https://autocarrozzeriafilzi.it"
+    },
+    "https://autocarrozzeriaprato.info": {
+      "url": "https://autocarrozzeriaprato.info"
+    },
+    "https://autoselecta.eu": {
+      "url": "https://autoselecta.eu"
+    },
+    "https://autoselecta.it": {
+      "url": "https://autoselecta.it"
+    },
+    "https://avvocatocaminiti.com": {
+      "url": "https://avvocatocaminiti.com"
+    },
+    "https://avvocatocaminiti.it": {
+      "url": "https://avvocatocaminiti.it"
+    },
+    "https://ba-rock.it": {
+      "url": "https://ba-rock.it"
+    },
+    "https://bacarocondelitto.com": {
+      "url": "https://bacarocondelitto.com"
+    },
+    "https://bacarocondelitto.it": {
+      "url": "https://bacarocondelitto.it"
+    },
+    "https://baghera.it": {
+      "url": "https://baghera.it"
+    },
+    "https://bagherastudio.com": {
+      "url": "https://bagherastudio.com"
+    },
+    "https://bagherastudio.it": {
+      "url": "https://bagherastudio.it"
+    },
+    "https://bancadelcazzo.com": {
+      "url": "https://bancadelcazzo.com"
+    },
+    "https://barbaravitiimmobiliare.com": {
+      "url": "https://barbaravitiimmobiliare.com"
+    },
+    "https://barbaravitiimmobiliare.it": {
+      "url": "https://barbaravitiimmobiliare.it"
+    },
+    "https://barbatelli.it": {
+      "url": "https://barbatelli.it"
+    },
+    "https://barbax.it": {
+      "url": "https://barbax.it"
+    },
+    "https://barcorealevinoteca.it": {
+      "url": "https://barcorealevinoteca.it"
+    },
+    "https://bartonservice.it": {
+      "url": "https://bartonservice.it"
+    },
+    "https://basilicosecco.com": {
+      "url": "https://basilicosecco.com"
+    },
+    "https://basketmestre.it": {
+      "url": "https://basketmestre.it"
+    },
+    "https://bedandbreakfast-fujiyama.it": {
+      "url": "https://bedandbreakfast-fujiyama.it"
+    },
+    "https://bellavistavenezia.com": {
+      "url": "https://bellavistavenezia.com"
+    },
+    "https://bellavistavenezia.it": {
+      "url": "https://bellavistavenezia.it"
+    },
+    "https://bellunogay.com": {
+      "url": "https://bellunogay.com"
+    },
+    "https://bellunogay.it": {
+      "url": "https://bellunogay.it"
+    },
+    "https://bellunomagicfestival.com": {
+      "url": "https://bellunomagicfestival.com"
+    },
+    "https://bellunomagicfestival.it": {
+      "url": "https://bellunomagicfestival.it"
+    },
+    "https://benedettimeccanica.com": {
+      "url": "https://benedettimeccanica.com"
+    },
+    "https://benedettimeccanica.it": {
+      "url": "https://benedettimeccanica.it"
+    },
+    "https://bianconeropianoforte.com": {
+      "url": "https://bianconeropianoforte.com"
+    },
+    "https://bianconeropianoforte.info": {
+      "url": "https://bianconeropianoforte.info"
+    },
+    "https://blossomedu.it": {
+      "url": "https://blossomedu.it"
+    },
+    "https://blubikerent.it": {
+      "url": "https://blubikerent.it"
+    },
+    "https://borgoclara.com": {
+      "url": "https://borgoclara.com"
+    },
+    "https://borgoclara.it": {
+      "url": "https://borgoclara.it"
+    },
+    "https://brazzale.com": {
+      "url": "https://brazzale.com"
+    },
+    "https://breakoutsessions.it": {
+      "url": "https://breakoutsessions.it"
+    },
+    "https://briobar-gaeta.com": {
+      "url": "https://briobar-gaeta.com"
+    },
+    "https://butchervenice.com": {
+      "url": "https://butchervenice.com"
+    },
+    "https://c4rgo.com": {
+      "url": "https://c4rgo.com"
+    },
+    "https://caffe-italiano.com": {
+      "url": "https://caffe-italiano.com"
+    },
+    "https://canalgrande.asia": {
+      "url": "https://canalgrande.asia"
+    },
+    "https://canalgrande.in": {
+      "url": "https://canalgrande.in"
+    },
+    "https://canalgrandejet.com": {
+      "url": "https://canalgrandejet.com"
+    },
+    "https://canalgrandejet.eu": {
+      "url": "https://canalgrandejet.eu"
+    },
+    "https://canalgrandejet.it": {
+      "url": "https://canalgrandejet.it"
+    },
+    "https://canalgrandevenice.com": {
+      "url": "https://canalgrandevenice.com"
+    },
+    "https://canenero.org": {
+      "url": "https://canenero.org"
+    },
+    "https://cantinando.com": {
+      "url": "https://cantinando.com"
+    },
+    "https://capitanvenezia.com": {
+      "url": "https://capitanvenezia.com"
+    },
+    "https://capocchiebenedetti.it": {
+      "url": "https://capocchiebenedetti.it"
+    },
+    "https://cardio-team.it": {
+      "url": "https://cardio-team.it"
+    },
+    "https://carlaerizzo.it": {
+      "url": "https://carlaerizzo.it"
+    },
+    "https://carnevaleavenezia.com": {
+      "url": "https://carnevaleavenezia.com"
+    },
+    "https://carniadomani.org": {
+      "url": "https://carniadomani.org"
+    },
+    "https://carnivalvenice.it": {
+      "url": "https://carnivalvenice.it"
+    },
+    "https://carolinabonafede.it": {
+      "url": "https://carolinabonafede.it"
+    },
+    "https://cartellistradaliprato.it": {
+      "url": "https://cartellistradaliprato.it"
+    },
+    "https://casasmitt.com": {
+      "url": "https://casasmitt.com"
+    },
+    "https://cegalinsrl.com": {
+      "url": "https://cegalinsrl.com"
+    },
+    "https://cenaconildelitto.com": {
+      "url": "https://cenaconildelitto.com"
+    },
+    "https://cenaconildelitto.it": {
+      "url": "https://cenaconildelitto.it"
+    },
+    "https://cenaspettacolo.com": {
+      "url": "https://cenaspettacolo.com"
+    },
+    "https://cenaziendale.com": {
+      "url": "https://cenaziendale.com"
+    },
+    "https://chamberopera.it": {
+      "url": "https://chamberopera.it"
+    },
+    "https://ciceroeditore.com": {
+      "url": "https://ciceroeditore.com"
+    },
+    "https://cilentogames.com": {
+      "url": "https://cilentogames.com"
+    },
+    "https://cioffielisabetta.it": {
+      "url": "https://cioffielisabetta.it"
+    },
+    "https://circuitodisiena.it": {
+      "url": "https://circuitodisiena.it"
+    },
+    "https://cirocianni.it": {
+      "url": "https://cirocianni.it"
+    },
+    "https://clunk.it": {
+      "url": "https://clunk.it"
+    },
+    "https://compagniadellavela.org": {
+      "url": "https://compagniadellavela.org"
+    },
+    "https://compvela.com": {
+      "url": "https://compvela.com"
+    },
+    "https://comunemoderno.com": {
+      "url": "https://comunemoderno.com"
+    },
+    "https://comunemoderno.it": {
+      "url": "https://comunemoderno.it"
+    },
+    "https://concertiavenezia.com": {
+      "url": "https://concertiavenezia.com"
+    },
+    "https://concertsvenice.com": {
+      "url": "https://concertsvenice.com"
+    },
+    "https://condizionatoriprato.it": {
+      "url": "https://condizionatoriprato.it"
+    },
+    "https://confezioninadia.com": {
+      "url": "https://confezioninadia.com"
+    },
+    "https://confezioninadia.it": {
+      "url": "https://confezioninadia.it"
+    },
+    "https://confnadia.it": {
+      "url": "https://confnadia.it"
+    },
+    "https://contecaqs.com": {
+      "url": "https://contecaqs.com"
+    },
+    "https://contecaqs.it": {
+      "url": "https://contecaqs.it"
+    },
+    "https://coppinidal1948.it": {
+      "url": "https://coppinidal1948.it"
+    },
+    "https://coppinisport.it": {
+      "url": "https://coppinisport.it"
+    },
+    "https://copypersuasivo.com": {
+      "url": "https://copypersuasivo.com"
+    },
+    "https://corsinuotoroma.it": {
+      "url": "https://corsinuotoroma.it"
+    },
+    "https://cortinamagicfestival.com": {
+      "url": "https://cortinamagicfestival.com"
+    },
+    "https://cortinamagicfestival.it": {
+      "url": "https://cortinamagicfestival.it"
+    },
+    "https://cralcomunevenezia.it": {
+      "url": "https://cralcomunevenezia.it"
+    },
+    "https://cristinalinassi.com": {
+      "url": "https://cristinalinassi.com"
+    },
+    "https://cristinalinassi.it": {
+      "url": "https://cristinalinassi.it"
+    },
+    "https://crocieracondelitto.com": {
+      "url": "https://crocieracondelitto.com"
+    },
+    "https://crocieracondelitto.it": {
+      "url": "https://crocieracondelitto.it"
+    },
+    "https://ctrteatro.it": {
+      "url": "https://ctrteatro.it"
+    },
+    "https://curiosandoeditore.com": {
+      "url": "https://curiosandoeditore.com"
+    },
+    "https://cusvenezia.it": {
+      "url": "https://cusvenezia.it"
+    },
+    "https://danieletiveron.com": {
+      "url": "https://danieletiveron.com"
+    },
+    "https://danzarchivio.com": {
+      "url": "https://danzarchivio.com"
+    },
+    "https://danzarchivio.it": {
+      "url": "https://danzarchivio.it"
+    },
+    "https://danzastorie.it": {
+      "url": "https://danzastorie.it"
+    },
+    "https://davidemajer.yoga": {
+      "url": "https://davidemajer.yoga"
+    },
+    "https://davitravels.com": {
+      "url": "https://davitravels.com"
+    },
+    "https://davitravels.it": {
+      "url": "https://davitravels.it"
+    },
+    "https://dealearning.biz": {
+      "url": "https://dealearning.biz"
+    },
+    "https://dealearning.com": {
+      "url": "https://dealearning.com"
+    },
+    "https://dealearning.eu": {
+      "url": "https://dealearning.eu"
+    },
+    "https://dealearning.info": {
+      "url": "https://dealearning.info"
+    },
+    "https://dealearning.it": {
+      "url": "https://dealearning.it"
+    },
+    "https://dealearning.net": {
+      "url": "https://dealearning.net"
+    },
+    "https://dealearning.org": {
+      "url": "https://dealearning.org"
+    },
+    "https://deirossishipping.it": {
+      "url": "https://deirossishipping.it"
+    },
+    "https://depuratoriacquaprato.it": {
+      "url": "https://depuratoriacquaprato.it"
+    },
+    "https://desiderya.org": {
+      "url": "https://desiderya.org"
+    },
+    "https://destrogiovanni.it": {
+      "url": "https://destrogiovanni.it"
+    },
+    "https://destrogiovanni.net": {
+      "url": "https://destrogiovanni.net"
+    },
+    "https://deublin.it": {
+      "url": "https://deublin.it"
+    },
+    "https://dimensionelirica.com": {
+      "url": "https://dimensionelirica.com"
+    },
+    "https://dimensionelirica.it": {
+      "url": "https://dimensionelirica.it"
+    },
+    "https://displaymarche.it": {
+      "url": "https://displaymarche.it"
+    },
+    "https://diviseeuniformi.com": {
+      "url": "https://diviseeuniformi.com"
+    },
+    "https://diviseeuniformi.it": {
+      "url": "https://diviseeuniformi.it"
+    },
+    "https://docciaalpoggio.it": {
+      "url": "https://docciaalpoggio.it"
+    },
+    "https://donnagnora.it": {
+      "url": "https://donnagnora.it"
+    },
+    "https://dorelanlettimaterassi-firenze.com": {
+      "url": "https://dorelanlettimaterassi-firenze.com"
+    },
+    "https://dorelanlettimaterassifirenze.com": {
+      "url": "https://dorelanlettimaterassifirenze.com"
+    },
+    "https://doverisparmi.com": {
+      "url": "https://doverisparmi.com"
+    },
+    "https://doverisparmi.it": {
+      "url": "https://doverisparmi.it"
+    },
+    "https://drracingkart.it": {
+      "url": "https://drracingkart.it"
+    },
+    "https://easycomune.com": {
+      "url": "https://easycomune.com"
+    },
+    "https://easycomune.it": {
+      "url": "https://easycomune.it"
+    },
+    "https://effe2srl.it": {
+      "url": "https://effe2srl.it"
+    },
+    "https://egon.com": {
+      "url": "https://egon.com"
+    },
+    "https://elan42.com": {
+      "url": "https://elan42.com"
+    },
+    "https://elan42.it": {
+      "url": "https://elan42.it"
+    },
+    "https://electricisland.it": {
+      "url": "https://electricisland.it"
+    },
+    "https://eleis.it": {
+      "url": "https://eleis.it"
+    },
+    "https://elettrautoprato.it": {
+      "url": "https://elettrautoprato.it"
+    },
+    "https://elettrautospagnesi.it": {
+      "url": "https://elettrautospagnesi.it"
+    },
+    "https://elga.it": {
+      "url": "https://elga.it"
+    },
+    "https://emotionalitest.it": {
+      "url": "https://emotionalitest.it"
+    },
+    "https://empoliere.it": {
+      "url": "https://empoliere.it"
+    },
+    "https://enterthegame.it": {
+      "url": "https://enterthegame.it"
+    },
+    "https://enterthegame.store": {
+      "url": "https://enterthegame.store"
+    },
+    "https://erboristerianaturalmenteprato.com": {
+      "url": "https://erboristerianaturalmenteprato.com"
+    },
+    "https://erboristerianaturalmenteprato.it": {
+      "url": "https://erboristerianaturalmenteprato.it"
+    },
+    "https://escapeinvilla.com": {
+      "url": "https://escapeinvilla.com"
+    },
+    "https://escapeinvilla.it": {
+      "url": "https://escapeinvilla.it"
+    },
+    "https://espositoforni.com": {
+      "url": "https://espositoforni.com"
+    },
+    "https://eventiavenezia.com": {
+      "url": "https://eventiavenezia.com"
+    },
+    "https://eviblu.com": {
+      "url": "https://eviblu.com"
+    },
+    "https://exenetsrl.it": {
+      "url": "https://exenetsrl.it"
+    },
+    "https://expotreviso.it": {
+      "url": "https://expotreviso.it"
+    },
+    "https://fabiobortot.com": {
+      "url": "https://fabiobortot.com"
+    },
+    "https://facilitazioneaziendale.it": {
+      "url": "https://facilitazioneaziendale.it"
+    },
+    "https://falegnameriagiabbani.com": {
+      "url": "https://falegnameriagiabbani.com"
+    },
+    "https://farmaciaventuri.com": {
+      "url": "https://farmaciaventuri.com"
+    },
+    "https://fatturaeasy.it": {
+      "url": "https://fatturaeasy.it"
+    },
+    "https://fboitaly.com": {
+      "url": "https://fboitaly.com"
+    },
+    "https://fboitaly.it": {
+      "url": "https://fboitaly.it"
+    },
+    "https://feaciedizioni.com": {
+      "url": "https://feaciedizioni.com"
+    },
+    "https://feaciedizioni.it": {
+      "url": "https://feaciedizioni.it"
+    },
+    "https://fiaccole.net": {
+      "url": "https://fiaccole.net"
+    },
+    "https://filterpressandpumps.com": {
+      "url": "https://filterpressandpumps.com"
+    },
+    "https://filtropresse.it": {
+      "url": "https://filtropresse.it"
+    },
+    "https://finanzagevolata.com": {
+      "url": "https://finanzagevolata.com"
+    },
+    "https://florencebikerent.com": {
+      "url": "https://florencebikerent.com"
+    },
+    "https://florentbike.com": {
+      "url": "https://florentbike.com"
+    },
+    "https://florentbike.it": {
+      "url": "https://florentbike.it"
+    },
+    "https://fondosolidarietasanminiato.it": {
+      "url": "https://fondosolidarietasanminiato.it"
+    },
+    "https://fortinfest.org": {
+      "url": "https://fortinfest.org"
+    },
+    "https://fotobomber.com": {
+      "url": "https://fotobomber.com"
+    },
+    "https://fotootticamattei.it": {
+      "url": "https://fotootticamattei.it"
+    },
+    "https://fotospaccio.com": {
+      "url": "https://fotospaccio.com"
+    },
+    "https://fotovoltaicotoscana.it": {
+      "url": "https://fotovoltaicotoscana.it"
+    },
+    "https://francescazaccaria.com": {
+      "url": "https://francescazaccaria.com"
+    },
+    "https://frare.it": {
+      "url": "https://frare.it"
+    },
+    "https://freefoolery.com": {
+      "url": "https://freefoolery.com"
+    },
+    "https://freepressdistribution.com": {
+      "url": "https://freepressdistribution.com"
+    },
+    "https://freepressdistribution.info": {
+      "url": "https://freepressdistribution.info"
+    },
+    "https://fudadvisor.com": {
+      "url": "https://fudadvisor.com"
+    },
+    "https://fudadvisor.it": {
+      "url": "https://fudadvisor.it"
+    },
+    "https://fujiyama.life": {
+      "url": "https://fujiyama.life"
+    },
+    "https://fujiyamavenice.it": {
+      "url": "https://fujiyamavenice.it"
+    },
+    "https://funnytravel.it": {
+      "url": "https://funnytravel.it"
+    },
+    "https://gadgetselezionati.com": {
+      "url": "https://gadgetselezionati.com"
+    },
+    "https://galcianesegomme.it": {
+      "url": "https://galcianesegomme.it"
+    },
+    "https://galimbertiferramenta.com": {
+      "url": "https://galimbertiferramenta.com"
+    },
+    "https://gasoliotoscana.com": {
+      "url": "https://gasoliotoscana.com"
+    },
+    "https://gastroenterologovenezia.com": {
+      "url": "https://gastroenterologovenezia.com"
+    },
+    "https://gastroenterologovenezia.it": {
+      "url": "https://gastroenterologovenezia.it"
+    },
+    "https://gateofvenice.com": {
+      "url": "https://gateofvenice.com"
+    },
+    "https://gay-venice.com": {
+      "url": "https://gay-venice.com"
+    },
+    "https://gazeboanoleggio.com": {
+      "url": "https://gazeboanoleggio.com"
+    },
+    "https://gazeboanoleggio.it": {
+      "url": "https://gazeboanoleggio.it"
+    },
+    "https://gchservizi.com": {
+      "url": "https://gchservizi.com"
+    },
+    "https://ginomazzuccato.com": {
+      "url": "https://ginomazzuccato.com"
+    },
+    "https://ginomazzuccato.it": {
+      "url": "https://ginomazzuccato.it"
+    },
+    "https://gioiellianna.it": {
+      "url": "https://gioiellianna.it"
+    },
+    "https://giovannimonasteri.com": {
+      "url": "https://giovannimonasteri.com"
+    },
+    "https://glasstourism.com": {
+      "url": "https://glasstourism.com"
+    },
+    "https://glasstourism.it": {
+      "url": "https://glasstourism.it"
+    },
+    "https://globalautoservice.it": {
+      "url": "https://globalautoservice.it"
+    },
+    "https://glue-hosting.com": {
+      "url": "https://glue-hosting.com"
+    },
+    "https://glue-labs.com": {
+      "url": "https://glue-labs.com"
+    },
+    "https://glue-labs.it": {
+      "url": "https://glue-labs.it"
+    },
+    "https://glue-talk.com": {
+      "url": "https://glue-talk.com"
+    },
+    "https://gluelabs.it": {
+      "url": "https://gluelabs.it"
+    },
+    "https://gluenewsletter.com": {
+      "url": "https://gluenewsletter.com"
+    },
+    "https://goaz.it": {
+      "url": "https://goaz.it"
+    },
+    "https://gonfaloniprato.it": {
+      "url": "https://gonfaloniprato.it"
+    },
+    "https://gotomarket.it": {
+      "url": "https://gotomarket.it"
+    },
+    "https://granmoravia.com": {
+      "url": "https://granmoravia.com"
+    },
+    "https://granmoravia.eu": {
+      "url": "https://granmoravia.eu"
+    },
+    "https://granmoravia.it": {
+      "url": "https://granmoravia.it"
+    },
+    "https://greenstudiotoscana.it": {
+      "url": "https://greenstudiotoscana.it"
+    },
+    "https://gruppocmo.com": {
+      "url": "https://gruppocmo.com"
+    },
+    "https://gsurgery-forum.com": {
+      "url": "https://gsurgery-forum.com"
+    },
+    "https://guardamammasenzasolfiti.com": {
+      "url": "https://guardamammasenzasolfiti.com"
+    },
+    "https://haereo.net": {
+      "url": "https://haereo.net"
+    },
+    "https://hecosforethics.eu": {
+      "url": "https://hecosforethics.eu"
+    },
+    "https://helloscuola.com": {
+      "url": "https://helloscuola.com"
+    },
+    "https://helloscuolaonline.com": {
+      "url": "https://helloscuolaonline.com"
+    },
+    "https://hhvenice.com": {
+      "url": "https://hhvenice.com"
+    },
+    "https://hi-log.it": {
+      "url": "https://hi-log.it"
+    },
+    "https://hinovia.com": {
+      "url": "https://hinovia.com"
+    },
+    "https://homefestival.it": {
+      "url": "https://homefestival.it"
+    },
+    "https://homegargano.com": {
+      "url": "https://homegargano.com"
+    },
+    "https://honeecompany.it": {
+      "url": "https://honeecompany.it"
+    },
+    "https://hosting4agency.com": {
+      "url": "https://hosting4agency.com"
+    },
+    "https://hotelguerrato.com": {
+      "url": "https://hotelguerrato.com"
+    },
+    "https://htoverhaul.it": {
+      "url": "https://htoverhaul.it"
+    },
+    "https://htrebuilding.it": {
+      "url": "https://htrebuilding.it"
+    },
+    "https://htworks.it": {
+      "url": "https://htworks.it"
+    },
+    "https://i-learn.it": {
+      "url": "https://i-learn.it"
+    },
+    "https://idheo.it": {
+      "url": "https://idheo.it"
+    },
+    "https://idrogama.it": {
+      "url": "https://idrogama.it"
+    },
+    "https://il-carrozzone.it": {
+      "url": "https://il-carrozzone.it"
+    },
+    "https://iltamburodikattrin.com": {
+      "url": "https://iltamburodikattrin.com"
+    },
+    "https://ilvenetosiamonoi.com": {
+      "url": "https://ilvenetosiamonoi.com"
+    },
+    "https://ilvenetosiamonoi.it": {
+      "url": "https://ilvenetosiamonoi.it"
+    },
+    "https://ilviziodelpensiero.it": {
+      "url": "https://ilviziodelpensiero.it"
+    },
+    "https://impresa-edile-lido.com": {
+      "url": "https://impresa-edile-lido.com"
+    },
+    "https://impresacolibri.it": {
+      "url": "https://impresacolibri.it"
+    },
+    "https://impresadipulizie.org": {
+      "url": "https://impresadipulizie.org"
+    },
+    "https://in-common.org": {
+      "url": "https://in-common.org"
+    },
+    "https://indipendenzaeconomica.net": {
+      "url": "https://indipendenzaeconomica.net"
+    },
+    "https://informauto.net": {
+      "url": "https://informauto.net"
+    },
+    "https://interagoacademy.com": {
+      "url": "https://interagoacademy.com"
+    },
+    "https://interagoacademy.it": {
+      "url": "https://interagoacademy.it"
+    },
+    "https://internationalanguages.com": {
+      "url": "https://internationalanguages.com"
+    },
+    "https://internationalanguages.org": {
+      "url": "https://internationalanguages.org"
+    },
+    "https://intimoprato.it": {
+      "url": "https://intimoprato.it"
+    },
+    "https://irdacademy.it": {
+      "url": "https://irdacademy.it"
+    },
+    "https://irusteghivenezia.com": {
+      "url": "https://irusteghivenezia.com"
+    },
+    "https://isochemicals.it": {
+      "url": "https://isochemicals.it"
+    },
+    "https://isochemicalssrl.it": {
+      "url": "https://isochemicalssrl.it"
+    },
+    "https://isokimya.com": {
+      "url": "https://isokimya.com"
+    },
+    "https://isolaelettrica.it": {
+      "url": "https://isolaelettrica.it"
+    },
+    "https://istitutogabrieledannunzio.com": {
+      "url": "https://istitutogabrieledannunzio.com"
+    },
+    "https://istitutogabrieledannunzio.it": {
+      "url": "https://istitutogabrieledannunzio.it"
+    },
+    "https://italianburners.it": {
+      "url": "https://italianburners.it"
+    },
+    "https://italianburners.org": {
+      "url": "https://italianburners.org"
+    },
+    "https://italyweddingpackages.com": {
+      "url": "https://italyweddingpackages.com"
+    },
+    "https://itsischia.com": {
+      "url": "https://itsischia.com"
+    },
+    "https://itsischia.it": {
+      "url": "https://itsischia.it"
+    },
+    "https://ivanovalentini.it": {
+      "url": "https://ivanovalentini.it"
+    },
+    "https://ivbc.it": {
+      "url": "https://ivbc.it"
+    },
+    "https://jasa.it": {
+      "url": "https://jasa.it"
+    },
+    "https://jasafilm.it": {
+      "url": "https://jasafilm.it"
+    },
+    "https://jasagroup.it": {
+      "url": "https://jasagroup.it"
+    },
+    "https://jesolomagicfestival.com": {
+      "url": "https://jesolomagicfestival.com"
+    },
+    "https://jesolomagicfestival.it": {
+      "url": "https://jesolomagicfestival.it"
+    },
+    "https://kappahoods.it": {
+      "url": "https://kappahoods.it"
+    },
+    "https://karvis.it": {
+      "url": "https://karvis.it"
+    },
+    "https://kermessalotti.it": {
+      "url": "https://kermessalotti.it"
+    },
+    "https://kink.dating": {
+      "url": "https://kink.dating"
+    },
+    "https://kink.sex": {
+      "url": "https://kink.sex"
+    },
+    "https://kinkh.com": {
+      "url": "https://kinkh.com"
+    },
+    "https://kinkh.it": {
+      "url": "https://kinkh.it"
+    },
+    "https://labbigliabimbo.it": {
+      "url": "https://labbigliabimbo.it"
+    },
+    "https://labfilterpress.com": {
+      "url": "https://labfilterpress.com"
+    },
+    "https://labfilterpress.it": {
+      "url": "https://labfilterpress.it"
+    },
+    "https://labotiv.com": {
+      "url": "https://labotiv.com"
+    },
+    "https://lacasadelfiorepistoia.com": {
+      "url": "https://lacasadelfiorepistoia.com"
+    },
+    "https://lacasadelfiorepistoia.it": {
+      "url": "https://lacasadelfiorepistoia.it"
+    },
+    "https://lacasadisasha.it": {
+      "url": "https://lacasadisasha.it"
+    },
+    "https://lagalla23.com": {
+      "url": "https://lagalla23.com"
+    },
+    "https://lapinetadimagliano.com": {
+      "url": "https://lapinetadimagliano.com"
+    },
+    "https://lapinetadimagliano.eu": {
+      "url": "https://lapinetadimagliano.eu"
+    },
+    "https://lapinetadimagliano.it": {
+      "url": "https://lapinetadimagliano.it"
+    },
+    "https://laurax.club": {
+      "url": "https://laurax.club"
+    },
+    "https://lavaggiomoquette.it": {
+      "url": "https://lavaggiomoquette.it"
+    },
+    "https://lavorisufunebologna.com": {
+      "url": "https://lavorisufunebologna.com"
+    },
+    "https://led-it.it": {
+      "url": "https://led-it.it"
+    },
+    "https://lelliemasotti.com": {
+      "url": "https://lelliemasotti.com"
+    },
+    "https://lellimasotti.com": {
+      "url": "https://lellimasotti.com"
+    },
+    "https://leo-kairos.com": {
+      "url": "https://leo-kairos.com"
+    },
+    "https://leo-kairos.org": {
+      "url": "https://leo-kairos.org"
+    },
+    "https://leo108ia2.it": {
+      "url": "https://leo108ia2.it"
+    },
+    "https://leo108ta3.it": {
+      "url": "https://leo108ta3.it"
+    },
+    "https://leo4children.it": {
+      "url": "https://leo4children.it"
+    },
+    "https://leoclub.it": {
+      "url": "https://leoclub.it"
+    },
+    "https://leoclubrovigo.it": {
+      "url": "https://leoclubrovigo.it"
+    },
+    "https://leonardodavinciexcursions.com": {
+      "url": "https://leonardodavinciexcursions.com"
+    },
+    "https://leonardodavinciexcursions.eu": {
+      "url": "https://leonardodavinciexcursions.eu"
+    },
+    "https://leonardodavinciexcursions.it": {
+      "url": "https://leonardodavinciexcursions.it"
+    },
+    "https://leonardomarrone.it": {
+      "url": "https://leonardomarrone.it"
+    },
+    "https://lifeinvenice.it": {
+      "url": "https://lifeinvenice.it"
+    },
+    "https://lifeinvenice.net": {
+      "url": "https://lifeinvenice.net"
+    },
+    "https://lifeinvenice.org": {
+      "url": "https://lifeinvenice.org"
+    },
+    "https://locarnomagicfestival.ch": {
+      "url": "https://locarnomagicfestival.ch"
+    },
+    "https://loomgallery.com": {
+      "url": "https://loomgallery.com"
+    },
+    "https://lorenzolabriot.it": {
+      "url": "https://lorenzolabriot.it"
+    },
+    "https://luxuryexperience.it": {
+      "url": "https://luxuryexperience.it"
+    },
+    "https://macelleriavenezia.com": {
+      "url": "https://macelleriavenezia.com"
+    },
+    "https://madeindigital.it": {
+      "url": "https://madeindigital.it"
+    },
+    "https://magazinecloner.it": {
+      "url": "https://magazinecloner.it"
+    },
+    "https://magistrationorariuniti.it": {
+      "url": "https://magistrationorariuniti.it"
+    },
+    "https://mangaschool.it": {
+      "url": "https://mangaschool.it"
+    },
+    "https://manilaparrucchieriunisex.com": {
+      "url": "https://manilaparrucchieriunisex.com"
+    },
+    "https://manueladepolo.com": {
+      "url": "https://manueladepolo.com"
+    },
+    "https://manueladepolo.it": {
+      "url": "https://manueladepolo.it"
+    },
+    "https://marcoborghixvenezia.com": {
+      "url": "https://marcoborghixvenezia.com"
+    },
+    "https://mariaceresoli.it": {
+      "url": "https://mariaceresoli.it"
+    },
+    "https://marianovella.net": {
+      "url": "https://marianovella.net"
+    },
+    "https://marketingpersuasivo.com": {
+      "url": "https://marketingpersuasivo.com"
+    },
+    "https://martinellicar.it": {
+      "url": "https://martinellicar.it"
+    },
+    "https://mascherinachirurgica.shop": {
+      "url": "https://mascherinachirurgica.shop"
+    },
+    "https://maskshopvenice.it": {
+      "url": "https://maskshopvenice.it"
+    },
+    "https://mastrocapellini.com": {
+      "url": "https://mastrocapellini.com"
+    },
+    "https://matosrl.it": {
+      "url": "https://matosrl.it"
+    },
+    "https://matrimonioconildelitto.com": {
+      "url": "https://matrimonioconildelitto.com"
+    },
+    "https://mauriceagosti.com": {
+      "url": "https://mauriceagosti.com"
+    },
+    "https://mcindustries.it": {
+      "url": "https://mcindustries.it"
+    },
+    "https://meetthefirst.it": {
+      "url": "https://meetthefirst.it"
+    },
+    "https://mercatinodinatale.net": {
+      "url": "https://mercatinodinatale.net"
+    },
+    "https://mestrecomics.com": {
+      "url": "https://mestrecomics.com"
+    },
+    "https://metalnovainfissi.com": {
+      "url": "https://metalnovainfissi.com"
+    },
+    "https://mhogstudio.it": {
+      "url": "https://mhogstudio.it"
+    },
+    "https://microcosmocreta.com": {
+      "url": "https://microcosmocreta.com"
+    },
+    "https://mille828.it": {
+      "url": "https://mille828.it"
+    },
+    "https://minelliutensili.it": {
+      "url": "https://minelliutensili.it"
+    },
+    "https://mobileappeasy.com": {
+      "url": "https://mobileappeasy.com"
+    },
+    "https://morenasex.org": {
+      "url": "https://morenasex.org"
+    },
+    "https://mtmotorsport.it": {
+      "url": "https://mtmotorsport.it"
+    },
+    "https://musicapalazzo.co.uk": {
+      "url": "https://musicapalazzo.co.uk"
+    },
+    "https://musicapalazzo.com": {
+      "url": "https://musicapalazzo.com"
+    },
+    "https://musicapalazzo.it": {
+      "url": "https://musicapalazzo.it"
+    },
+    "https://musicapalazzo.uk": {
+      "url": "https://musicapalazzo.uk"
+    },
+    "https://musicvenice.com": {
+      "url": "https://musicvenice.com"
+    },
+    "https://musicvenice.it": {
+      "url": "https://musicvenice.it"
+    },
+    "https://mydastravelitaly.com": {
+      "url": "https://mydastravelitaly.com"
+    },
+    "https://mydastravelitaly.it": {
+      "url": "https://mydastravelitaly.it"
+    },
+    "https://mysteryinthecity.it": {
+      "url": "https://mysteryinthecity.it"
+    },
+    "https://nataleavenezia.com": {
+      "url": "https://nataleavenezia.com"
+    },
+    "https://nathalieaccessorimoda.it": {
+      "url": "https://nathalieaccessorimoda.it"
+    },
+    "https://nightrock.net": {
+      "url": "https://nightrock.net"
+    },
+    "https://noipadova-archivio.it": {
+      "url": "https://noipadova-archivio.it"
+    },
+    "https://noipadova.it": {
+      "url": "https://noipadova.it"
+    },
+    "https://nokao.com": {
+      "url": "https://nokao.com"
+    },
+    "https://nokao.it": {
+      "url": "https://nokao.it"
+    },
+    "https://noleggiobiciclettefirenze.com": {
+      "url": "https://noleggiobiciclettefirenze.com"
+    },
+    "https://noleggiobiciclettefirenze.it": {
+      "url": "https://noleggiobiciclettefirenze.it"
+    },
+    "https://nuovaidrotermo.com": {
+      "url": "https://nuovaidrotermo.com"
+    },
+    "https://nuovaidrotermosnc.it": {
+      "url": "https://nuovaidrotermosnc.it"
+    },
+    "https://officineadv.com": {
+      "url": "https://officineadv.com"
+    },
+    "https://officineadv.it": {
+      "url": "https://officineadv.it"
+    },
+    "https://officineadv.net": {
+      "url": "https://officineadv.net"
+    },
+    "https://oikosonlus.net": {
+      "url": "https://oikosonlus.net"
+    },
+    "https://on-view.com": {
+      "url": "https://on-view.com"
+    },
+    "https://on-view.it": {
+      "url": "https://on-view.it"
+    },
+    "https://operacarnival.com": {
+      "url": "https://operacarnival.com"
+    },
+    "https://operadacamera.com": {
+      "url": "https://operadacamera.com"
+    },
+    "https://operadacamera.it": {
+      "url": "https://operadacamera.it"
+    },
+    "https://operainvenice.com": {
+      "url": "https://operainvenice.com"
+    },
+    "https://operapalazzo.com": {
+      "url": "https://operapalazzo.com"
+    },
+    "https://operapalazzo.it": {
+      "url": "https://operapalazzo.it"
+    },
+    "https://operavenice.com": {
+      "url": "https://operavenice.com"
+    },
+    "https://orditurapaccosi.it": {
+      "url": "https://orditurapaccosi.it"
+    },
+    "https://otticablu.it": {
+      "url": "https://otticablu.it"
+    },
+    "https://pa-api.com": {
+      "url": "https://pa-api.com"
+    },
+    "https://pa-api.it": {
+      "url": "https://pa-api.it"
+    },
+    "https://paapi.it": {
+      "url": "https://paapi.it"
+    },
+    "https://padovagay.com": {
+      "url": "https://padovagay.com"
+    },
+    "https://padovagay.it": {
+      "url": "https://padovagay.it"
+    },
+    "https://padovamagicfestival.com": {
+      "url": "https://padovamagicfestival.com"
+    },
+    "https://padovamagicfestival.it": {
+      "url": "https://padovamagicfestival.it"
+    },
+    "https://panathlonvenezia.com": {
+      "url": "https://panathlonvenezia.com"
+    },
+    "https://pancaldicartotecnica.it": {
+      "url": "https://pancaldicartotecnica.it"
+    },
+    "https://parcocilentodianogames.com": {
+      "url": "https://parcocilentodianogames.com"
+    },
+    "https://parolemovimento.it": {
+      "url": "https://parolemovimento.it"
+    },
+    "https://parolibere.com": {
+      "url": "https://parolibere.com"
+    },
+    "https://paropamisovenezia.com": {
+      "url": "https://paropamisovenezia.com"
+    },
+    "https://paropamisovenezia.it": {
+      "url": "https://paropamisovenezia.it"
+    },
+    "https://parrucchierimontemurlo.com": {
+      "url": "https://parrucchierimontemurlo.com"
+    },
+    "https://pastavenezia.com": {
+      "url": "https://pastavenezia.com"
+    },
+    "https://pasticcerianuovomondo.com": {
+      "url": "https://pasticcerianuovomondo.com"
+    },
+    "https://patriziadipaolo.com": {
+      "url": "https://patriziadipaolo.com"
+    },
+    "https://pavanello.eu": {
+      "url": "https://pavanello.eu"
+    },
+    "https://pecorinolive.it": {
+      "url": "https://pecorinolive.it"
+    },
+    "https://peekortreat.com": {
+      "url": "https://peekortreat.com"
+    },
+    "https://pescavenezia.it": {
+      "url": "https://pescavenezia.it"
+    },
+    "https://peschediprato.it": {
+      "url": "https://peschediprato.it"
+    },
+    "https://photobootheventi.com": {
+      "url": "https://photobootheventi.com"
+    },
+    "https://photobootheventi.it": {
+      "url": "https://photobootheventi.it"
+    },
+    "https://pianetaamiga.it": {
+      "url": "https://pianetaamiga.it"
+    },
+    "https://picchianihairbeauty.it": {
+      "url": "https://picchianihairbeauty.it"
+    },
+    "https://picchianisestostyle.it": {
+      "url": "https://picchianisestostyle.it"
+    },
+    "https://pierluigiveronesi.it": {
+      "url": "https://pierluigiveronesi.it"
+    },
+    "https://poltronerelax-firenze.com": {
+      "url": "https://poltronerelax-firenze.com"
+    },
+    "https://poltronerelax-firenze.it": {
+      "url": "https://poltronerelax-firenze.it"
+    },
+    "https://poltronerelaxfirenze.com": {
+      "url": "https://poltronerelaxfirenze.com"
+    },
+    "https://poltronerelaxfirenze.it": {
+      "url": "https://poltronerelaxfirenze.it"
+    },
+    "https://pompe-pistone.com": {
+      "url": "https://pompe-pistone.com"
+    },
+    "https://pompe-pistone.it": {
+      "url": "https://pompe-pistone.it"
+    },
+    "https://pompefanghi.it": {
+      "url": "https://pompefanghi.it"
+    },
+    "https://pompefiltropressa.it": {
+      "url": "https://pompefiltropressa.it"
+    },
+    "https://pompefiltropresse.it": {
+      "url": "https://pompefiltropresse.it"
+    },
+    "https://portaleo.it": {
+      "url": "https://portaleo.it"
+    },
+    "https://pragma-4u.it": {
+      "url": "https://pragma-4u.it"
+    },
+    "https://pratesepetroli.it": {
+      "url": "https://pratesepetroli.it"
+    },
+    "https://pratooriginalproduct.it": {
+      "url": "https://pratooriginalproduct.it"
+    },
+    "https://preventivoantifurto.it": {
+      "url": "https://preventivoantifurto.it"
+    },
+    "https://principemaurice.com": {
+      "url": "https://principemaurice.com"
+    },
+    "https://prismaelectronics.com": {
+      "url": "https://prismaelectronics.com"
+    },
+    "https://prismaelectronics.it": {
+      "url": "https://prismaelectronics.it"
+    },
+    "https://prodottipuliziaeco.com": {
+      "url": "https://prodottipuliziaeco.com"
+    },
+    "https://prodottooriginaleprato.it": {
+      "url": "https://prodottooriginaleprato.it"
+    },
+    "https://professionidelweb.it": {
+      "url": "https://professionidelweb.it"
+    },
+    "https://progettoecho.it": {
+      "url": "https://progettoecho.it"
+    },
+    "https://psicologavenezia.com": {
+      "url": "https://psicologavenezia.com"
+    },
+    "https://psicologavenezia.it": {
+      "url": "https://psicologavenezia.it"
+    },
+    "https://psicologovenezia.net": {
+      "url": "https://psicologovenezia.net"
+    },
+    "https://publiprato.com": {
+      "url": "https://publiprato.com"
+    },
+    "https://pupau.com": {
+      "url": "https://pupau.com"
+    },
+    "https://pupau.it": {
+      "url": "https://pupau.it"
+    },
+    "https://push-ape.com": {
+      "url": "https://push-ape.com"
+    },
+    "https://pushape.com": {
+      "url": "https://pushape.com"
+    },
+    "https://quartettoindaco.it": {
+      "url": "https://quartettoindaco.it"
+    },
+    "https://quartettopera.com": {
+      "url": "https://quartettopera.com"
+    },
+    "https://quartettopera.it": {
+      "url": "https://quartettopera.it"
+    },
+    "https://quartettopera.org": {
+      "url": "https://quartettopera.org"
+    },
+    "https://rafpatients.it": {
+      "url": "https://rafpatients.it"
+    },
+    "https://rebij.com": {
+      "url": "https://rebij.com"
+    },
+    "https://rebij.it": {
+      "url": "https://rebij.it"
+    },
+    "https://redhousevillas.com": {
+      "url": "https://redhousevillas.com"
+    },
+    "https://redlionservices.it": {
+      "url": "https://redlionservices.it"
+    },
+    "https://reportdesign.it": {
+      "url": "https://reportdesign.it"
+    },
+    "https://reportitalia.it": {
+      "url": "https://reportitalia.it"
+    },
+    "https://reportprint.it": {
+      "url": "https://reportprint.it"
+    },
+    "https://rinascitacittadina.com": {
+      "url": "https://rinascitacittadina.com"
+    },
+    "https://rinascitacittadina.it": {
+      "url": "https://rinascitacittadina.it"
+    },
+    "https://ristoitaly.com": {
+      "url": "https://ristoitaly.com"
+    },
+    "https://ristorantemotta.com": {
+      "url": "https://ristorantemotta.com"
+    },
+    "https://ristorantemyo.com": {
+      "url": "https://ristorantemyo.com"
+    },
+    "https://ristorantemyo.it": {
+      "url": "https://ristorantemyo.it"
+    },
+    "https://rmauvaisedekasei.com": {
+      "url": "https://rmauvaisedekasei.com"
+    },
+    "https://rmdk.shop": {
+      "url": "https://rmdk.shop"
+    },
+    "https://robertomasotti.com": {
+      "url": "https://robertomasotti.com"
+    },
+    "https://rovigogay.com": {
+      "url": "https://rovigogay.com"
+    },
+    "https://rovigogay.it": {
+      "url": "https://rovigogay.it"
+    },
+    "https://rovigomagicfestival.com": {
+      "url": "https://rovigomagicfestival.com"
+    },
+    "https://rovigomagicfestival.it": {
+      "url": "https://rovigomagicfestival.it"
+    },
+    "https://sacme.it": {
+      "url": "https://sacme.it"
+    },
+    "https://sangiorgiorealestate.com": {
+      "url": "https://sangiorgiorealestate.com"
+    },
+    "https://sangiorgiorealestate.it": {
+      "url": "https://sangiorgiorealestate.it"
+    },
+    "https://sarahcorami.com": {
+      "url": "https://sarahcorami.com"
+    },
+    "https://sartiascensori.it": {
+      "url": "https://sartiascensori.it"
+    },
+    "https://sbomber.com": {
+      "url": "https://sbomber.com"
+    },
+    "https://scapinpietro.com": {
+      "url": "https://scapinpietro.com"
+    },
+    "https://scaviter.eu": {
+      "url": "https://scaviter.eu"
+    },
+    "https://school4u.it": {
+      "url": "https://school4u.it"
+    },
+    "https://scuolafumettovenezia.it": {
+      "url": "https://scuolafumettovenezia.it"
+    },
+    "https://sdbassociati.it": {
+      "url": "https://sdbassociati.it"
+    },
+    "https://sensemakers.it": {
+      "url": "https://sensemakers.it"
+    },
+    "https://sergiocerofolini.com": {
+      "url": "https://sergiocerofolini.com"
+    },
+    "https://sergiocerofolini.it": {
+      "url": "https://sergiocerofolini.it"
+    },
+    "https://sex-positive.com": {
+      "url": "https://sex-positive.com"
+    },
+    "https://sibillacostruzioni.com": {
+      "url": "https://sibillacostruzioni.com"
+    },
+    "https://sibillacostruzioni.it": {
+      "url": "https://sibillacostruzioni.it"
+    },
+    "https://sicuraferro.it": {
+      "url": "https://sicuraferro.it"
+    },
+    "https://sigmasolutions.it": {
+      "url": "https://sigmasolutions.it"
+    },
+    "https://silvanabeautyloft.com": {
+      "url": "https://silvanabeautyloft.com"
+    },
+    "https://silvialelli.com": {
+      "url": "https://silvialelli.com"
+    },
+    "https://simonafossi.com": {
+      "url": "https://simonafossi.com"
+    },
+    "https://simonafossi.it": {
+      "url": "https://simonafossi.it"
+    },
+    "https://simonegatto.net": {
+      "url": "https://simonegatto.net"
+    },
+    "https://sitomarket.com": {
+      "url": "https://sitomarket.com"
+    },
+    "https://sitomarket.it": {
+      "url": "https://sitomarket.it"
+    },
+    "https://slowgolf.it": {
+      "url": "https://slowgolf.it"
+    },
+    "https://smitbassetti.it": {
+      "url": "https://smitbassetti.it"
+    },
+    "https://smlabtoscana.it": {
+      "url": "https://smlabtoscana.it"
+    },
+    "https://sonopain.com": {
+      "url": "https://sonopain.com"
+    },
+    "https://sonopain.it": {
+      "url": "https://sonopain.it"
+    },
+    "https://sonopain.net": {
+      "url": "https://sonopain.net"
+    },
+    "https://sonopain.org": {
+      "url": "https://sonopain.org"
+    },
+    "https://sorrisigarantiti.it": {
+      "url": "https://sorrisigarantiti.it"
+    },
+    "https://southgardakarting.it": {
+      "url": "https://southgardakarting.it"
+    },
+    "https://spazioindaco.it": {
+      "url": "https://spazioindaco.it"
+    },
+    "https://spazioindaco.org": {
+      "url": "https://spazioindaco.org"
+    },
+    "https://spendiok.it": {
+      "url": "https://spendiok.it"
+    },
+    "https://stampagratis.net": {
+      "url": "https://stampagratis.net"
+    },
+    "https://storiebambini.it": {
+      "url": "https://storiebambini.it"
+    },
+    "https://studiocristilli.it": {
+      "url": "https://studiocristilli.it"
+    },
+    "https://studiodentisticolattanzibencista.it": {
+      "url": "https://studiodentisticolattanzibencista.it"
+    },
+    "https://studiodentisticoprato.com": {
+      "url": "https://studiodentisticoprato.com"
+    },
+    "https://studiodentisticostefanelli.com": {
+      "url": "https://studiodentisticostefanelli.com"
+    },
+    "https://studiogiochi.com": {
+      "url": "https://studiogiochi.com"
+    },
+    "https://studiolegalebarbatelli.it": {
+      "url": "https://studiolegalebarbatelli.it"
+    },
+    "https://studiolegalecaminiti.com": {
+      "url": "https://studiolegalecaminiti.com"
+    },
+    "https://studioloato.it": {
+      "url": "https://studioloato.it"
+    },
+    "https://studiomangone.com": {
+      "url": "https://studiomangone.com"
+    },
+    "https://studiotoffoli.it": {
+      "url": "https://studiotoffoli.it"
+    },
+    "https://sumlr.com": {
+      "url": "https://sumlr.com"
+    },
+    "https://sumlr.it": {
+      "url": "https://sumlr.it"
+    },
+    "https://tableblended.it": {
+      "url": "https://tableblended.it"
+    },
+    "https://takeawayvicenza.it": {
+      "url": "https://takeawayvicenza.it"
+    },
+    "https://tatapublishing.com": {
+      "url": "https://tatapublishing.com"
+    },
+    "https://tatatapublishing.com": {
+      "url": "https://tatatapublishing.com"
+    },
+    "https://teamcooking.it": {
+      "url": "https://teamcooking.it"
+    },
+    "https://teatroterapiavenezia.com": {
+      "url": "https://teatroterapiavenezia.com"
+    },
+    "https://tecnihorma.com": {
+      "url": "https://tecnihorma.com"
+    },
+    "https://tedxvenezia.com": {
+      "url": "https://tedxvenezia.com"
+    },
+    "https://telecamere.cloud": {
+      "url": "https://telecamere.cloud"
+    },
+    "https://telematicsecurity.it": {
+      "url": "https://telematicsecurity.it"
+    },
+    "https://telmacircuiti.it": {
+      "url": "https://telmacircuiti.it"
+    },
+    "https://tesorogroup.it": {
+      "url": "https://tesorogroup.it"
+    },
+    "https://tessilnova.it": {
+      "url": "https://tessilnova.it"
+    },
+    "https://thcc.it": {
+      "url": "https://thcc.it"
+    },
+    "https://thecubeglasscollection.com": {
+      "url": "https://thecubeglasscollection.com"
+    },
+    "https://tiellagaetana.com": {
+      "url": "https://tiellagaetana.com"
+    },
+    "https://tipografialacommerciale.it": {
+      "url": "https://tipografialacommerciale.it"
+    },
+    "https://tipografiaprato.it": {
+      "url": "https://tipografiaprato.it"
+    },
+    "https://toctoctrapiantorene.com": {
+      "url": "https://toctoctrapiantorene.com"
+    },
+    "https://toscanaservicesrl.it": {
+      "url": "https://toscanaservicesrl.it"
+    },
+    "https://totapulchra.com": {
+      "url": "https://totapulchra.com"
+    },
+    "https://totapulchrahair.com": {
+      "url": "https://totapulchrahair.com"
+    },
+    "https://traslochi-venezia.com": {
+      "url": "https://traslochi-venezia.com"
+    },
+    "https://traslochicoopciardi.it": {
+      "url": "https://traslochicoopciardi.it"
+    },
+    "https://trasporti-venezia.com": {
+      "url": "https://trasporti-venezia.com"
+    },
+    "https://trasportiepulizie.it": {
+      "url": "https://trasportiepulizie.it"
+    },
+    "https://trattoriaamedea.com": {
+      "url": "https://trattoriaamedea.com"
+    },
+    "https://travelvenice.it": {
+      "url": "https://travelvenice.it"
+    },
+    "https://trentini.it": {
+      "url": "https://trentini.it"
+    },
+    "https://trevisogay.com": {
+      "url": "https://trevisogay.com"
+    },
+    "https://trevisogay.it": {
+      "url": "https://trevisogay.it"
+    },
+    "https://trevisomagicfestival.com": {
+      "url": "https://trevisomagicfestival.com"
+    },
+    "https://trevisomagicfestival.it": {
+      "url": "https://trevisomagicfestival.it"
+    },
+    "https://trevisosotterranea.it": {
+      "url": "https://trevisosotterranea.it"
+    },
+    "https://tripitaly.it": {
+      "url": "https://tripitaly.it"
+    },
+    "https://tseasycam.it": {
+      "url": "https://tseasycam.it"
+    },
+    "https://tuscantreasurestours.com": {
+      "url": "https://tuscantreasurestours.com"
+    },
+    "https://tuttinpiedi.com": {
+      "url": "https://tuttinpiedi.com"
+    },
+    "https://twisterpay.com": {
+      "url": "https://twisterpay.com"
+    },
+    "https://ufficiopulito.com": {
+      "url": "https://ufficiopulito.com"
+    },
+    "https://ufficiopulito.it": {
+      "url": "https://ufficiopulito.it"
+    },
+    "https://ultra-vista.it": {
+      "url": "https://ultra-vista.it"
+    },
+    "https://ultravistasurgery.com": {
+      "url": "https://ultravistasurgery.com"
+    },
+    "https://umbertostefanellidentista.it": {
+      "url": "https://umbertostefanellidentista.it"
+    },
+    "https://unmondodicose.com": {
+      "url": "https://unmondodicose.com"
+    },
+    "https://upevent.biz": {
+      "url": "https://upevent.biz"
+    },
+    "https://vae-venicemusic.com": {
+      "url": "https://vae-venicemusic.com"
+    },
+    "https://vbsvillage.it": {
+      "url": "https://vbsvillage.it"
+    },
+    "https://venedigevents.com": {
+      "url": "https://venedigevents.com"
+    },
+    "https://venetogay.com": {
+      "url": "https://venetogay.com"
+    },
+    "https://venetogay.it": {
+      "url": "https://venetogay.it"
+    },
+    "https://venezia-traslochi.com": {
+      "url": "https://venezia-traslochi.com"
+    },
+    "https://venezia-trasporti.com": {
+      "url": "https://venezia-trasporti.com"
+    },
+    "https://venezia.lgbt": {
+      "url": "https://venezia.lgbt"
+    },
+    "https://veneziacomics.com": {
+      "url": "https://veneziacomics.com"
+    },
+    "https://veneziacomix.com": {
+      "url": "https://veneziacomix.com"
+    },
+    "https://veneziagay.com": {
+      "url": "https://veneziagay.com"
+    },
+    "https://veneziagay.it": {
+      "url": "https://veneziagay.it"
+    },
+    "https://veneziaheritagetower.com": {
+      "url": "https://veneziaheritagetower.com"
+    },
+    "https://veneziaincentive.com": {
+      "url": "https://veneziaincentive.com"
+    },
+    "https://veneziamagicfestival.com": {
+      "url": "https://veneziamagicfestival.com"
+    },
+    "https://veneziamagicfestival.it": {
+      "url": "https://veneziamagicfestival.it"
+    },
+    "https://veneziaoperafestival.com": {
+      "url": "https://veneziaoperafestival.com"
+    },
+    "https://veneziaoperafestival.it": {
+      "url": "https://veneziaoperafestival.it"
+    },
+    "https://veneziapasta.com": {
+      "url": "https://veneziapasta.com"
+    },
+    "https://veneziayoga.com": {
+      "url": "https://veneziayoga.com"
+    },
+    "https://veneziayoga.it": {
+      "url": "https://veneziayoga.it"
+    },
+    "https://venice-musicalacarte.com": {
+      "url": "https://venice-musicalacarte.com"
+    },
+    "https://veniceapart.it": {
+      "url": "https://veniceapart.it"
+    },
+    "https://venicecarnival.us": {
+      "url": "https://venicecarnival.us"
+    },
+    "https://veniceeventsacademy.com": {
+      "url": "https://veniceeventsacademy.com"
+    },
+    "https://venicein.com": {
+      "url": "https://venicein.com"
+    },
+    "https://venicein.it": {
+      "url": "https://venicein.it"
+    },
+    "https://venicemusic.it": {
+      "url": "https://venicemusic.it"
+    },
+    "https://venicemusicproject.it": {
+      "url": "https://venicemusicproject.it"
+    },
+    "https://venicemusicticket.com": {
+      "url": "https://venicemusicticket.com"
+    },
+    "https://venicemusictickets.com": {
+      "url": "https://venicemusictickets.com"
+    },
+    "https://veniceopera.org": {
+      "url": "https://veniceopera.org"
+    },
+    "https://veniceoperafestival.com": {
+      "url": "https://veniceoperafestival.com"
+    },
+    "https://venicepalaces.it": {
+      "url": "https://venicepalaces.it"
+    },
+    "https://veniceredhouse.com": {
+      "url": "https://veniceredhouse.com"
+    },
+    "https://venietiam.com": {
+      "url": "https://venietiam.com"
+    },
+    "https://venistream.it": {
+      "url": "https://venistream.it"
+    },
+    "https://veronagay.com": {
+      "url": "https://veronagay.com"
+    },
+    "https://veronagay.it": {
+      "url": "https://veronagay.it"
+    },
+    "https://veronamagicfestival.com": {
+      "url": "https://veronamagicfestival.com"
+    },
+    "https://veronamagicfestival.it": {
+      "url": "https://veronamagicfestival.it"
+    },
+    "https://viaggiaconmichele.com": {
+      "url": "https://viaggiaconmichele.com"
+    },
+    "https://viaggidesign.com": {
+      "url": "https://viaggidesign.com"
+    },
+    "https://viaggidesign.it": {
+      "url": "https://viaggidesign.it"
+    },
+    "https://vicenzagay.com": {
+      "url": "https://vicenzagay.com"
+    },
+    "https://vicenzagay.it": {
+      "url": "https://vicenzagay.it"
+    },
+    "https://vicenzamagicfestival.com": {
+      "url": "https://vicenzamagicfestival.com"
+    },
+    "https://vicenzamagicfestival.it": {
+      "url": "https://vicenzamagicfestival.it"
+    },
+    "https://videobookservice.com": {
+      "url": "https://videobookservice.com"
+    },
+    "https://videobookservice.it": {
+      "url": "https://videobookservice.it"
+    },
+    "https://videocontrolloveneto.it": {
+      "url": "https://videocontrolloveneto.it"
+    },
+    "https://videopersuasivo.com": {
+      "url": "https://videopersuasivo.com"
+    },
+    "https://videopersuasivo.it": {
+      "url": "https://videopersuasivo.it"
+    },
+    "https://videosorveglianzapadova.it": {
+      "url": "https://videosorveglianzapadova.it"
+    },
+    "https://videosorveglianzaveneto.it": {
+      "url": "https://videosorveglianzaveneto.it"
+    },
+    "https://videosorveglianzavenezia.it": {
+      "url": "https://videosorveglianzavenezia.it"
+    },
+    "https://vignagram.com": {
+      "url": "https://vignagram.com"
+    },
+    "https://vignagram.it": {
+      "url": "https://vignagram.it"
+    },
+    "https://vinovinello.com": {
+      "url": "https://vinovinello.com"
+    },
+    "https://visanifirenze.com": {
+      "url": "https://visanifirenze.com"
+    },
+    "https://visanifirenze.it": {
+      "url": "https://visanifirenze.it"
+    },
+    "https://visanimaterassi.com": {
+      "url": "https://visanimaterassi.com"
+    },
+    "https://visanimaterassielettifirenze.com": {
+      "url": "https://visanimaterassielettifirenze.com"
+    },
+    "https://vivi-empoli.it": {
+      "url": "https://vivi-empoli.it"
+    },
+    "https://viviempoli.it": {
+      "url": "https://viviempoli.it"
+    },
+    "https://wallaccomodation.com": {
+      "url": "https://wallaccomodation.com"
+    },
+    "https://wandervino.com": {
+      "url": "https://wandervino.com"
+    },
+    "https://wandervino.it": {
+      "url": "https://wandervino.it"
+    },
+    "https://webig.net": {
+      "url": "https://webig.net"
+    },
+    "https://webionair.com": {
+      "url": "https://webionair.com"
+    },
+    "https://webmarketingbologna.it": {
+      "url": "https://webmarketingbologna.it"
+    },
+    "https://weddingay.com": {
+      "url": "https://weddingay.com"
+    },
+    "https://weddingay.it": {
+      "url": "https://weddingay.it"
+    },
+    "https://weddingay.net": {
+      "url": "https://weddingay.net"
+    },
+    "https://weddingay.org": {
+      "url": "https://weddingay.org"
+    },
+    "https://weddingtreviso.it": {
+      "url": "https://weddingtreviso.it"
+    },
+    "https://weddingveneto.com": {
+      "url": "https://weddingveneto.com"
+    },
+    "https://wephoto.biz": {
+      "url": "https://wephoto.biz"
+    },
+    "https://winetasia.com": {
+      "url": "https://winetasia.com"
+    },
+    "https://winetasia.it": {
+      "url": "https://winetasia.it"
+    },
+    "https://winmed.it": {
+      "url": "https://winmed.it"
+    },
+    "https://winmedical.com": {
+      "url": "https://winmedical.com"
+    },
+    "https://winmedical.eu": {
+      "url": "https://winmedical.eu"
+    },
+    "https://winmedical.mobi": {
+      "url": "https://winmedical.mobi"
+    },
+    "https://wocsa.ca": {
+      "url": "https://wocsa.ca"
+    },
+    "https://wocsa.com": {
+      "url": "https://wocsa.com"
+    },
+    "https://womoms.com": {
+      "url": "https://womoms.com"
+    },
+    "https://womoms.it": {
+      "url": "https://womoms.it"
+    },
+    "https://wondervino.com": {
+      "url": "https://wondervino.com"
+    },
+    "https://wondervino.it": {
+      "url": "https://wondervino.it"
+    },
+    "https://wowinery.com": {
+      "url": "https://wowinery.com"
+    },
+    "https://wowinery.it": {
+      "url": "https://wowinery.it"
+    },
+    "https://x-space.it": {
+      "url": "https://x-space.it"
+    },
+    "https://yogaformazione.com": {
+      "url": "https://yogaformazione.com"
+    },
+    "https://yogavenice.it": {
+      "url": "https://yogavenice.it"
+    },
+    "https://youngheartbeat.it": {
+      "url": "https://youngheartbeat.it"
+    },
+    "https://yumizzz.com": {
+      "url": "https://yumizzz.com"
+    },
+    "https://zebradigitale.com": {
+      "url": "https://zebradigitale.com"
+    }
+  }
+}
